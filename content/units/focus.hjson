@@ -1,0 +1,236 @@
+type: flying
+health: 350000
+hitSize: 95
+flying: true
+speed: 0.75
+accel: 0.5
+drag: 0.5
+armor: 55
+rotateSpeed: 1
+outlineColor: 2D2F39
+targetair: true
+faceTarget: true
+        engineOffset: 7
+        engineColor: 82AFFF
+        engineColorInner: FFFFFF
+		engines: [
+		  {
+			x: -12
+			y: -75
+			radius: 8
+			rotation: -90
+		        trailLength: 10
+		  }
+		  {
+			x: +12
+			y: -75
+			radius: 8
+			rotation: -90
+		        trailLength: 10
+		  }
+		]
+weapons: [{
+                name: pester-cannon-blue
+                mirror: true
+                top: true
+                rotate: true
+		rotateSpeed: 3
+                x: +15
+                y: -54
+                reload: 140
+                shoot: {
+                    shots: 2
+                    shotDelay: 5
+            }
+            inaccuracy: 0
+            recoil: 2
+            shootSound: cannon
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 700
+                homing: false
+                speed: 7
+                sprite: large-bomb
+                lifetime: 100
+                knockback: -1
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+                width: 80
+                height: 40
+		fragOnHit: true
+		fragBullets: 50
+		splashDamageRadius: 100
+		splashDamage: 700
+		hitEffect: blastExplosion
+        trailLength: 15
+        trailColor: 7781DE
+               }
+}
+{
+                name: ancient-pulse-laser-small-blue
+                mirror: true
+                top: true
+                rotate: true
+		rotateSpeed: 6
+                x: +50
+                y: -54
+                reload: 5
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 2
+            shootSound: bolt
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 70
+                homing: false
+                speed: 4.5
+                lifetime: 100
+                knockback: -1
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+                width: 7
+                length: 10
+        trailLength: 5
+        trailColor: 7781DE
+               }
+}
+{
+                name: pester-laser-blue-full
+                mirror: true
+                top: true
+                rotate: true
+		rotateSpeed: 4
+                x: +25
+                y: -2
+                reload: 75
+                shoot: {
+                    shots: 15
+                    shotDelay: 1
+}
+            inaccuracy: 1
+            recoil: 4
+            shootSound: artillery
+            shootEffect: none
+            bullet: {
+                type: MissileBulletType
+                damage: 130
+                speed: 5
+                lifetime: 120
+                knockback: -1
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+                width: 7
+                length: 10
+        trailLength: 10
+        trailColor: 7781DE
+               }
+}
+{
+                name: pester-laser-blue-full
+                mirror: true
+                top: true
+                rotate: true
+		rotateSpeed: 4
+                x: +44
+                y: -34
+                reload: 75
+                shoot: {
+                    shots: 15
+                    shotDelay: 1
+}
+            inaccuracy: 1
+            recoil: 4
+            shootSound: artillery
+            shootEffect: none
+            bullet: {
+                type: MissileBulletType
+                damage: 130
+                speed: 5
+                lifetime: 120
+                knockback: -1
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+                width: 7
+                length: 10
+        trailLength: 10
+        trailColor: 7781DE
+               }
+}
+{
+                name: focus-rail
+                mirror: false
+                alternate: true
+                continuous: true
+                top: true
+                rotate: true
+		rotateSpeed: 0
+                x: 0
+                y: 0
+                reload: 300
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 0
+            shootSound: beam
+            shootEffect: none
+            bullet: {
+                type: ContinuousLaserBulletType
+                damage: 1000
+                speed: 0
+                lifetime: 150
+                knockback: -1
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+                width: 15
+                length: 650
+            }
+effects: [
+          {
+            type: ParticleEffect
+            cone: 12
+            particles: 12
+            interp: pow3Out
+            sizeInterp: pow5In
+            lifetime: 25
+            length: 120
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+            sizeFrom: 4
+            sizeTo: 0
+          }
+          {
+            type: ParticleEffect
+            cone: 8
+            particles: 12
+            interp: pow3Out
+            sizeInterp: pow5In
+            lifetime: 25
+            length: 60
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+            sizeFrom: 3
+            sizeTo: 0
+          }
+        ]
+}]

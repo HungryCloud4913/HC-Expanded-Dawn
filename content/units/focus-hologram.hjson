@@ -1,0 +1,236 @@
+type: flying
+health: 15000
+hitSize: 95
+flying: true
+speed: 0.60
+accel: 0.5
+drag: 0.5
+armor: 47
+rotateSpeed: 1
+outlineColor: 3F4288
+targetair: true
+faceTarget: true
+        engineOffset: 7
+        engineColor: E8F1F5
+        engineColorInner: FFFFFF
+		engines: [
+		  {
+			x: -12
+			y: -75
+			radius: 8
+			rotation: -90
+		        trailLength: 10
+		  }
+		  {
+			x: +12
+			y: -75
+			radius: 8
+			rotation: -90
+		        trailLength: 10
+		  }
+		]
+weapons: [{
+                name: pester-cannon-blue-hologram
+                mirror: true
+                top: true
+                rotate: true
+		rotateSpeed: 3
+                x: +15
+                y: -54
+                reload: 140
+                shoot: {
+                    shots: 2
+                    shotDelay: 5
+            }
+            inaccuracy: 0
+            recoil: 2
+            shootSound: cannon
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 300
+                homing: false
+                speed: 7
+                sprite: large-bomb
+                lifetime: 100
+                knockback: -1
+                backColor: BDD5FF
+                frontColor: D1EFFF
+                mixColorFrom: D1EFFF
+                mixColorTo: BDD5FF
+                width: 80
+                height: 40
+		fragOnHit: true
+		fragBullets: 50
+		splashDamageRadius: 100
+		splashDamage: 300
+		hitEffect: blastExplosion
+        trailLength: 15
+        trailColor: D1EFFF
+               }
+}
+{
+                name: ancient-pulse-laser-small-blue-hologram
+                mirror: true
+                top: true
+                rotate: true
+		rotateSpeed: 6
+                x: +50
+                y: -54
+                reload: 5
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 2
+            shootSound: bolt
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 30
+                homing: false
+                speed: 4.5
+                lifetime: 100
+                knockback: -1
+                backColor: BDD5FF
+                frontColor: D1EFFF
+                mixColorFrom: D1EFFF
+                mixColorTo: BDD5FF
+                width: 7
+                length: 10
+        trailLength: 5
+        trailColor: D1EFFF
+               }
+}
+{
+                name: pester-laser-blue-full-hologram
+                mirror: true
+                top: true
+                rotate: true
+		rotateSpeed: 4
+                x: +25
+                y: -2
+                reload: 75
+                shoot: {
+                    shots: 15
+                    shotDelay: 1
+}
+            inaccuracy: 1
+            recoil: 4
+            shootSound: artillery
+            shootEffect: none
+            bullet: {
+                type: MissileBulletType
+                damage: 60
+                speed: 5
+                lifetime: 120
+                knockback: -1
+                backColor: BDD5FF
+                frontColor: D1EFFF
+                mixColorFrom: D1EFFF
+                mixColorTo: BDD5FF
+                width: 7
+                length: 10
+        trailLength: 10
+        trailColor: D1EFFF
+               }
+}
+{
+                name: pester-laser-blue-full-hologram
+                mirror: true
+                top: true
+                rotate: true
+		rotateSpeed: 4
+                x: +44
+                y: -34
+                reload: 75
+                shoot: {
+                    shots: 15
+                    shotDelay: 1
+}
+            inaccuracy: 1
+            recoil: 4
+            shootSound: artillery
+            shootEffect: none
+            bullet: {
+                type: MissileBulletType
+                damage: 60
+                speed: 5
+                lifetime: 120
+                knockback: -1
+                backColor: BDD5FF
+                frontColor: D1EFFF
+                mixColorFrom: D1EFFF
+                mixColorTo: BDD5FF
+                width: 7
+                length: 10
+        trailLength: 10
+        trailColor: D1EFFF
+               }
+}
+{
+                name: focus-rail-hologram
+                mirror: false
+                alternate: true
+                continuous: true
+                top: true
+                rotate: true
+		rotateSpeed: 0
+                x: 0
+                y: 0
+                reload: 300
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 0
+            shootSound: beam
+            shootEffect: none
+            bullet: {
+                type: ContinuousLaserBulletType
+                damage: 450
+                speed: 0
+                lifetime: 150
+                knockback: -1
+                backColor: BDD5FF
+                frontColor: D1EFFF
+                mixColorFrom: D1EFFF
+                mixColorTo: BDD5FF
+                width: 15
+                length: 650
+            }
+effects: [
+          {
+            type: ParticleEffect
+            cone: 12
+            particles: 12
+            interp: pow3Out
+            sizeInterp: pow5In
+            lifetime: 25
+            length: 120
+                backColor: BDD5FF
+                frontColor: D1EFFF
+                mixColorFrom: D1EFFF
+                mixColorTo: BDD5FF
+            sizeFrom: 4
+            sizeTo: 0
+          }
+          {
+            type: ParticleEffect
+            cone: 8
+            particles: 12
+            interp: pow3Out
+            sizeInterp: pow5In
+            lifetime: 25
+            length: 60
+                backColor: BDD5FF
+                frontColor: D1EFFF
+                mixColorFrom: D1EFFF
+                mixColorTo: BDD5FF
+            sizeFrom: 3
+            sizeTo: 0
+          }
+        ]
+}]
