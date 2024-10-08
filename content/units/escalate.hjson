@@ -15,29 +15,29 @@ faceTarget: true
         engineColorInner: FFFFFF
 		engines: [
 		  {
-			x: -12
-			y: -75
+			x: -10
+			y: -30
 			radius: 8
 			rotation: -90
 		        trailLength: 10
 		  }
 		  {
-			x: +12
-			y: -75
+			x: +10
+			y: -30
 			radius: 8
 			rotation: -90
 		        trailLength: 10
 		  }
 		]
 weapons: [{
-                name: escalate-weapon
+                name: escalate-cannon
                 mirror: true
                 top: true
                 alternate: true
                 rotate: true
 		rotateSpeed: 3
-                x: +15
-                y: -54
+                x: +16
+                y: +1
                 reload: 30
                 shoot: {
                     shots: 2
@@ -45,7 +45,7 @@ weapons: [{
             }
             inaccuracy: 0.5
             recoil: 2
-            shootSound: malign
+            shootSound: malignshoot
             shootEffect: none
             bullet: {
                 type: SolidBulletType
@@ -55,9 +55,9 @@ weapons: [{
                 sprite: large-bomb
                 lifetime: 100
                 knockback: -1
-                backColor: A477DE
-                frontColor: A477DE
-                mixColorFrom: A477DE
+                backColor: D7BDFF
+                frontColor: D7BDFF
+                mixColorFrom: D7BDFF
                 mixColorTo: D7BDFF
                 width: 30
                 height: 40
