@@ -1,0 +1,72 @@
+type: flying
+health: 20000
+hitSize: 70
+flying: true
+speed: 1.2
+accel: 0.5
+drag: 0.5
+armor: 36
+rotateSpeed: 3
+outlineColor: 2D2F39
+targetair: true
+faceTarget: true
+        engineOffset: 7
+        engineColor: D7BDFF
+        engineColorInner: FFFFFF
+		engines: [
+		  {
+			x: -12
+			y: -75
+			radius: 8
+			rotation: -90
+		        trailLength: 10
+		  }
+		  {
+			x: +12
+			y: -75
+			radius: 8
+			rotation: -90
+		        trailLength: 10
+		  }
+		]
+weapons: [{
+                name: escalate-weapon
+                mirror: true
+                top: true
+                alternate: true
+                rotate: true
+		rotateSpeed: 3
+                x: +15
+                y: -54
+                reload: 30
+                shoot: {
+                    shots: 2
+                    shotDelay: 6
+            }
+            inaccuracy: 0.5
+            recoil: 2
+            shootSound: malign
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 50
+                homing: false
+                speed: 7
+                sprite: large-bomb
+                lifetime: 100
+                knockback: -1
+                backColor: A477DE
+                frontColor: A477DE
+                mixColorFrom: A477DE
+                mixColorTo: D7BDFF
+                width: 30
+                height: 40
+		fragOnHit: true
+		fragBullets: 50
+		splashDamageRadius: 20
+		splashDamage: 30
+		hitEffect: blastExplosion
+        trailLength: 7
+        trailColor: D7BDFF
+               }
+}
