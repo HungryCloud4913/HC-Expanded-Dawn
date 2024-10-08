@@ -16,14 +16,14 @@ faceTarget: true
 		engines: [
 		  {
 			x: -10
-			y: -30
+			y: -6
 			radius: 8
 			rotation: -90
 		        trailLength: 10
 		  }
 		  {
 			x: +10
-			y: -30
+			y: -6
 			radius: 8
 			rotation: -90
 		        trailLength: 10
@@ -36,8 +36,8 @@ weapons: [{
                 alternate: true
                 rotate: true
 		rotateSpeed: 3
-                x: +16
-                y: +1
+                x: +13
+                y: -2
                 reload: 30
                 shoot: {
                     shots: 2
@@ -45,7 +45,7 @@ weapons: [{
             }
             inaccuracy: 0.5
             recoil: 2
-            shootSound: malignshoot
+            shootSound: malignShoot
             shootEffect: none
             bullet: {
                 type: SolidBulletType
