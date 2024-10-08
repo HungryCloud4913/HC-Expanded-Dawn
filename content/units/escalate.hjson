@@ -1,6 +1,6 @@
 type: flying
 health: 20000
-hitSize: 40
+hitSize: 33
 flying: true
 speed: 1.9
 accel: 0.5
