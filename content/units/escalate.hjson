@@ -60,7 +60,7 @@ weapons: [{
                 homing: false
                 speed: 7
                 sprite: large-bomb
-                lifetime: 100
+                lifetime: 55
                 knockback: -1
                 backColor: D7BDFF
                 frontColor: D7BDFF
