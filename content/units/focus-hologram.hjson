@@ -1,5 +1,5 @@
 type: flying
-health: 15000
+health: 150000
 hitSize: 95
 flying: true
 speed: 0.60
