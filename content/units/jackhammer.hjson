@@ -1,6 +1,6 @@
 type: flying
-health: 800
-hitSize: 7
+health: 900
+hitSize: 18
 flying: true
 speed: 3
 accel: 0.05
@@ -32,6 +32,7 @@ faceTarget: true
 weapons: [{
                 name: jackhammer-weapon
                 mirror: false
+                layerOffset: -5
                 top: false
                 alternate: false
                 rotate: false
@@ -44,13 +45,13 @@ weapons: [{
                     shotDelay: 2
             }
             inaccuracy: 0.7
-            recoil: 4
+            recoil: 5
             shootSound: plasmaboom
             shootEffect: none
             bullet: {
                 type: SolidBulletType
                 damage: 160
-                recoil: 4
+                recoil: 1.5
                 homing: false
                 speed: 8
                 sprite: large-bomb
