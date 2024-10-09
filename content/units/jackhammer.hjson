@@ -2,9 +2,9 @@ type: flying
 health: 800
 hitSize: 7
 flying: true
-speed: 4
-accel: 0.5
-drag: 0.5
+speed: 3
+accel: 0.05
+drag: 0.01
 armor: 5
 rotateSpeed: 5
 outlineColor: 2D2F39
@@ -15,42 +15,42 @@ faceTarget: true
         engineColorInner: FFFFFF
 		engines: [
 		  {
-			x: -10
-			y: 0
+			x: -9
+			y: -1.5
 			radius: 3
-			rotation: -90
+			rotation: -180
 		        trailLength: 10
 		  }
 		  {
-			x: +10
-			y: 0
+			x: +9
+			y: -1.5
 			radius: 3
-			rotation: -90
+			rotation: 0
 		        trailLength: 10
 		  }
 		]
 weapons: [{
                 name: jackhammer-weapon
                 mirror: false
-                top: true
+                top: false
                 alternate: false
                 rotate: false
 		rotateSpeed: 0
-                x: +11
-                y: -3
-                reload: 60
+                x: 0
+                y: 0
+                reload: 120
                 shoot: {
-                    shots: 4
+                    shots: 3
                     shotDelay: 2
             }
             inaccuracy: 0.7
             recoil: 4
-            shootSound: cannon
+            shootSound: plasmaboom
             shootEffect: none
             bullet: {
                 type: SolidBulletType
-                damage: 150
-                recoil: 7
+                damage: 160
+                recoil: 4
                 homing: false
                 speed: 8
                 sprite: large-bomb
