@@ -1,0 +1,74 @@
+type: flying
+health: 800
+hitSize: 7
+flying: true
+speed: 4
+accel: 0.5
+drag: 0.5
+armor: 5
+rotateSpeed: 5
+outlineColor: 2D2F39
+targetair: true
+faceTarget: true
+        engineOffset: 0
+        engineColor: D7BDFF
+        engineColorInner: FFFFFF
+		engines: [
+		  {
+			x: -10
+			y: 0
+			radius: 3
+			rotation: -90
+		        trailLength: 10
+		  }
+		  {
+			x: +10
+			y: 0
+			radius: 3
+			rotation: -90
+		        trailLength: 10
+		  }
+		]
+weapons: [{
+                name: jackhammer-weapon
+                mirror: false
+                top: true
+                alternate: false
+                rotate: false
+		rotateSpeed: 0
+                x: +11
+                y: -3
+                reload: 60
+                shoot: {
+                    shots: 4
+                    shotDelay: 2
+            }
+            inaccuracy: 0.7
+            recoil: 4
+            shootSound: cannon
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 150
+                recoil: 7
+                homing: false
+                speed: 8
+                sprite: large-bomb
+                lifetime: 55
+                knockback: -1
+                backColor: D7BDFF
+                frontColor: D7BDFF
+                mixColorFrom: D7BDFF
+                mixColorTo: D7BDFF
+                width: 10
+                height: 10
+		fragOnHit: true
+		fragBullets: 0
+		splashDamageRadius: 0
+		splashDamage: 0
+		hitEffect: blastExplosion
+        trailLength: 7
+        trailColor: D7BDFF
+               }
+}
+]
