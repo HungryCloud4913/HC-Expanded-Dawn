@@ -32,7 +32,7 @@ faceTarget: true
 weapons: [{
                 name: jackhammer-weapon
                 mirror: false
-                layerOffset: -5
+                layerOffset: -1
                 top: false
                 alternate: false
                 rotate: false
