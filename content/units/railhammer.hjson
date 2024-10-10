@@ -1,0 +1,117 @@
+type: flying
+health: 210500
+hitSize: 50
+flying: true
+speed: 0.5
+accel: 0.05
+drag: 0.01
+armor: 35
+rotateSpeed: 2
+outlineColor: 2D2F39
+targetair: true
+faceTarget: true
+        engineOffset: 0
+        engineColor: D7BDFF
+        engineColorInner: FFFFFF
+		engines: [
+		  {
+			x: -15
+			y: -5
+			radius: 7
+			rotation: -180
+		        trailLength: 10
+		  }
+		  {
+			x: +15
+			y: -5
+			radius: 7
+			rotation: 0
+		        trailLength: 10
+		  }
+		]
+weapons: [{
+                name: railhammer-weapon
+                mirror: false
+                layerOffset: -1
+                top: false
+                alternate: false
+                rotate: false
+		rotateSpeed: 0
+                x: 0
+                y: 0
+                reload: 250
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0.2
+            recoil: 7
+            shootSound: shootSmite
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 700
+                recoil: 5
+                homing: false
+                speed: 10
+                sprite: large-bomb
+                lifetime: 38
+                knockback: 0
+                backColor: D7BDFF
+                frontColor: D7BDFF
+                mixColorFrom: D7BDFF
+                mixColorTo: D7BDFF
+                width: 30
+                height: 30
+		fragOnHit: true
+		fragBullets: 100
+		splashDamageRadius: 30
+		splashDamage: 310
+		hitEffect: blastExplosion
+        trailLength: 10
+        trailColor: D7BDFF
+               }
+}
+{
+                name: railhammer-missiles
+                mirror: true
+                top: true
+                alternate: false
+                rotate: true
+		rotateSpeed: 3
+                x: +11
+                y: -12
+                reload: 52.5
+                shoot: {
+                    shots: 5
+                    shotDelay: 2
+            }
+            inaccuracy: 7
+            recoil: 2
+            shootSound: shootAltLong
+            shootEffect: none
+            bullet: {
+                type: MissileBulletType
+                damage: 30
+                homing: true
+                speed: 7
+                lifetime: 55
+                knockback: -1
+                backColor: D7BDFF
+                frontColor: D7BDFF
+                mixColorFrom: D7BDFF
+                mixColorTo: D7BDFF
+                width: 30
+                height: 40
+		fragOnHit: true
+		fragBullets: 0
+		splashDamageRadius: 0
+		splashDamage: 0
+		hitEffect: blastExplosion
+		homingPower: 0.03
+		homingRange: 1000
+        trailLength: 7
+        trailColor: D7BDFF
+               }
+}
+]
