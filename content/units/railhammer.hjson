@@ -30,14 +30,14 @@ faceTarget: true
 		  }
 		  {
 			x: -30
-			y: -30
+			y: -35
 			radius: 5
 			rotation: -180
 		        trailLength: 10
 		  }
 		  {
 			x: +30
-			y: -30
+			y: -35
 			radius: 5
 			rotation: 0
 		        trailLength: 10
