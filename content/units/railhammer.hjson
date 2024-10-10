@@ -6,7 +6,7 @@ speed: 0.5
 accel: 0.05
 drag: 0.01
 armor: 35
-rotateSpeed: 2
+rotateSpeed: 1
 outlineColor: 2D2F39
 targetair: true
 faceTarget: true
@@ -15,14 +15,14 @@ faceTarget: true
         engineColorInner: FFFFFF
 		engines: [
 		  {
-			x: -15
+			x: -20
 			y: -5
 			radius: 7
 			rotation: -180
 		        trailLength: 10
 		  }
 		  {
-			x: +15
+			x: +20
 			y: -5
 			radius: 7
 			rotation: 0
@@ -44,14 +44,14 @@ weapons: [{
                     shots: 1
                     shotDelay: 0
             }
-            inaccuracy: 0.2
-            recoil: 7
+            inaccuracy: 0
+            recoil: 10
             shootSound: shootSmite
             shootEffect: none
             bullet: {
                 type: SolidBulletType
                 damage: 700
-                recoil: 5
+                recoil: 2
                 homing: false
                 speed: 10
                 sprite: large-bomb
@@ -61,8 +61,8 @@ weapons: [{
                 frontColor: D7BDFF
                 mixColorFrom: D7BDFF
                 mixColorTo: D7BDFF
-                width: 30
-                height: 30
+                width: 50
+                height: 50
 		fragOnHit: true
 		fragBullets: 100
 		splashDamageRadius: 30
@@ -79,9 +79,9 @@ weapons: [{
                 alternate: false
                 rotate: true
 		rotateSpeed: 3
-                x: +11
-                y: -12
-                reload: 52.5
+                x: +14
+                y: -15
+                reload: 125
                 shoot: {
                     shots: 5
                     shotDelay: 2
@@ -101,8 +101,8 @@ weapons: [{
                 frontColor: D7BDFF
                 mixColorFrom: D7BDFF
                 mixColorTo: D7BDFF
-                width: 30
-                height: 40
+                width: 4
+                height: 5
 		fragOnHit: true
 		fragBullets: 0
 		splashDamageRadius: 0
