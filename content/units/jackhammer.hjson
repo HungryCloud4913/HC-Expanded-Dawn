@@ -16,14 +16,14 @@ faceTarget: true
 		engines: [
 		  {
 			x: -9
-			y: -1.5
+			y: -3
 			radius: 3
 			rotation: -180
 		        trailLength: 10
 		  }
 		  {
 			x: +9
-			y: -1.5
+			y: -3
 			radius: 3
 			rotation: 0
 		        trailLength: 10
