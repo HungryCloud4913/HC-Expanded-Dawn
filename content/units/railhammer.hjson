@@ -1,6 +1,6 @@
 type: flying
 health: 210500
-hitSize: 50
+hitSize: 55
 flying: true
 speed: 0.5
 accel: 0.05
@@ -15,16 +15,16 @@ faceTarget: true
         engineColorInner: FFFFFF
 		engines: [
 		  {
-			x: -30
-			y: -5
-			radius: 7
+			x: -27
+			y: -9
+			radius: 5
 			rotation: -180
 		        trailLength: 10
 		  }
 		  {
-			x: +30
-			y: -5
-			radius: 7
+			x: +27
+			y: -9
+			radius: 5
 			rotation: 0
 		        trailLength: 10
 		  }
@@ -50,12 +50,12 @@ weapons: [{
             shootEffect: none
             bullet: {
                 type: SolidBulletType
-                damage: 700
+                damage: 1215
                 recoil: 1.7
                 homing: false
                 speed: 10
                 sprite: large-bomb
-                lifetime: 38
+                lifetime: 80
                 knockback: 0
                 backColor: D7BDFF
                 frontColor: D7BDFF
@@ -65,8 +65,8 @@ weapons: [{
                 height: 70
 		fragOnHit: true
 		fragBullets: 100
-		splashDamageRadius: 30
-		splashDamage: 310
+		splashDamageRadius: 50
+		splashDamage: 600
 		hitEffect: blastExplosion
         trailLength: 10
         trailColor: D7BDFF
@@ -79,12 +79,12 @@ weapons: [{
                 alternate: false
                 rotate: true
 		rotateSpeed: 3
-                x: +14
+                x: +17
                 y: -15
                 reload: 51.25
                 shoot: {
-                    shots: 5
-                    shotDelay: 2
+                    shots: 7
+                    shotDelay: 1.5
             }
             inaccuracy: 7
             recoil: 2
@@ -92,10 +92,10 @@ weapons: [{
             shootEffect: none
             bullet: {
                 type: MissileBulletType
-                damage: 30
+                damage: 50
                 homing: true
                 speed: 7
-                lifetime: 55
+                lifetime: 60
                 knockback: -1
                 backColor: D7BDFF
                 frontColor: D7BDFF
