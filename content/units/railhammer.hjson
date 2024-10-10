@@ -16,14 +16,14 @@ faceTarget: true
 		engines: [
 		  {
 			x: -27
-			y: -14
+			y: -21
 			radius: 5
 			rotation: -180
 		        trailLength: 10
 		  }
 		  {
 			x: +27
-			y: -14
+			y: -21
 			radius: 5
 			rotation: 0
 		        trailLength: 10
@@ -108,7 +108,7 @@ weapons: [{
 		splashDamageRadius: 0
 		splashDamage: 0
 		hitEffect: blastExplosion
-		homingPower: 0.03
+		homingPower: 0.01
 		homingRange: 1000
         trailLength: 7
         trailColor: D7BDFF
