@@ -51,7 +51,7 @@ weapons: [{
             bullet: {
                 type: SolidBulletType
                 damage: 700
-                recoil: 2
+                recoil: 1.7
                 homing: false
                 speed: 10
                 sprite: large-bomb
@@ -61,8 +61,8 @@ weapons: [{
                 frontColor: D7BDFF
                 mixColorFrom: D7BDFF
                 mixColorTo: D7BDFF
-                width: 50
-                height: 50
+                width: 70
+                height: 70
 		fragOnHit: true
 		fragBullets: 100
 		splashDamageRadius: 30
@@ -81,7 +81,7 @@ weapons: [{
 		rotateSpeed: 3
                 x: +14
                 y: -15
-                reload: 125
+                reload: 51.25
                 shoot: {
                     shots: 5
                     shotDelay: 2
