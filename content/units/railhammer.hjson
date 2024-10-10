@@ -16,14 +16,28 @@ faceTarget: true
 		engines: [
 		  {
 			x: -27
-			y: -21
+			y: -22
 			radius: 5
 			rotation: -180
 		        trailLength: 10
 		  }
 		  {
 			x: +27
-			y: -21
+			y: -22
+			radius: 5
+			rotation: 0
+		        trailLength: 10
+		  }
+		  {
+			x: -30
+			y: -30
+			radius: 5
+			rotation: -180
+		        trailLength: 10
+		  }
+		  {
+			x: +30
+			y: -30
 			radius: 5
 			rotation: 0
 		        trailLength: 10
