@@ -55,16 +55,16 @@ weapons: [{
                 y: 0
                 reload: 250
                 shoot: {
-                    shots: 1
-                    shotDelay: 0
+                    shots: 2
+                    shotDelay: 2
             }
             inaccuracy: 0
             recoil: 10
-            shootSound: shootSmite
+            shootSound: largeExplosion
             shootEffect: none
             bullet: {
                 type: SolidBulletType
-                damage: 1215
+                damage: 735
                 recoil: 1.7
                 homing: false
                 speed: 10
@@ -78,9 +78,9 @@ weapons: [{
                 width: 70
                 height: 70
 		fragOnHit: true
-		fragBullets: 150
+		fragBullets: 110
 		splashDamageRadius: 80
-		splashDamage: 700
+		splashDamage: 430
 		hitEffect: blastExplosion
         trailLength: 10
         trailColor: D7BDFF
