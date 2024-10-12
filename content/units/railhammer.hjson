@@ -65,7 +65,7 @@ weapons: [{
             bullet: {
                 type: SolidBulletType
                 damage: 735
-                recoil: 8
+                recoil: 6.3
                 homing: false
                 speed: 10
                 sprite: large-bomb
