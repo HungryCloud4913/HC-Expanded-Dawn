@@ -6,7 +6,7 @@ speed: 0.5
 accel: 0.05
 drag: 0.01
 armor: 35
-rotateSpeed: 1
+rotateSpeed: 0.75
 outlineColor: 2D2F39
 targetair: true
 faceTarget: true
