@@ -161,6 +161,7 @@ PointDefenceWeapons: [{
         trailLength: 7
         trailColor: D7BDFF
         color: D7BDFF
+        beamEffect: pointBeam
                }
 }
 ]
