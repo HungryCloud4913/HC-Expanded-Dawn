@@ -160,7 +160,7 @@ weapons: [{
         rotate: true
 	rotateSpeed: 5
         x: +10
-        y: -11
+        y: -13
         reload: 30
       controllable: false
       autoTarget: true
