@@ -129,7 +129,7 @@ weapons: [{
                }
 }
 {
-        name: hc-expanded-dawn-railhammer-point
+        name: railhammer-point
         type: PointDefenseWeapon
         mirror: true
         top: true
@@ -143,7 +143,6 @@ weapons: [{
       autoTarget: true
       targetInterval: 5
       targetSwitchInterval: 5
-      name: e-point
       shootSound: gauss.ogg
       bullet: {
         hitEffect: pointHit
