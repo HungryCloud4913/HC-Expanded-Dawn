@@ -111,7 +111,7 @@ weapons: [{
                 speed: 10
                 drag: -0.1
                 sprite: large-bomb
-                lifetime: 20
+                lifetime: 25
                 knockback: 0
                 backColor: D7BDFF
                 frontColor: ffffff
