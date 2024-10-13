@@ -128,6 +128,7 @@ weapons: [{
         trailColor: D7BDFF
                }
 }
+]
 PointDefenceWeapons: [{
                 name: railhammer-point
                 mirror: true
@@ -137,7 +138,11 @@ PointDefenceWeapons: [{
 		rotateSpeed: 5
                 x: +23
                 y: -27
-                reload: 30
+                reload: 40
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
             inaccuracy: 0
             recoil: 2
             shootSound: sap
@@ -159,5 +164,4 @@ PointDefenceWeapons: [{
         color: D7BDFF
                }
 }
-]
 ]
