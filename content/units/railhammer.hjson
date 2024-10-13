@@ -136,8 +136,8 @@ weapons: [{
         alternate: true
         rotate: true
 	rotateSpeed: 5
-        x: +23
-        y: -27
+        x: +21
+        y: -35
         reload: 30
       controllable: false
       autoTarget: true
@@ -147,7 +147,53 @@ weapons: [{
       bullet: {
         hitEffect: pointHit
         smokeEffect: pointHit
-        maxRange: 150
+        maxRange: 175
+        damage: 12
+      }
+}
+{
+        name: railhammer-point
+        type: PointDefenseWeapon
+        mirror: true
+        top: true
+        alternate: true
+        rotate: true
+	rotateSpeed: 5
+        x: +10
+        y: -1
+        reload: 30
+      controllable: false
+      autoTarget: true
+      targetInterval: 5
+      targetSwitchInterval: 5
+      shootSound: gauss.ogg
+      bullet: {
+        hitEffect: pointHit
+        smokeEffect: pointHit
+        maxRange: 175
+        damage: 12
+      }
+}
+{
+        name: railhammer-point
+        type: PointDefenseWeapon
+        mirror: true
+        top: true
+        alternate: true
+        rotate: true
+	rotateSpeed: 5
+        x: +18
+        y: +5
+        reload: 30
+      controllable: false
+      autoTarget: true
+      targetInterval: 5
+      targetSwitchInterval: 5
+      shootSound: gauss.ogg
+      bullet: {
+        hitEffect: pointHit
+        smokeEffect: pointHit
+        maxRange: 175
         damage: 12
       }
 }
