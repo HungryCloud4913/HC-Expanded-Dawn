@@ -56,32 +56,113 @@ weapons: [{
                 reload: 250
                 shoot: {
                     shots: 2
-                    shotDelay: 1
+                    shotDelay: 6
             }
             inaccuracy: 0
             recoil: 10
-            shootSound: largeExplosion
+            shootSound: railGunBlast
             shootEffect: none
             bullet: {
                 type: SolidBulletType
                 damage: 735
+                shrinkY: 0
+                shrinkX: 0
                 recoil: 0.7
                 homing: false
+      shootEffect: [
+     {
+      type: ParticleEffect
+      particles: 8
+      length: 60
+      lifetime: 50
+      interp: pow5Out
+      sizeInterp: pow3In
+      cone: 30
+      offset: 20
+      lightColor: D7BDFF
+      colorFrom: ffffff
+      colorTo: D7BDFF00
+      sizeFrom: 9
+      sizeTo: 0
+      }
+      {
+       type: WaveEffect
+       lifetime: 30
+       sizeFrom: 0
+       sizeTo: 70
+       strokeFrom: 8
+       strokeTo: 0
+       colorFrom: ffffff
+       colorTo: D7BDFF00
+       followParent: true
+      }
+      {
+       type: WaveEffect
+       lifetime: 30
+       sizeFrom: 0
+       sizeTo: 100
+       strokeFrom: 8
+       strokeTo: 0
+       colorFrom: ffffff
+       colorTo: D7BDFF00
+       followParent: true
+      }
+      ]
                 speed: 10
+                drag: -0.1
                 sprite: large-bomb
-                lifetime: 80
+                lifetime: 20
                 knockback: 0
                 backColor: D7BDFF
-                frontColor: D7BDFF
+                frontColor: ffffff
                 mixColorFrom: D7BDFF
                 mixColorTo: D7BDFF
-                width: 70
+                width: 30
                 height: 70
+                trailLength: 18
+                trailWidth: 3
 		fragOnHit: true
 		fragBullets: 110
 		splashDamageRadius: 80
 		splashDamage: 430
-		hitEffect: blastExplosion
+      hitEffect: [
+     {
+      type: ParticleEffect
+      particles: 8
+      length: 60
+      lifetime: 50
+      interp: pow5Out
+      sizeInterp: pow3In
+      offset: 20
+      lightColor: D7BDFF
+      colorFrom: ffffff
+      colorTo: D7BDFF00
+      sizeFrom: 4
+      sizeTo: 0
+      }
+      {
+       type: WaveEffect
+       lifetime: 30
+       sizeFrom: 0
+       sizeTo: 70
+       strokeFrom: 8
+       strokeTo: 0
+       colorFrom: ffffff
+       colorTo: D7BDFF00
+       followParent: true
+      }
+      {
+       type: WaveEffect
+       lifetime: 30
+       sizeFrom: 0
+       sizeTo: 100
+       strokeFrom: 8
+       strokeTo: 0
+       colorFrom: ffffff
+       colorTo: D7BDFF00
+       followParent: true
+      }
+      ]
         trailLength: 10
         trailColor: D7BDFF
                }
