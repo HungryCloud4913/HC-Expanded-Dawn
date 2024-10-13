@@ -123,8 +123,8 @@ weapons: [{
                 trailWidth: 3
 		fragOnHit: true
 		fragBullets: 110
-		splashDamageRadius: 80
-		splashDamage: 430
+		splashDamageRadius: 90
+		splashDamage: 510
       hitEffect: [
      {
       type: ParticleEffect
@@ -224,7 +224,7 @@ weapons: [{
       autoTarget: true
       targetInterval: 5
       targetSwitchInterval: 5
-      shootSound: gauss.ogg
+      shootSound: sap
       bullet: {
         hitEffect: pointHit
         smokeEffect: pointHit
@@ -247,7 +247,7 @@ weapons: [{
       autoTarget: true
       targetInterval: 5
       targetSwitchInterval: 5
-      shootSound: gauss.ogg
+      shootSound: sap
       bullet: {
         hitEffect: pointHit
         smokeEffect: pointHit
@@ -270,7 +270,7 @@ weapons: [{
       autoTarget: true
       targetInterval: 5
       targetSwitchInterval: 5
-      shootSound: gauss.ogg
+      shootSound: sap
       bullet: {
         hitEffect: pointHit
         smokeEffect: pointHit
