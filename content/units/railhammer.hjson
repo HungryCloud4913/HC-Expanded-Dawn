@@ -129,7 +129,7 @@ weapons: [{
                }
 }
 {
-        name: railhammer-point
+        name: hc-expanded-dawn-railhammer-point
         type: PointDefenseWeapon
         mirror: true
         top: true
@@ -139,10 +139,6 @@ weapons: [{
         x: +23
         y: -27
         reload: 30
-        shoot: {
-        shots: 1
-        shotDelay: 0
-        }
       controllable: false
       autoTarget: true
       targetInterval: 5
@@ -152,7 +148,7 @@ weapons: [{
       bullet: {
         hitEffect: pointHit
         smokeEffect: pointHit
-        maxRange: 125
+        maxRange: 150
         damage: 12
       }
 }
