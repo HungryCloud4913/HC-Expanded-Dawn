@@ -129,8 +129,8 @@ weapons: [{
                }
 }
 {
-      type: PointDefenseWeapon
         name: railhammer-point
+        type: PointDefenseWeapon
         mirror: true
         top: true
         alternate: true
@@ -148,12 +148,12 @@ weapons: [{
       targetInterval: 5
       targetSwitchInterval: 5
       name: e-point
-      shootSound: hc-expanded-dawn-gauss.ogg
+      shootSound: gauss.ogg
       bullet: {
         hitEffect: pointHit
         smokeEffect: pointHit
-        maxRange: 175
-        damage: 40
+        maxRange: 125
+        damage: 12
       }
 }
 ]
