@@ -129,26 +129,26 @@ weapons: [{
                }
 }
 {
-                name: railhammer-point
-                mirror: true
-                top: true
-                alternate: true
-                rotate: true
-		rotateSpeed: 5
-                x: +23
-                y: -27
-                reload: 40
-                shoot: {
-                    shots: 1
-                    shotDelay: 0
-                      }
       type: PointDefenseWeapon
+        name: railhammer-point
+        mirror: true
+        top: true
+        alternate: true
+        rotate: true
+	rotateSpeed: 5
+        x: +23
+        y: -27
+        reload: 40
+        shoot: {
+        shots: 1
+        shotDelay: 0
+        }
       controllable: false
       autoTarget: true
       targetInterval: 5
       targetSwitchInterval: 5
       name: e-point
-      shootSound: sap
+      shootSound: hc-expanded-dawn-gauss
       bullet: {
         hitEffect: pointHit
         smokeEffect: pointHit
