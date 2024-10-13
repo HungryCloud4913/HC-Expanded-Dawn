@@ -128,7 +128,7 @@ weapons: [{
         trailColor: D7BDFF
                }
 }
-PointDefenceWeapons: [{
+PointDefenceWeapons: {
                 name: railhammer-point
                 mirror: true
                 top: true
