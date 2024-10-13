@@ -141,28 +141,26 @@ PointDefenceWeapons: [{
                 shoot: {
                     shots: 1
                     shotDelay: 0
-            }
-            inaccuracy: 0
-            recoil: 2
-            shootSound: sap
-            shootEffect: none
-            bullet: {
-                type: PointBulletType
-                damage: 12
-                speed: 7
-                lifetime: 30
-                knockback: 0
-                backColor: D7BDFF
-                frontColor: D7BDFF
-                mixColorFrom: D7BDFF
-                mixColorTo: D7BDFF
-                width: 4
-                height: 5
-        trailLength: 7
-        trailColor: D7BDFF
-        color: D7BDFF
-        beamEffect: pointBeam
-               }
+}
+    {
+      type: PointDefenseWeapon
+      controllable: false
+      autoTarget: true
+      targetInterval: 5
+      targetSwitchInterval: 5
+      name: e-point
+      rotate: true
+      shootY: 4
+      reload: 2
+      recoil: 1
+      shootSound: lasershoot
+      bullet: {
+        hitEffect: pointHit
+        smokeEffect: pointHit
+        maxRange: 100
+        damage: 40
+      }
+}
 }
 ]
 ]
