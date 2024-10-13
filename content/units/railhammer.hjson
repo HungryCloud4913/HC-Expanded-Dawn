@@ -141,8 +141,7 @@ PointDefenceWeapons: [{
                 shoot: {
                     shots: 1
                     shotDelay: 0
-}
-    {
+                      }
       type: PointDefenseWeapon
       controllable: false
       autoTarget: true
@@ -156,6 +155,5 @@ PointDefenceWeapons: [{
         maxRange: 100
         damage: 40
       }
-}
 }
 ]
