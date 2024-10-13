@@ -110,7 +110,7 @@ weapons: [{
                 homing: true
                 speed: 7
                 lifetime: 60
-                knockback: -1
+                knockback: 0
                 backColor: D7BDFF
                 frontColor: D7BDFF
                 mixColorFrom: D7BDFF
@@ -128,4 +128,40 @@ weapons: [{
         trailColor: D7BDFF
                }
 }
+PointDefenceWeapons: [{
+                name: railhammer-point
+                mirror: true
+                top: true
+                alternate: true
+                rotate: true
+		rotateSpeed: 5
+                x: +23
+                y: -27
+                reload: 30
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 2
+            shootSound: sap
+            shootEffect: none
+            bullet: {
+                type: PointBulletType
+                damage: 12
+                speed: 7
+                lifetime: 30
+                knockback: 0
+                backColor: D7BDFF
+                frontColor: D7BDFF
+                mixColorFrom: D7BDFF
+                mixColorTo: D7BDFF
+                width: 4
+                height: 5
+        trailLength: 7
+        trailColor: D7BDFF
+        color: D7BDFF
+               }
+}
+]
 ]
