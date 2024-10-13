@@ -142,6 +142,7 @@ PointDefenceWeapons: [{
                     shots: 1
                     shotDelay: 0
 }
+}
     {
       type: PointDefenseWeapon
       controllable: false
@@ -161,6 +162,4 @@ PointDefenceWeapons: [{
         damage: 40
       }
 }
-}
-]
 ]
