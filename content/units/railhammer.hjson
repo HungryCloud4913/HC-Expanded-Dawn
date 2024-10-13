@@ -148,7 +148,7 @@ weapons: [{
         hitEffect: pointHit
         smokeEffect: pointHit
         maxRange: 175
-        damage: 12
+        damage: 15
       }
 }
 {
@@ -160,7 +160,7 @@ weapons: [{
         rotate: true
 	rotateSpeed: 5
         x: +10
-        y: -1
+        y: -11
         reload: 30
       controllable: false
       autoTarget: true
@@ -171,7 +171,7 @@ weapons: [{
         hitEffect: pointHit
         smokeEffect: pointHit
         maxRange: 175
-        damage: 12
+        damage: 15
       }
 }
 {
@@ -194,7 +194,7 @@ weapons: [{
         hitEffect: pointHit
         smokeEffect: pointHit
         maxRange: 175
-        damage: 12
+        damage: 15
       }
 }
 ]
