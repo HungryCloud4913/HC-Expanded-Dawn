@@ -138,10 +138,6 @@ PointDefenceWeapons: [{
                 x: +23
                 y: -27
                 reload: 30
-                shoot: {
-                    shots: 1
-                    shotDelay: 0
-            }
             inaccuracy: 0
             recoil: 2
             shootSound: sap
