@@ -6,11 +6,11 @@ speed: 0.3
 accel: 0.05
 drag: 0.01
 armor: 52
-rotateSpeed: 0.67
+rotateSpeed: 0.55
 outlineColor: 2D2F39
 targetair: true
 faceTarget: true
-        engineOffset: -20
+        engineOffset: +30
         engineColor: D7BDFF
         engineColorInner: FFFFFF
 		engines: [
@@ -30,14 +30,14 @@ faceTarget: true
 		  }
 		  {
 			x: -20
-			y: -50
+			y: -60
 			radius: 5
 			rotation: 90
 		        trailLength: 10
 		  }
 		  {
 			x: +20
-			y: -50
+			y: -60
 			radius: 5
 			rotation: 90
 		        trailLength: 10
@@ -48,8 +48,38 @@ parts: [
   type: RegionPart
   mirror: true
   under: false
-  moveX: +20
+  moveX: -2
   suffix: -arm1o
+  progress: warmup
+  weaponIndex: 0
+  layerOffset: -0.001
+    }
+  {
+  type: RegionPart
+  mirror: true
+  under: false
+  moveX: -2
+  suffix: -arm2o
+  progress: warmup
+  weaponIndex: 0
+  layerOffset: -0.001
+    }
+  {
+  type: RegionPart
+  mirror: true
+  under: false
+  moveX: -2
+  suffix: -arm3o
+  progress: warmup
+  weaponIndex: 0
+  layerOffset: -0.001
+    }
+  {
+  type: RegionPart
+  mirror: true
+  under: false
+  moveX: -2
+  suffix: -arm4o
   progress: warmup
   weaponIndex: 0
   layerOffset: -0.001
@@ -65,7 +95,7 @@ weapons: [{
 		rotateSpeed: 0
                 x: 0
                 y: 0
-                reload: 250
+                reload: 320
                 shoot: {
                     shots: 1
                     shotDelay: 0
@@ -79,9 +109,9 @@ weapons: [{
                 damage: 12000
                 recoil: 1
                 homing: false
-                speed: 5
+                speed: 4
                 sprite: large-bomb
-                lifetime: 100
+                lifetime: 120
                 knockback: 0
                 backColor: D7BDFF
                 frontColor: D7BDFF
