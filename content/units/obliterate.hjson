@@ -61,7 +61,7 @@ parts: [
   mirror: true
   under: false
   moveX: -22.5
-  moveY: +2
+  moveY: +2.5
   moveRot: 40
   suffix: -arm2o
   progress: warmup
@@ -85,7 +85,7 @@ parts: [
   mirror: true
   under: false
   moveX: -21
-  moveY: -9
+  moveY: -11
   moveRot: 30
   suffix: -arm4o
   progress: warmup
