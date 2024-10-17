@@ -18,26 +18,26 @@ faceTarget: true
 			x: -27
 			y: -70
 			radius: 5
-			rotation: 90
+			rotation: 45
 		        trailLength: 10
 		  }
 		  {
 			x: +27
 			y: -70
 			radius: 5
-			rotation: 90
+			rotation: -45
 		        trailLength: 10
 		  }
 		  {
-			x: -12
-			y: -75
+			x: -9
+			y: -74
 			radius: 5
 			rotation: 90
 		        trailLength: 10
 		  }
 		  {
-			x: +12
-			y: -75
+			x: +9
+			y: -74
 			radius: 5
 			rotation: 90
 		        trailLength: 10
