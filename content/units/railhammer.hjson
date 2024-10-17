@@ -63,7 +63,7 @@ weapons: [{
             shootSound: railGunBlast
             shootEffect: none
             bullet: {
-                type: SolidBulletType
+                type: BasicBulletType
                 damage: 735
                 shrinkY: 0
                 shrinkX: 0
