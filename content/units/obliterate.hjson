@@ -43,6 +43,48 @@ faceTarget: true
 		        trailLength: 10
 		  }
 		]
+weapons: [{
+                name: obliterate-energy
+                mirror: false
+                layerOffset: -1
+                top: false
+                alternate: false
+                rotate: false
+		rotateSpeed: 0
+                x: 0
+                y: -50
+                reload: 320
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 0
+            shootSound: laserblast
+            shootEffect: none
+            shootY: +50
+            bullet: {
+                type: SolidBulletType
+                damage: 12000
+                recoil: 0.5
+                homing: false
+                speed: 4
+                sprite: large-bomb
+                lifetime: 120
+                knockback: 0
+                backColor: D7BDFF
+                frontColor: D7BDFF
+                mixColorFrom: D7BDFF
+                mixColorTo: D7BDFF
+                width: 100
+                height: 100
+		fragOnHit: true
+		fragBullets: 230
+		splashDamageRadius: 110
+		splashDamage: 3200
+		hitEffect: blastExplosion
+        trailLength: 10
+        trailColor: D7BDFF
 parts: [
   {
   type: RegionPart
@@ -93,47 +135,6 @@ parts: [
   layerOffset: -0.001
     }
 ]
-weapons: [{
-                name: obliterate-energy
-                mirror: false
-                layerOffset: -1
-                top: false
-                alternate: false
-                rotate: false
-		rotateSpeed: 0
-                x: 0
-                y: 0
-                reload: 320
-                shoot: {
-                    shots: 1
-                    shotDelay: 0
-            }
-            inaccuracy: 0
-            recoil: 0
-            shootSound: laserblast
-            shootEffect: none
-            bullet: {
-                type: SolidBulletType
-                damage: 12000
-                recoil: 0.5
-                homing: false
-                speed: 4
-                sprite: large-bomb
-                lifetime: 120
-                knockback: 0
-                backColor: D7BDFF
-                frontColor: D7BDFF
-                mixColorFrom: D7BDFF
-                mixColorTo: D7BDFF
-                width: 100
-                height: 100
-		fragOnHit: true
-		fragBullets: 230
-		splashDamageRadius: 110
-		splashDamage: 3200
-		hitEffect: blastExplosion
-        trailLength: 10
-        trailColor: D7BDFF
       shootEffect: [
      {
       type: ParticleEffect
