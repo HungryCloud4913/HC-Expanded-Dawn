@@ -60,7 +60,7 @@ parts: [
   type: RegionPart
   mirror: true
   under: false
-  moveX: -23
+  moveX: -22.5
   moveY: +2
   moveRot: 40
   suffix: -arm2o
@@ -84,8 +84,8 @@ parts: [
   type: RegionPart
   mirror: true
   under: false
-  moveX: -23
-  moveY: -7
+  moveX: -21
+  moveY: -9
   moveRot: 30
   suffix: -arm4o
   progress: warmup
