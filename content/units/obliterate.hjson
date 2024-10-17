@@ -48,7 +48,7 @@ parts: [
   type: RegionPart
   mirror: true
   under: false
-  moveX: -35
+  moveX: -27
   moveY: +5
   moveRot: 45
   suffix: -arm1o
