@@ -10,34 +10,34 @@ rotateSpeed: 0.55
 outlineColor: 2D2F39
 targetair: true
 faceTarget: true
-        engineOffset: +30
+        engineOffset: +40
         engineColor: D7BDFF
         engineColorInner: FFFFFF
 		engines: [
 		  {
 			x: -27
-			y: -22
+			y: -70
 			radius: 5
 			rotation: 90
 		        trailLength: 10
 		  }
 		  {
 			x: +27
-			y: -22
+			y: -70
 			radius: 5
 			rotation: 90
 		        trailLength: 10
 		  }
 		  {
 			x: -20
-			y: -60
+			y: -70
 			radius: 5
 			rotation: 90
 		        trailLength: 10
 		  }
 		  {
 			x: +20
-			y: -60
+			y: -70
 			radius: 5
 			rotation: 90
 		        trailLength: 10
