@@ -101,7 +101,7 @@ weapons: [{
                 rotate: false
 		rotateSpeed: 0
                 x: 0
-                y: -50
+                y: 0
                 reload: 320
                 shoot: {
                     shots: 1
@@ -111,7 +111,6 @@ weapons: [{
             recoil: 0
             shootSound: laserblast
             shootEffect: none
-            shootY: +50
             bullet: {
                 type: BasicBulletType
                 damage: 12000
