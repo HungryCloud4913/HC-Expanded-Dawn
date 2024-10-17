@@ -48,8 +48,9 @@ parts: [
   type: RegionPart
   mirror: true
   under: false
-  moveX: -2
-  moveRot: -45
+  moveX: -5
+  moveY: +5
+  moveRot: 10
   suffix: -arm1o
   progress: warmup
   weaponIndex: 0
