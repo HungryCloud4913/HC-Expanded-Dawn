@@ -162,7 +162,6 @@ weapons: [{
        followParent: true
       }
       ]
-    }
   }
 parts: [
   {
@@ -213,5 +212,4 @@ parts: [
   weaponIndex: 0
   layerOffset: -0.001
     }
-]
 ]
