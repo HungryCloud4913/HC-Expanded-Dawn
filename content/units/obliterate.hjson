@@ -1,6 +1,6 @@
 type: flying
 health: 500300
-hitSize: 100
+hitSize: 110
 flying: true
 speed: 0.3
 accel: 0.05
@@ -62,7 +62,7 @@ parts: [
   under: false
   moveX: -27
   moveY: +5
-  moveRot: 28
+  moveRot: 40
   suffix: -arm2o
   progress: warmup
   weaponIndex: 0
@@ -74,7 +74,7 @@ parts: [
   under: false
   moveX: -27
   moveY: +5
-  moveRot: 20
+  moveRot: 35
   suffix: -arm3o
   progress: warmup
   weaponIndex: 0
@@ -86,7 +86,7 @@ parts: [
   under: false
   moveX: -27
   moveY: +5
-  moveRot: 17
+  moveRot: 30
   suffix: -arm4o
   progress: warmup
   weaponIndex: 0
