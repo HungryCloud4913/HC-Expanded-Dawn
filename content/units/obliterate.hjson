@@ -109,7 +109,7 @@ weapons: [{
             bullet: {
                 type: SolidBulletType
                 damage: 12000
-                recoil: 1
+                recoil: 0.5
                 homing: false
                 speed: 4
                 sprite: large-bomb
