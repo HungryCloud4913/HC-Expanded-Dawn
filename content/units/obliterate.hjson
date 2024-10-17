@@ -44,6 +44,55 @@ faceTarget: true
 		  }
 		]
 weapons: [{
+parts: [{
+  type: RegionPart
+  mirror: true
+  under: false
+  moveX: -27
+  moveY: +5
+  moveRot: 45
+  suffix: -arm1o
+  progress: warmup
+  weaponIndex: 0
+  layerOffset: -0.001
+    }
+  {
+  type: RegionPart
+  mirror: true
+  under: false
+  moveX: -22.5
+  moveY: +2.5
+  moveRot: 40
+  suffix: -arm2o
+  progress: warmup
+  weaponIndex: 0
+  layerOffset: -0.001
+    }
+  {
+  type: RegionPart
+  mirror: true
+  under: false
+  moveX: -19
+  moveY: -5
+  moveRot: 35
+  suffix: -arm3o
+  progress: warmup
+  weaponIndex: 0
+  layerOffset: -0.001
+    }
+  {
+  type: RegionPart
+  mirror: true
+  under: false
+  moveX: -21
+  moveY: -11
+  moveRot: 30
+  suffix: -arm4o
+  progress: warmup
+  weaponIndex: 0
+  layerOffset: -0.001
+    }	
+]
                 name: obliterate-energy
                 mirror: false
                 layerOffset: -1
@@ -169,55 +218,5 @@ weapons: [{
       ]
   }
 }
-parts: [
-  {
-  type: RegionPart
-  mirror: true
-  under: false
-  moveX: -27
-  moveY: +5
-  moveRot: 45
-  name: HC-Expanded-Dawn-obliterate-arm1o
-  progress: warmup
-  weaponIndex: 0
-  layerOffset: -0.001
-    }
-  {
-  type: RegionPart
-  mirror: true
-  under: false
-  moveX: -22.5
-  moveY: +2.5
-  moveRot: 40
-  name: HC-Expanded-Dawn-obliterate-arm2o
-  progress: warmup
-  weaponIndex: 0
-  layerOffset: -0.001
-    }
-  {
-  type: RegionPart
-  mirror: true
-  under: false
-  moveX: -19
-  moveY: -5
-  moveRot: 35
-  name: HC-Expanded-Dawn-obliterate-arm3o
-  progress: warmup
-  weaponIndex: 0
-  layerOffset: -0.001
-    }
-  {
-  type: RegionPart
-  mirror: true
-  under: false
-  moveX: -21
-  moveY: -11
-  moveRot: 30
-  name: HC-Expanded-Dawn-obliterate-arm4o
-  progress: warmup
-  weaponIndex: 0
-  layerOffset: -0.001
-    }	
-]
 }
 ]
