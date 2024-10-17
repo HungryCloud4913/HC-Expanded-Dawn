@@ -85,7 +85,9 @@ weapons: [{
 		hitEffect: blastExplosion
         trailLength: 10
         trailColor: D7BDFF
-      shootEffect: [
+      shootEffect: {
+	type: MultiEffect
+	effects: [
      {
       type: ParticleEffect
       particles: 8
@@ -124,7 +126,10 @@ weapons: [{
        followParent: true
       }
       ]
-      hitEffect: [
+	}
+      hitEffect:{
+	type: MultiEffect
+	effects: [
      {
       type: ParticleEffect
       particles: 8
@@ -163,6 +168,7 @@ weapons: [{
       }
       ]
   }
+}
 parts: [
   {
   type: RegionPart
