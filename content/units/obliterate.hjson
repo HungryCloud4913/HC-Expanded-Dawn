@@ -64,7 +64,7 @@ weapons: [{
             shootEffect: none
             shootY: +50
             bullet: {
-                type: SolidBulletType
+                type: BasicBulletType
                 damage: 12000
                 recoil: 0.5
                 homing: false
@@ -211,5 +211,7 @@ parts: [
   progress: warmup
   weaponIndex: 0
   layerOffset: -0.001
-    }
+    }	
+]
+}
 ]
