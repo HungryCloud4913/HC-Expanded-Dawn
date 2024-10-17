@@ -1,0 +1,101 @@
+type: flying
+health: 500300
+hitSize: 100
+flying: true
+speed: 0.3
+accel: 0.05
+drag: 0.01
+armor: 52
+rotateSpeed: 0.67
+outlineColor: 2D2F39
+targetair: true
+faceTarget: true
+        engineOffset: 0
+        engineColor: D7BDFF
+        engineColorInner: FFFFFF
+		engines: [
+		  {
+			x: -27
+			y: -22
+			radius: 5
+			rotation: -180
+		        trailLength: 10
+		  }
+		  {
+			x: +27
+			y: -22
+			radius: 5
+			rotation: 0
+		        trailLength: 10
+		  }
+		  {
+			x: -30
+			y: -35
+			radius: 5
+			rotation: -180
+		        trailLength: 10
+		  }
+		  {
+			x: +30
+			y: -35
+			radius: 5
+			rotation: 0
+		        trailLength: 10
+		  }
+		]
+parts: [
+  {
+  type: RegionPart
+  mirror: true
+  under: false
+  moveX: 5
+  suffix: -arm1
+  progress: warmup
+  weaponIndex: 0
+  layerOffset: -0.001
+    }
+]
+weapons: [{
+                name: obliterate-energy
+                mirror: false
+                layerOffset: -1
+                top: false
+                alternate: false
+                rotate: false
+		rotateSpeed: 0
+                x: 0
+                y: 0
+                reload: 250
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 10
+            shootSound: largeExplosion
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 12000
+                recoil: 1
+                homing: false
+                speed: 5
+                sprite: large-bomb
+                lifetime: 100
+                knockback: 0
+                backColor: D7BDFF
+                frontColor: D7BDFF
+                mixColorFrom: D7BDFF
+                mixColorTo: D7BDFF
+                width: 100
+                height: 100
+		fragOnHit: true
+		fragBullets: 230
+		splashDamageRadius: 110
+		splashDamage: 3200
+		hitEffect: blastExplosion
+        trailLength: 10
+        trailColor: D7BDFF
+               }
+}
+]
