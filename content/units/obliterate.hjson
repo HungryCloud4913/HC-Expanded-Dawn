@@ -171,7 +171,7 @@ parts: [
   moveX: -27
   moveY: +5
   moveRot: 45
-  suffix: -arm1o
+  name: HC-Expanded-Dawn-obliterate-arm1o
   progress: warmup
   weaponIndex: 0
   layerOffset: -0.001
@@ -183,7 +183,7 @@ parts: [
   moveX: -22.5
   moveY: +2.5
   moveRot: 40
-  suffix: -arm2o
+  name: HC-Expanded-Dawn-obliterate-arm2o
   progress: warmup
   weaponIndex: 0
   layerOffset: -0.001
@@ -195,7 +195,7 @@ parts: [
   moveX: -19
   moveY: -5
   moveRot: 35
-  suffix: -arm3o
+  name: HC-Expanded-Dawn-obliterate-arm3o
   progress: warmup
   weaponIndex: 0
   layerOffset: -0.001
@@ -207,7 +207,7 @@ parts: [
   moveX: -21
   moveY: -11
   moveRot: 30
-  suffix: -arm4o
+  name: HC-Expanded-Dawn-obliterate-arm4o
   progress: warmup
   weaponIndex: 0
   layerOffset: -0.001
