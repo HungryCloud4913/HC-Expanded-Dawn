@@ -48,7 +48,7 @@ parts: [
   type: RegionPart
   mirror: true
   under: false
-  moveX: 5
+  moveX: 10
   suffix: -arm1
   progress: warmup
   weaponIndex: 0
@@ -71,8 +71,8 @@ weapons: [{
                     shotDelay: 0
             }
             inaccuracy: 0
-            recoil: 10
-            shootSound: largeExplosion
+            recoil: 0
+            shootSound: laserBlast
             shootEffect: none
             bullet: {
                 type: SolidBulletType
@@ -96,6 +96,100 @@ weapons: [{
 		hitEffect: blastExplosion
         trailLength: 10
         trailColor: D7BDFF
-               }
+      shootEffect: [
+     {
+      type: ParticleEffect
+      particles: 8
+      length: 60
+      lifetime: 50
+      interp: pow5Out
+      sizeInterp: pow3In
+      cone: 30
+      offset: 20
+      lightColor: D7BDFF
+      colorFrom: ffffff
+      colorTo: D7BDFF00
+      sizeFrom: 9
+      sizeTo: 0
+      }
+      {
+       type: WaveEffect
+       lifetime: 30
+       sizeFrom: 0
+       sizeTo: 70
+       strokeFrom: 8
+       strokeTo: 0
+       colorFrom: ffffff
+       colorTo: D7BDFF00
+       followParent: true
+      }
+      {
+       type: WaveEffect
+       lifetime: 30
+       sizeFrom: 0
+       sizeTo: 100
+       strokeFrom: 8
+       strokeTo: 0
+       colorFrom: ffffff
+       colorTo: D7BDFF00
+       followParent: true
+      }
+      ]
+                speed: 10
+                drag: -0.1
+                sprite: large-bomb
+                lifetime: 25
+                knockback: 0
+                backColor: D7BDFF
+                frontColor: ffffff
+                mixColorFrom: D7BDFF
+                mixColorTo: D7BDFF
+                width: 30
+                height: 70
+                trailLength: 18
+                trailWidth: 3
+		fragOnHit: true
+		fragBullets: 110
+		splashDamageRadius: 90
+		splashDamage: 510
+      hitEffect: [
+     {
+      type: ParticleEffect
+      particles: 8
+      length: 60
+      lifetime: 50
+      interp: pow5Out
+      sizeInterp: pow3In
+      offset: 20
+      lightColor: D7BDFF
+      colorFrom: ffffff
+      colorTo: D7BDFF00
+      sizeFrom: 4
+      sizeTo: 0
+      }
+      {
+       type: WaveEffect
+       lifetime: 30
+       sizeFrom: 0
+       sizeTo: 70
+       strokeFrom: 8
+       strokeTo: 0
+       colorFrom: ffffff
+       colorTo: D7BDFF00
+       followParent: true
+      }
+      {
+       type: WaveEffect
+       lifetime: 30
+       sizeFrom: 0
+       sizeTo: 100
+       strokeFrom: 8
+       strokeTo: 0
+       colorFrom: ffffff
+       colorTo: D7BDFF00
+       followParent: true
+      }
+      ]
+    }
 }
 ]
