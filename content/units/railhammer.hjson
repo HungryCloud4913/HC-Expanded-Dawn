@@ -148,6 +148,8 @@ effects:[shootBigColor,
 			pierceBuilding: true
 			pierceCap: 6
 			trailInterp: pow2In
+                        despawnEffect: hitBulletColor
+                        hitColor: D7BDFF
 			}
 		fragBullet: {
 			type: BasicBulletType
@@ -169,6 +171,8 @@ effects:[shootBigColor,
 			pierceBuilding: true
 			pierceCap: 6
 			trailInterp: pow2In
+                        despawnEffect: hitBulletColor
+                        hitColor: D7BDFF
 			}
 		splashDamageRadius: 90
 		splashDamage: 510
