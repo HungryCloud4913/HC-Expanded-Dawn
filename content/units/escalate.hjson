@@ -13,6 +13,7 @@ faceTarget: true
         engineOffset: 7
         engineColor: D7BDFF
         engineColorInner: FFFFFF
+lowAltitude: true
 		engines: [
 		  {
 			x: -10
@@ -55,7 +56,7 @@ weapons: [{
             shootSound: malignShoot
             shootEffect: none
             bullet: {
-                type: SolidBulletType
+                type: BasicBulletType
                 damage: 200
                 homing: false
                 speed: 7
@@ -64,15 +65,52 @@ weapons: [{
                 knockback: -1
                 backColor: D7BDFF
                 frontColor: D7BDFF
-                mixColorFrom: D7BDFF
-                mixColorTo: D7BDFF
                 width: 30
                 height: 40
 		fragOnHit: true
 		fragBullets: 50
+		fragBullet: {
+			type: BasicBulletType
+			speed: 5
+			damage: 13
+			hitEffect: {
+				type: WrapEffect
+				effect: dynamicSpikes
+				rot: 12
+				}
+			splashDamage: 7
+			splashDamageRadius: 12
+			weaveMag: 5
+			weaveScl: 10
+			lifetime: 25
+			trailWidth: 2.1
+			width: 12
+			height: 12
+			shrinkX: 0.05
+			shrinkY: 0.05
+			sprite: large-bomb
+			despawnEffect: none
+			despawnHit: true
+			trailInterval: 3
+			trailEffect: {
+				type: ParticleEffect
+				particles: 10
+				sizeFrom: 4
+				sizeTo: 0
+				colorFrom: D7BDFF
+				colorTo: D7BDFFaa
+				interp: circleOut
+				sizeInterp: pow5In
+				}
+			backColor: D7BDFF
+			frontColor: D7BDFF
+			}
 		splashDamageRadius: 30
 		splashDamage: 100
 		hitEffect: blastExplosion
+		shootEffect: shootBigColor
+		smokeEffect: shootSmokeDisperse
+		hitColor: D7BDFF
         trailLength: 7
         trailColor: D7BDFF
                }
