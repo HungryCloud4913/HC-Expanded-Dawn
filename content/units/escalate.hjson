@@ -99,8 +99,9 @@ weapons: [{
 				sizeTo: 0
 				colorFrom: D7BDFF
 				colorTo: D7BDFFaa
-				interp: circleOut
+				interp: linear
 				sizeInterp: pow5In
+				length: 8
 				}
 			backColor: D7BDFF
 			frontColor: D7BDFF
