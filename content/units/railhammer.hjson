@@ -210,7 +210,7 @@ weapons: [{
                }
 }
 {
-        name: railhammer-point
+        name: lycor-point
         type: PointDefenseWeapon
         mirror: true
         top: true
@@ -233,7 +233,7 @@ weapons: [{
       }
 }
 {
-        name: railhammer-point
+        name: lycor-point
         type: PointDefenseWeapon
         mirror: true
         top: true
@@ -256,7 +256,7 @@ weapons: [{
       }
 }
 {
-        name: railhammer-point
+        name: lycor-point
         type: PointDefenseWeapon
         mirror: true
         top: true
