@@ -68,7 +68,7 @@ weapons: [{
                 width: 30
                 height: 40
 		fragOnHit: true
-		fragBullets: 50
+		fragBullets: 15
 		fragBullet: {
 			type: BasicBulletType
 			speed: 5
