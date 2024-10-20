@@ -10,6 +10,7 @@ rotateSpeed: 5
 outlineColor: 2D2F39
 targetair: true
 faceTarget: true
+lowAltitude: true
         engineOffset: 0
         engineColor: D7BDFF
         engineColorInner: FFFFFF
@@ -47,9 +48,8 @@ weapons: [{
             inaccuracy: 0.7
             recoil: 5
             shootSound: plasmaboom
-            shootEffect: none
             bullet: {
-                type: SolidBulletType
+                type: BasicBulletType
                 damage: 160
                 recoil: 1.5
                 homing: false
@@ -58,6 +58,8 @@ weapons: [{
                 lifetime: 55
                 knockback: -1
                 backColor: D7BDFF
+		shootEffect: shootSmallColor
+		smokeEffect: shootSmokeTitan
                 frontColor: D7BDFF
                 mixColorFrom: D7BDFF
                 mixColorTo: D7BDFF
@@ -69,6 +71,7 @@ weapons: [{
 		splashDamage: 0
 		hitEffect: blastExplosion
         trailLength: 7
+	trailWidth: 1.9
         trailColor: D7BDFF
                }
 }
