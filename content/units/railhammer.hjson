@@ -10,6 +10,7 @@ rotateSpeed: 0.75
 outlineColor: 2D2F39
 targetair: true
 faceTarget: true
+lowAltitude: true
         engineOffset: 0
         engineColor: D7BDFF
         engineColorInner: FFFFFF
@@ -68,8 +69,9 @@ weapons: [{
                 shrinkY: 0
                 shrinkX: 0
                 recoil: 0.7
-                homing: false
-      shootEffect: [
+      shootEffect:{
+type: MultiEffect
+effects:[shootBigColor,
      {
       type: ParticleEffect
       particles: 8
@@ -108,6 +110,7 @@ weapons: [{
        followParent: true
       }
       ]
+	}
                 speed: 10
                 drag: -0.1
                 sprite: large-bomb
@@ -115,17 +118,63 @@ weapons: [{
                 knockback: 0
                 backColor: D7BDFF
                 frontColor: ffffff
-                mixColorFrom: D7BDFF
-                mixColorTo: D7BDFF
                 width: 30
                 height: 70
                 trailLength: 18
-                trailWidth: 3
+                trailWidth: 4
 		fragOnHit: true
-		fragBullets: 110
+		fragBullets: 12
+		intervalBullets: 3
+		bulletInterval: 3
+		fragLifeMin: 0.95
+		fragLifeMax: 1
+		intervalBullet: {
+			type: BasicBulletType
+			speed: 4
+			damage: 12
+			lifetime: 40
+			weaveMag: 16
+			weaveScl: 16
+			splashDamage: 13
+			trailLength: 12
+			trailWidth: 1.9
+			height: 12
+			width: 10
+			backColor: D7BDFF
+			frontColor: ffffff
+			trailColor: D7BDFF	
+			hitEffect: hitBulletColor
+			pierce: true
+			pierceBuilding: true
+			pierceCap: 6
+			trailInterp: pow2In
+			}
+		fragBullet: {
+			type: BasicBulletType
+			speed: 4
+			damage: 12
+			lifetime: 40
+			weaveMag: 16
+			weaveScl: 16
+			splashDamage: 13
+			trailLength: 12
+			trailWidth: 1.9
+			height: 12
+			width: 10
+			backColor: D7BDFF
+			frontColor: ffffff
+			trailColor: D7BDFF	
+			hitEffect: hitBulletColor
+			pierce: true
+			pierceBuilding: true
+			pierceCap: 6
+			trailInterp: pow2In
+			}
 		splashDamageRadius: 90
 		splashDamage: 510
-      hitEffect: [
+      hitEffect:{
+	type: MultiEffect
+	effects: [
      {
       type: ParticleEffect
       particles: 8
@@ -163,6 +212,21 @@ weapons: [{
        followParent: true
       }
       ]
+	}
+	trailInterval: 3
+	trailEffect: {
+		type: ParticleEffect
+		length: 40
+		colorTo: D7BDFF33
+		line: true
+		lenFrom: 12
+		lenTo: 0
+		strokeFrom: 12
+		strokeTo: 12
+		lifetime: 30
+		spin: 4
+		sizeInterp: pow5In
+		}
         trailLength: 10
         trailColor: D7BDFF
                }
@@ -194,8 +258,7 @@ weapons: [{
                 knockback: 0
                 backColor: D7BDFF
                 frontColor: D7BDFF
-                mixColorFrom: D7BDFF
-                mixColorTo: D7BDFF
+		trailColor: D7BDFF
                 width: 4
                 height: 5
 		fragOnHit: true
