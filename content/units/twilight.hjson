@@ -47,15 +47,14 @@ weapons: [{
 name: twilight-bombard
 shootY: 0
 top: true
-reload: 300
+reload: 290
 shoot: {
   type: ShootBarrel
   barrels: [
-      37, 32, -45,
-      39, 24, -45
+      20, 10, -30,
       ]
-  shots: 8
-  shotDelay: 2
+  shots: 12
+  shotDelay: 4
     }
 rotate: false
 shootSound: missileLarge
@@ -74,7 +73,7 @@ bullet: {
               }
     smokeEffect: shootBigSmoke2
         }
-x: +40
+x: +50
 y: -6
 }
 {
