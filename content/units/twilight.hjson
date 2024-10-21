@@ -76,7 +76,7 @@ whenShooting: false
 radius: 140
 drawArc: true
 x: 0
-y: -110
+y: -117
 region: hc-expanded-dawn-twilight-shield
   }
 ]
