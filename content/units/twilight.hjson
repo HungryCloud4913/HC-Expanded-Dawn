@@ -28,6 +28,20 @@ faceTarget: true
 			rotation: +90
 		        trailLength: 10
 		  }
+                  {
+			x: -10
+			y: -31
+			radius: 5
+			rotation: +90
+		        trailLength: 10
+		  }
+		  {
+			x: +10
+			y: -31
+			radius: 5
+			rotation: +90
+		        trailLength: 10
+		  }
 		  {
 			x: -48
 			y: -27
@@ -51,7 +65,7 @@ reload: 290
 shoot: {
   type: ShootBarrel
   barrels: [
-      2, 7, -16,
+      2, 1, -16,
       ]
   shots: 16
   shotDelay: 5
