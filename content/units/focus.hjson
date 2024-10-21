@@ -29,7 +29,35 @@ faceTarget: true
 		        trailLength: 10
 		  }
 		]
-weapons: [{
+weapons: [
+  {
+    alwaysShooting: true
+    alwaysContinuous: true
+    alternate: false
+    shootY: 0
+    recoil: 0
+    y: -9
+    x: -10
+    shootSound: none
+    bullet: {
+      type: BulletType
+      keepVelocity: false
+      speed: 0
+      collides: false
+      hittable: false
+      absorbable: false
+      shootEffect: none
+      smokeEffect: none
+      hitEffect: none
+      despawnEffect: none
+      layer: 101
+      trailLength: 10
+      trailWidth: 8
+      trailColor: 82AFFF
+      lightOpacity: 0
+    }
+}
+{
                 name: pester-cannon-blue
                 mirror: true
                 top: true
