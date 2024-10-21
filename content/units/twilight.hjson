@@ -15,29 +15,29 @@ faceTarget: true
         engineColorInner: FFFFFF
 		engines: [
 		  {
-			x: -18
-			y: -39
+			x: -17
+			y: -33
 			radius: 5
 			rotation: +90
 		        trailLength: 10
 		  }
 		  {
-			x: +18
-			y: -39
+			x: +17
+			y: -33
 			radius: 5
 			rotation: +90
 		        trailLength: 10
 		  }
 		  {
 			x: -48
-			y: -31
+			y: -27
 			radius: 5
 			rotation: +90
 		        trailLength: 10
 		  }
 		  {
 			x: +48
-			y: -31
+			y: -27
 			radius: 5
 			rotation: +90
 		        trailLength: 10
@@ -51,7 +51,7 @@ reload: 290
 shoot: {
   type: ShootBarrel
   barrels: [
-      7, 7, -16,
+      2, 7, -16,
       ]
   shots: 16
   shotDelay: 5
