@@ -119,12 +119,3 @@ bullet: {
 x: 0
 y: 0
 }
-{
-reload: 300
-shootY: 47
-shootSound: pulseBlast
-x: 0
-y: 0
-mirror: false
-rotate: false
-shootCone: 5
