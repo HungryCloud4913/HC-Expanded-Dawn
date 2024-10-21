@@ -14,6 +14,13 @@ faceTarget: true
         engineColor: D7BDFF
         engineColorInner: FFFFFF
 		engines: [
+          {
+			x: 0
+			y: -31
+			radius: 8
+			rotation: +90
+		        trailLength: 10
+		  }
 		  {
 			x: -17
 			y: -33
