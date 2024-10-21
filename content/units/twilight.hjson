@@ -69,11 +69,12 @@ abilities: [
 {
 type: ShieldArcAbility
 regen: 2
-max: 1200
+max: 700
 cooldown: 600
-angleOffset: 18
+angleOffset: 0
 whenShooting: false
 drawArc: true
+region: HC-expanded-dawn-twilight-shield
   }
 ]
 weapons: [{
