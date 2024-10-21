@@ -1,0 +1,130 @@
+type: flying
+health: 430250
+hitSize: 130
+flying: true
+speed: 0.4
+accel: 0.05
+drag: 0.01
+armor: 45
+rotateSpeed: 0.55
+outlineColor: 2D2F39
+targetair: true
+faceTarget: true
+        engineOffset: 0
+        engineColor: D7BDFF
+        engineColorInner: FFFFFF
+		engines: [
+		  {
+			x: -27
+			y: -22
+			radius: 5
+			rotation: -180
+		        trailLength: 10
+		  }
+		  {
+			x: +27
+			y: -22
+			radius: 5
+			rotation: 0
+		        trailLength: 10
+		  }
+		  {
+			x: -30
+			y: -35
+			radius: 5
+			rotation: -180
+		        trailLength: 10
+		  }
+		  {
+			x: +30
+			y: -35
+			radius: 5
+			rotation: 0
+		        trailLength: 10
+		  }
+		]
+weapons: [{
+                name: twilight-railgun
+                mirror: false
+                layerOffset: -1
+                top: false
+                alternate: false
+                rotate: false
+		rotateSpeed: 0
+                x: 0
+                y: 0
+                reload: 250
+                shoot: {
+                    shots: 2
+                    shotDelay: 1
+            }
+            inaccuracy: 0
+            recoil: 10
+            shootSound: largeExplosion
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 735
+                recoil: 0.7
+                homing: false
+                speed: 10
+                sprite: large-bomb
+                lifetime: 80
+                knockback: 0
+                backColor: D7BDFF
+                frontColor: D7BDFF
+                mixColorFrom: D7BDFF
+                mixColorTo: D7BDFF
+                width: 70
+                height: 70
+		fragOnHit: true
+		fragBullets: 110
+		splashDamageRadius: 80
+		splashDamage: 430
+		hitEffect: blastExplosion
+        trailLength: 10
+        trailColor: D7BDFF
+               }
+}
+{
+name: twilight-bombard
+shootY: 0
+layerOffset: -5
+reload: 60
+shoot: {
+  type: ShootBarrel
+  barrels: [
+      37, 32, -45,
+      39, 24, -45
+      ]
+  shots: 2
+    }
+rotate: false
+shootSound: missileLarge
+shootCone: 120
+bullet: {
+  spawnUnit: twilight-missile
+  shootEffect: {
+      type: MultiEffect
+      effects: [shootBigColor,{
+            type: WaveEffect
+            sizeTo: 20
+            colorTo: D7BDFF
+            lifetime: 10
+              }
+        ]
+              }
+    smokeEffect: shootBigSmoke2
+        }
+x: 0
+y: 0
+}
+{
+reload: 300
+shootY: 47
+shootSound: pulseBlast
+x: 0
+y: 0
+mirror: false
+rotate: false
+shootCone: 5
