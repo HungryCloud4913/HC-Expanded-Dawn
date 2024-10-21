@@ -13,6 +13,7 @@ faceTarget: true
         engineOffset: 0
         engineColor: D7BDFF
         engineColorInner: FFFFFF
+lowAltitude: true
 		engines: [
           {
 			x: 0
