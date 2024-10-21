@@ -82,7 +82,6 @@ weapons: [{
         trailLength: 10
         trailColor: D7BDFF
                }
-}
 {
 name: twilight-bombard
 shootY: 0
