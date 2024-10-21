@@ -36,7 +36,7 @@ weapons: [
     alternate: false
     shootY: 0
     recoil: 0
-    y: -80
+    y: -83
     x: -12
     shootSound: none
     bullet: {
