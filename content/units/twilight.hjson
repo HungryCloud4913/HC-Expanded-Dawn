@@ -73,7 +73,12 @@ reload: 290
 shoot: {
   type: ShootBarrel
   barrels: [
-      2, 1, -16,
+      5, -2, -16,
+      5, -1, -16,
+      5, 0, -16,
+      5, 1, -16,
+      5, 2, -16,
+      5, 3, -16,
       ]
   shots: 16
   shotDelay: 5
