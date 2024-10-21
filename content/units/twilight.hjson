@@ -73,7 +73,7 @@ max: 1200
 cooldown: 600
 angleOffset: 18
 whenShooting: false
-drawArc: false
+drawArc: true
   }
 ]
 weapons: [{
