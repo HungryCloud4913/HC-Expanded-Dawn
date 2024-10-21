@@ -73,9 +73,10 @@ max: 700
 cooldown: 600
 angleOffset: 0
 whenShooting: false
+radius: 150
 drawArc: true
 x: 0
-y: -10
+y: -15
 region: hc-expanded-dawn-twilight-shield
   }
 ]
