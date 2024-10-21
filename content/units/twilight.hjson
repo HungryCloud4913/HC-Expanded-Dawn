@@ -1,11 +1,11 @@
 type: flying
-health: 430250
+health: 230100
 hitSize: 90
 flying: true
 speed: 0.4
 accel: 0.05
 drag: 0.01
-armor: 45
+armor: 40
 rotateSpeed: 0.55
 outlineColor: 2D2F39
 targetair: true
@@ -109,7 +109,7 @@ y: -6
                 mixColorFrom: BDD5FF
                 mixColorTo: 7781DE
                 damage: 700
-		length: 1200
+		length: 825
 		reflectable: false
                }
         trailLength: 10
