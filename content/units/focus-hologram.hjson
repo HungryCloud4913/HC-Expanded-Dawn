@@ -36,7 +36,7 @@ weapons: [
     alternate: false
     shootY: 0
     recoil: 0
-    y: -83
+    y: -80
     x: -12
     shootSound: none
     bullet: {
@@ -51,7 +51,7 @@ weapons: [
       hitEffect: none
       despawnEffect: none
       layer: 101
-      trailLength: 10
+      trailLength: 15
       trailWidth: 8
       trailColor: D1EFFF
       lightOpacity: 0
