@@ -65,6 +65,17 @@ lowAltitude: true
 		        trailLength: 10
 		  }
 		]
+abilities: [
+{
+type: ShieldArcAbility
+regen: 2
+max: 1200
+cooldown: 600
+angleOffset: 18
+whenShooting: false
+drawArc: false
+  }
+]
 weapons: [{
 name: twilight-bombard
 shootY: 0
