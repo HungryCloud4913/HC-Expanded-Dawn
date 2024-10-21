@@ -136,7 +136,7 @@ weapons: [{
       smokeEffect: none
       hitEffect: none
       despawnEffect: none
-      layer: 101
+      layer: 89.9
       trailLength: 10
       trailWidth: 8
       trailColor: D7BDFF
@@ -164,7 +164,7 @@ weapons: [{
       smokeEffect: none
       hitEffect: none
       despawnEffect: none
-      layer: 101
+      layer: 89.9
       trailLength: 10
       trailWidth: 8
       trailColor: D7BDFF
