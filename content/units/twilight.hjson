@@ -1,6 +1,6 @@
 type: flying
 health: 430250
-hitSize: 96
+hitSize: 90
 flying: true
 speed: 0.4
 accel: 0.05
@@ -51,7 +51,7 @@ reload: 290
 shoot: {
   type: ShootBarrel
   barrels: [
-      15, 7, -27,
+      10, 7, -22,
       ]
   shots: 16
   shotDelay: 5
