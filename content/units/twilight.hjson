@@ -51,7 +51,7 @@ reload: 290
 shoot: {
   type: ShootBarrel
   barrels: [
-      20, 10, -30,
+      15, 7, -27,
       ]
   shots: 12
   shotDelay: 4
@@ -82,7 +82,7 @@ y: -6
                 top: true
                 alternate: true
                 rotate: true
-		rotateSpeed: 0.6
+		rotateSpeed: 0.57
                 rotationLimit: 95
                 x: +23
                 y: -12
