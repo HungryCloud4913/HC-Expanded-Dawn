@@ -74,7 +74,7 @@ cooldown: 600
 angleOffset: 0
 whenShooting: false
 drawArc: true
-region: twilight-shield
+region: HC-Expanded-Dawn-twilight-shield
   }
 ]
 weapons: [{
