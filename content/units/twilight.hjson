@@ -53,8 +53,8 @@ shoot: {
   barrels: [
       15, 7, -27,
       ]
-  shots: 12
-  shotDelay: 4
+  shots: 16
+  shotDelay: 5
     }
 rotate: false
 shootSound: missileLarge
