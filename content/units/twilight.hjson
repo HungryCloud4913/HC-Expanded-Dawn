@@ -1,6 +1,6 @@
 type: flying
 health: 430250
-hitSize: 130
+hitSize: 96
 flying: true
 speed: 0.4
 accel: 0.05
@@ -16,30 +16,30 @@ faceTarget: true
 		engines: [
 		  {
 			x: -27
-			y: -22
+			y: -50
 			radius: 5
-			rotation: -180
+			rotation: +90
 		        trailLength: 10
 		  }
 		  {
 			x: +27
-			y: -22
+			y: -50
 			radius: 5
-			rotation: 0
+			rotation: +90
 		        trailLength: 10
 		  }
 		  {
 			x: -30
-			y: -35
+			y: -60
 			radius: 5
-			rotation: -180
+			rotation: +90
 		        trailLength: 10
 		  }
 		  {
 			x: +30
-			y: -35
+			y: -60
 			radius: 5
-			rotation: 0
+			rotation: +90
 		        trailLength: 10
 		  }
 		]
