@@ -45,18 +45,17 @@ faceTarget: true
 		]
 weapons: [{
                 name: twilight-railgun
-                mirror: false
-                layerOffset: -1
-                top: false
-                alternate: false
-                rotate: false
-		rotateSpeed: 0
-                x: +14
-                y: -10
+                mirror: true
+                top: true
+                alternate: true
+                rotate: true
+		rotateSpeed: 0.6
+                x: +18
+                y: -12
                 reload: 250
                 shoot: {
-                    shots: 2
-                    shotDelay: 1
+                    shots: 1
+                    shotDelay: 0
             }
             inaccuracy: 0
             recoil: 10
@@ -85,15 +84,16 @@ weapons: [{
 {
 name: twilight-bombard
 shootY: 0
-layerOffset: -5
-reload: 60
+top: true
+reload: 300
 shoot: {
   type: ShootBarrel
   barrels: [
       37, 32, -45,
       39, 24, -45
       ]
-  shots: 2
+  shots: 8
+  shotDelay: 2
     }
 rotate: false
 shootSound: missileLarge
