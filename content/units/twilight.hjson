@@ -74,6 +74,8 @@ cooldown: 600
 angleOffset: 0
 whenShooting: false
 drawArc: true
+x: 0
+y: -10
 region: hc-expanded-dawn-twilight-shield
   }
 ]
