@@ -143,32 +143,4 @@ weapons: [{
       lightOpacity: 0
     }
 }
-  {
-    alwaysShooting: true
-    alwaysContinuous: true
-    alternate: false
-    shootY: 0
-    recoil: 0
-    y: -7
-    x: 0
-    mirror: false
-    shootSound: none
-    bullet: {
-      type: BulletType
-      keepVelocity: false
-      speed: 0
-      collides: false
-      hittable: false
-      absorbable: false
-      shootEffect: none
-      smokeEffect: none
-      hitEffect: none
-      despawnEffect: none
-      layer: 89.9
-      trailLength: 10
-      trailWidth: 8
-      trailColor: D7BDFF
-      lightOpacity: 0
-    }
-}
 ]
