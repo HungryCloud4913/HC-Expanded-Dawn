@@ -15,29 +15,29 @@ faceTarget: true
         engineColorInner: FFFFFF
 		engines: [
 		  {
-			x: -27
-			y: -50
+			x: -20
+			y: -45
 			radius: 5
 			rotation: +90
 		        trailLength: 10
 		  }
 		  {
-			x: +27
-			y: -50
+			x: +20
+			y: -45
 			radius: 5
 			rotation: +90
 		        trailLength: 10
 		  }
 		  {
-			x: -30
-			y: -60
+			x: -50
+			y: -37
 			radius: 5
 			rotation: +90
 		        trailLength: 10
 		  }
 		  {
-			x: +30
-			y: -60
+			x: +50
+			y: -37
 			radius: 5
 			rotation: +90
 		        trailLength: 10
