@@ -36,8 +36,8 @@ weapons: [
     alternate: false
     shootY: 0
     recoil: 0
-    y: -75
-    x: 12
+    y: -80
+    x: -12
     shootSound: none
     bullet: {
       type: BulletType
@@ -53,7 +53,7 @@ weapons: [
       layer: 101
       trailLength: 10
       trailWidth: 8
-      trailColor: D7BDFF
+      trailColor: D1EFFF
       lightOpacity: 0
     }
 }
