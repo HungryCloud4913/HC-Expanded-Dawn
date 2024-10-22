@@ -68,7 +68,7 @@ weapons: [
                 length: 160
                 width: 3
                colors: [D7BDFF, D7BDFF, D7BDFF]
-                damage: 21
+                damage: 38
                 homing: false
                }
 }
@@ -113,7 +113,7 @@ weapons: [
                 length: 160
                 width: 3
                colors: [D7BDFF, D7BDFF, D7BDFF]
-                damage: 21
+                damage: 38
                 homing: false
                }
         }
@@ -154,7 +154,7 @@ weapons: [
             shootEffect: none
             bullet: {
                 type: BasicBulletType
-                damage: 45
+                damage: 52
                 homing: false
                 speed: 6
                 lifetime: 30
@@ -170,7 +170,7 @@ weapons: [
 		fragOnHit: true
 		fragBullets: 10
 		splashDamageRadius: 10
-		splashDamage: 15
+		splashDamage: 23
 		hitEffect: blastExplosion
                }
         }
