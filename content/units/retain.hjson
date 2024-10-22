@@ -65,7 +65,7 @@ weapons: [
             bullet: {
                 type: LaserBulletType
                 pierceCap: 1
-                length: 132
+                length: 150
                 width: 3
                colors: [D7BDFF, D7BDFF, D7BDFF]
                 damage: 21
@@ -110,7 +110,7 @@ weapons: [
             bullet: {
                 type: LaserBulletType
                 pierceCap: 1
-                length: 132
+                length: 150
                 width: 3
                colors: [D7BDFF, D7BDFF, D7BDFF]
                 damage: 21
