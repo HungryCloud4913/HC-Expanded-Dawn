@@ -15,13 +15,13 @@ faceTarget: false
 treadRects: [
   {
     x: +20
-    y: +40
+    y: +13
     width: 10
     height: 25
   }
   {
     x: +21
-    y: -20
+    y: -13
     width: 10
     height: 25
   }
