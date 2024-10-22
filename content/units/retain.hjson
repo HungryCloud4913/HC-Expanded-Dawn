@@ -1,6 +1,6 @@
 template: TankUnitType
 type: tank
-health: 620
+health: 3650
 hitSize: 23
 flying: false
 speed: 0.6
