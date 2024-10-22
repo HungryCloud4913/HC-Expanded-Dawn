@@ -59,7 +59,7 @@ weapons: [
   shotDelay: 0
     }
             inaccuracy: 0
-            recoil: 0.1
+            recoil: 0
             shootSound: bolt
             shootEffect: none
             bullet: {
@@ -104,7 +104,7 @@ weapons: [
   shotDelay: 0
     }
             inaccuracy: 0
-            recoil: 0.1
+            recoil: 0
             shootSound: bolt
             shootEffect: none
             bullet: {
@@ -149,7 +149,7 @@ weapons: [
   shotDelay: 0
     }
             inaccuracy: 0
-            recoil: 0.1
+            recoil: 0
             shootSound: bolt
             shootEffect: none
             inaccuracy: 0
