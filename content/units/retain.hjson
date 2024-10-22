@@ -52,7 +52,7 @@ weapons: [
                shoot: {
   type: ShootBarrel
   barrels: [
-      4, +4, 0,
+      -4, +4, 0,
       ]
   firstShotDelay: 0
   shots: 1
@@ -67,13 +67,9 @@ weapons: [
                 pierceCap: 1
                 length: 132
                 width: 3
+               colors: [D7BDFF, D7BDFF, D7BDFF]
                 damage: 21
                 homing: false
-                backColor: D7BDFF
-                frontColor: D7BDFF
-                mixColorFrom: D7BDFF
-                mixColorTo: D7BDFF
-        trailColor: D7BDFF
                }
 }
 {
@@ -101,7 +97,7 @@ weapons: [
                shoot: {
   type: ShootBarrel
   barrels: [
-      -4, +4, 0,
+      +4, +4, 0,
       ]
   firstShotDelay: 20
   shots: 1
@@ -112,20 +108,13 @@ weapons: [
             shootSound: bolt
             shootEffect: none
             bullet: {
-                type: BasicBulletType
+                type: LaserBulletType
+                pierceCap: 1
+                length: 132
+                width: 3
+               colors: [D7BDFF, D7BDFF, D7BDFF]
                 damage: 21
                 homing: false
-                speed: 6
-                lifetime: 21
-                drag: -0.02
-                backColor: D7BDFF
-                frontColor: D7BDFF
-                mixColorFrom: D7BDFF
-                mixColorTo: D7BDFF
-                width: 3
-                height: 6
-        trailLength: 5
-        trailColor: D7BDFF
                }
         }
 {
