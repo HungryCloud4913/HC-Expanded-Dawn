@@ -37,6 +37,7 @@ weapons: [
                 x: 0
                 y: 0
                 reload: 40
+                layerOffset: 1
  parts: [
     {
       type: RegionPart
@@ -88,6 +89,7 @@ weapons: [
                 x: 0
                 y: 0
                 reload: 40
+                layerOffset: 1
  parts: [
     {
       type: RegionPart
@@ -138,7 +140,8 @@ weapons: [
 		rotateSpeed: 1.2
                 x: 0
                 y: 0
-                reload: 40
+                reload: 65
+                layerOffset: 1
  parts: [
     {
       type: RegionPart
@@ -168,7 +171,7 @@ weapons: [
                 damage: 45
                 homing: false
                 speed: 4
-                lifetime: 35
+                lifetime: 43
                 drag: -0.02
                 backColor: D7BDFF
                 frontColor: D7BDFF
