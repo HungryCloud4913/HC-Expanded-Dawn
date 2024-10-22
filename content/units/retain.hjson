@@ -32,10 +32,10 @@ weapons: [{
                 alternate: false
                 top: true
                 rotate: true
-		rotateSpeed: 2
+		rotateSpeed: 1.2
                 x: 0
                 y: 0
-                reload: 35
+                reload: 20
  parts: [
     {
       type: RegionPart
@@ -43,17 +43,9 @@ weapons: [{
       moveY: -3
       moveX: 0
       progress: recoil
-      mirror: false
-      under: false
-}
-    {
-      type: RegionPart
-      suffix: -sidemg2
-      moveY: -3
-      moveX: 0
-      progress: recoil
+      alternate: true
       mirror: true
-      under: false
+      under: true
 }
 ]
                shoot: {
@@ -66,12 +58,12 @@ weapons: [{
   shotDelay: 0
     }
             inaccuracy: 0
-            recoil: 0.5
+            recoil: 0.1
             shootSound: bolt
             shootEffect: none
             bullet: {
                 type: BasicBulletType
-                damage: 12
+                damage: 21
                 homing: false
                 speed: 5
                 lifetime: 17.5
