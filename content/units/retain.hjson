@@ -14,16 +14,16 @@ targetaAir: true
 faceTarget: false
 treadRects: [
   {
-    x: +20
-    y: +13
-    width: 10
-    height: 25
+    x: +8
+    y: +7
+    width: 7
+    height: 21
   }
   {
-    x: +21
-    y: -13
-    width: 10
-    height: 25
+    x: +9
+    y: -7
+    width: 7
+    height: 21
   }
 ]
 weapons: [
