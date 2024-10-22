@@ -161,7 +161,7 @@ weapons: [
                 damage: 52
                 homing: false
                 speed: 6
-                lifetime: 26
+                lifetime: 22
                 drag: -0.02
                 backColor: D7BDFF
                 frontColor: D7BDFF
