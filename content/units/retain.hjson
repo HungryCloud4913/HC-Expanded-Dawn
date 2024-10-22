@@ -92,43 +92,5 @@ weapons: [
                 damage: 38
                 homing: false
                }
-            inaccuracy: 0
-            recoil: 0.1
-            shootSound: bolt
-            shootEffect: none
-            bullet: {
-                type: LaserBulletType
-                pierceCap: 1
-                length: 160
-                width: 3
-               colors: [D7BDFF, D7BDFF, D7BDFF]
-                damage: 38
-                homing: false
-               }
-            inaccuracy: 0
-            recoil: 0.1
-            shootSound: shootAltLong
-            shootEffect: none
-            bullet: {
-                type: BasicBulletType
-                damage: 52
-                homing: false
-                speed: 6
-                lifetime: 30
-                drag: -0.02
-                backColor: D7BDFF
-                frontColor: D7BDFF
-                mixColorFrom: D7BDFF
-                mixColorTo: D7BDFF
-                width: 3
-                height: 6
-        trailLength: 10
-        trailColor: D7BDFF
-		fragOnHit: true
-		fragBullets: 10
-		splashDamageRadius: 10
-		splashDamage: 23
-		hitEffect: blastExplosion
-               }
         }
 ]
