@@ -1,0 +1,64 @@
+template: TankUnitType
+type: tank
+health: 620
+hitSize: 7
+flying: false
+speed: 0.8
+accel: 0.8
+drag: 0.5
+armor: 4
+rotateSpeed: 2.25
+outline: false
+outlineColor: 2D2F39
+targetaAir: true
+faceTarget: false
+treadRects: [
+  {
+    x: 12
+    y: 7
+    width: 9
+    height: 20
+  }
+  {
+    x: 10
+    y: -23
+    width: 9
+    height: 19
+  }
+]
+weapons: [{
+                name: retain-weapon
+                mirror: false
+                alternate: false
+                top: true
+                rotate: true
+		rotateSpeed: 2
+                x: 0
+                y: 0
+                reload: 35
+                shoot: {
+                    shots: 2
+                    shotDelay: 1
+            }
+            inaccuracy: 0
+            recoil: 2
+            shootSound: bolt
+            shootEffect: none
+            bullet: {
+                type: BasicBulletType
+                damage: 12
+                homing: false
+                speed: 5
+                lifetime: 17.5
+                drag: -0.02
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+                width: 3
+                height: 6
+        trailLength: 4
+        trailColor: 7781DE
+               }
+        }
+]
