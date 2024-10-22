@@ -65,7 +65,7 @@ weapons: [{
                 type: BasicBulletType
                 damage: 21
                 homing: false
-                speed: 5
+                speed: 6
                 lifetime: 17.5
                 drag: -0.02
                 backColor: D7BDFF
