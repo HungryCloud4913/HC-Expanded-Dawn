@@ -65,7 +65,7 @@ weapons: [
             bullet: {
                 type: LaserBulletType
                 pierceCap: 1
-                length: 150
+                length: 160
                 width: 3
                colors: [D7BDFF, D7BDFF, D7BDFF]
                 damage: 21
@@ -110,7 +110,7 @@ weapons: [
             bullet: {
                 type: LaserBulletType
                 pierceCap: 1
-                length: 150
+                length: 160
                 width: 3
                colors: [D7BDFF, D7BDFF, D7BDFF]
                 damage: 21
@@ -157,7 +157,7 @@ weapons: [
                 damage: 45
                 homing: false
                 speed: 6
-                lifetime: 25
+                lifetime: 30
                 drag: -0.02
                 backColor: D7BDFF
                 frontColor: D7BDFF
