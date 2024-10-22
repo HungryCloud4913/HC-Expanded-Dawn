@@ -26,7 +26,8 @@ treadRects: [
     height: 20
   }
 ]
-weapons: [{
+weapons: [
+{
                 name: retain-weapon
                 mirror: false
                 alternate: false
@@ -35,7 +36,7 @@ weapons: [{
 		rotateSpeed: 1.2
                 x: 0
                 y: 0
-                reload: 10
+                reload: 40
  parts: [
     {
       type: RegionPart
@@ -76,6 +77,8 @@ weapons: [{
         trailLength: 5
         trailColor: D7BDFF
                }
+}
+{
                 name: retain-weapon
                 mirror: false
                 alternate: false
@@ -84,7 +87,7 @@ weapons: [{
 		rotateSpeed: 1.2
                 x: 0
                 y: 0
-                reload: 10
+                reload: 40
  parts: [
     {
       type: RegionPart
