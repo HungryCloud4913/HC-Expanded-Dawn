@@ -92,8 +92,6 @@ weapons: [
                 damage: 38
                 homing: false
                }
-}
-]
             inaccuracy: 0
             recoil: 0.1
             shootSound: bolt
@@ -107,7 +105,6 @@ weapons: [
                 damage: 38
                 homing: false
                }
-        }
             inaccuracy: 0
             recoil: 0.1
             shootSound: shootAltLong
