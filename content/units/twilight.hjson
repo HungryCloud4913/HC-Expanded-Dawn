@@ -119,7 +119,7 @@ bullet: {
               }
     smokeEffect: shootBigSmoke2
         }
-x: +50
+x: -50
 y: -6
 }
 {
