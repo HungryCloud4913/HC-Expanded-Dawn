@@ -63,19 +63,16 @@ weapons: [
             shootSound: bolt
             shootEffect: none
             bullet: {
-                type: BasicBulletType
+                type: LaserBulletType
+                pierceCap: 1
+                length: 132
+                width: 3
                 damage: 21
                 homing: false
-                speed: 6
-                lifetime: 21
-                drag: -0.02
                 backColor: D7BDFF
                 frontColor: D7BDFF
                 mixColorFrom: D7BDFF
                 mixColorTo: D7BDFF
-                width: 3
-                height: 6
-        trailLength: 5
         trailColor: D7BDFF
                }
 }
