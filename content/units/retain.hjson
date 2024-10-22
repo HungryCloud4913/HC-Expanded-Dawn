@@ -104,7 +104,7 @@ weapons: [
   barrels: [
       -4, +4, 0,
       ]
-  firstShotDelay: 10
+  firstShotDelay: 20
   shots: 1
   shotDelay: 0
     }
@@ -127,6 +127,62 @@ weapons: [
                 height: 6
         trailLength: 5
         trailColor: D7BDFF
+               }
+        }
+{
+                name: retain-weapon
+                mirror: false
+                alternate: false
+                top: true
+                rotate: true
+		rotateSpeed: 1.2
+                x: 0
+                y: 0
+                reload: 40
+ parts: [
+    {
+      type: RegionPart
+      suffix: -middlec
+      moveY: -5
+      moveX: 0
+      progress: recoil
+      mirror: false
+      under: true
+}
+]
+               shoot: {
+  type: ShootBarrel
+  barrels: [
+      0, +5, 0,
+      ]
+  firstShotDelay: 5
+  shots: 1
+  shotDelay: 0
+    }
+            inaccuracy: 0
+            recoil: 0.1
+            shootSound: shootAltLong
+            shootEffect: none
+            bullet: {
+                type: BasicBulletType
+                damage: 45
+                homing: false
+                speed: 4
+                lifetime: 35
+                drag: -0.02
+                backColor: D7BDFF
+                frontColor: D7BDFF
+                mixColorFrom: D7BDFF
+                mixColorTo: D7BDFF
+                width: 3
+                height: 6
+        trailLength: 10
+        trailColor: D7BDFF
+		fragOnHit: true
+		fragBullets: 10
+		splashDamageRadius: 10
+		splashDamage: 15
+		hitEffect: blastExplosion
                }
         }
 ]
