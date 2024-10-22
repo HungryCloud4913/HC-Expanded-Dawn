@@ -14,14 +14,14 @@ targetaAir: true
 faceTarget: false
 treadRects: [
   {
-    x: +15
-    y: +7
+    x: +18
+    y: +14
     width: 4
     height: 21
   }
   {
-    x: +9
-    y: -7
+    x: +18
+    y: -14
     width: 7
     height: 21
   }
