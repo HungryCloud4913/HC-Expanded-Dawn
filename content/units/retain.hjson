@@ -52,7 +52,7 @@ weapons: [
                shoot: {
   type: ShootBarrel
   barrels: [
-      -4, +4, 0,
+      -3.25, +4, 0,
       ]
   firstShotDelay: 0
   shots: 1
@@ -97,7 +97,7 @@ weapons: [
                shoot: {
   type: ShootBarrel
   barrels: [
-      +4, +4, 0,
+      +3.25, +4, 0,
       ]
   firstShotDelay: 20
   shots: 1
