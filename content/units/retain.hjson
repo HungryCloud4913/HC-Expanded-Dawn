@@ -44,6 +44,8 @@ weapons: [{
       moveX: +5
       progress: recoil
       under: true
+}
+]
                 shoot: {
                     shots: 1
                     shotDelay: 0
