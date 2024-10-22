@@ -38,6 +38,7 @@ weapons: [
                 y: 0
                 reload: 40
                 layerOffset: 1
+                recoils: 3
  parts: [
     {
       type: RegionPart
@@ -48,15 +49,35 @@ weapons: [
       mirror: false
       under: true
 }
+    {
+      type: RegionPart
+      suffix: -sidemg2
+      moveY: -3
+      moveX: 0
+      progress: recoil
+      mirror: false
+      under: true
+}
+    {
+      type: RegionPart
+      suffix: -middlec
+      moveY: -5
+      moveX: 0
+      progress: recoil
+      mirror: false
+      under: true
+}
 ]
                shoot: {
   type: ShootBarrel
   barrels: [
       -3.25, +4, 0,
+      0, +5, 0,
+      +3.25, +4, 0,
       ]
   firstShotDelay: 0
-  shots: 1
-  shotDelay: 0
+  shots: 3
+  shotDelay: 20
     }
             inaccuracy: 0
             recoil: 0.1
@@ -72,37 +93,7 @@ weapons: [
                 homing: false
                }
 }
-{
-                name: retain-weapon
-                mirror: false
-                alternate: false
-                top: true
-                rotate: true
-		rotateSpeed: 1.2
-                x: 0
-                y: 0
-                reload: 40
-                layerOffset: 1
- parts: [
-    {
-      type: RegionPart
-      suffix: -sidemg2
-      moveY: -3
-      moveX: 0
-      progress: recoil
-      mirror: false
-      under: true
-}
 ]
-               shoot: {
-  type: ShootBarrel
-  barrels: [
-      +3.25, +4, 0,
-      ]
-  firstShotDelay: 20
-  shots: 1
-  shotDelay: 0
-    }
             inaccuracy: 0
             recoil: 0.1
             shootSound: bolt
@@ -117,37 +108,6 @@ weapons: [
                 homing: false
                }
         }
-{
-                name: retain-weapon
-                mirror: false
-                alternate: false
-                top: true
-                rotate: true
-		rotateSpeed: 1.2
-                x: 0
-                y: 0
-                reload: 65
-                layerOffset: 1
- parts: [
-    {
-      type: RegionPart
-      suffix: -middlec
-      moveY: -5
-      moveX: 0
-      progress: recoil
-      mirror: false
-      under: true
-}
-]
-               shoot: {
-  type: ShootBarrel
-  barrels: [
-      0, +5, 0,
-      ]
-  firstShotDelay: 5
-  shots: 1
-  shotDelay: 0
-    }
             inaccuracy: 0
             recoil: 0.1
             shootSound: shootAltLong
