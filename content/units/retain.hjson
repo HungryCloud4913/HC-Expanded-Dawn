@@ -76,8 +76,6 @@ weapons: [{
         trailLength: 5
         trailColor: D7BDFF
                }
-        }
-weapons: [{
                 name: retain-weapon
                 mirror: false
                 alternate: false
