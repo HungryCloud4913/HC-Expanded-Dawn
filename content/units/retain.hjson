@@ -1,13 +1,13 @@
 template: TankUnitType
 type: tank
 health: 620
-hitSize: 7
+hitSize: 23
 flying: false
 speed: 0.6
 accel: 0.8
 drag: 0.5
 armor: 4
-rotateSpeed: 2.1
+rotateSpeed: 2
 outline: false
 outlineColor: 2D2F39
 targetaAir: true
@@ -55,8 +55,16 @@ weapons: [{
   shots: 1
   shotDelay: 0
     }
+               shoot: {
+  type: ShootBarrel
+  barrels: [
+      -4, +4, 0,
+      ]
+  shots: 1
+  shotDelay: 0
+    }
             inaccuracy: 0
-            recoil: 2
+            recoil: 0.5
             shootSound: bolt
             shootEffect: none
             bullet: {
