@@ -43,13 +43,18 @@ weapons: [{
       moveY: -3
       moveX: 0
       progress: recoil
+      mirror: true
       under: false
 }
 ]
-                shoot: {
-                    shots: 1
-                    shotDelay: 0
-            }
+               shoot: {
+  type: ShootBarrel
+  barrels: [
+      5, +4, +15,
+      ]
+  shots: 1
+  shotDelay: 0
+    }
             inaccuracy: 0
             recoil: 2
             shootSound: bolt
