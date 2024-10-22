@@ -35,7 +35,7 @@ weapons: [{
 		rotateSpeed: 1.2
                 x: 0
                 y: 0
-                reload: 20
+                reload: 10
  parts: [
     {
       type: RegionPart
@@ -43,8 +43,7 @@ weapons: [{
       moveY: -3
       moveX: 0
       progress: recoil
-      alternate: true
-      mirror: true
+      mirror: false
       under: true
 }
 ]
@@ -52,8 +51,8 @@ weapons: [{
   type: ShootBarrel
   barrels: [
       4, +4, 0,
-     -4, +4, 0,
       ]
+  firstShotDelay: 0
   shots: 1
   shotDelay: 0
     }
@@ -66,7 +65,58 @@ weapons: [{
                 damage: 21
                 homing: false
                 speed: 6
-                lifetime: 17.5
+                lifetime: 21
+                drag: -0.02
+                backColor: D7BDFF
+                frontColor: D7BDFF
+                mixColorFrom: D7BDFF
+                mixColorTo: D7BDFF
+                width: 3
+                height: 6
+        trailLength: 5
+        trailColor: D7BDFF
+               }
+        }
+weapons: [{
+                name: retain-weapon
+                mirror: false
+                alternate: false
+                top: true
+                rotate: true
+		rotateSpeed: 1.2
+                x: 0
+                y: 0
+                reload: 10
+ parts: [
+    {
+      type: RegionPart
+      suffix: -sidemg2
+      moveY: -3
+      moveX: 0
+      progress: recoil
+      mirror: false
+      under: true
+}
+]
+               shoot: {
+  type: ShootBarrel
+  barrels: [
+      -4, +4, 0,
+      ]
+  firstShotDelay: 10
+  shots: 1
+  shotDelay: 0
+    }
+            inaccuracy: 0
+            recoil: 0.1
+            shootSound: bolt
+            shootEffect: none
+            bullet: {
+                type: BasicBulletType
+                damage: 21
+                homing: false
+                speed: 6
+                lifetime: 21
                 drag: -0.02
                 backColor: D7BDFF
                 frontColor: D7BDFF
