@@ -126,7 +126,7 @@ weapons: [
 		rotateSpeed: 1.2
                 x: 0
                 y: 0
-                reload: 27
+                reload: 65
                 layerOffset: 1
  parts: [
     {
