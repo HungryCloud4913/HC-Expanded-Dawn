@@ -126,7 +126,7 @@ weapons: [
 		rotateSpeed: 1.2
                 x: 0
                 y: 0
-                reload: 40
+                reload: 27
                 layerOffset: 1
  parts: [
     {
@@ -144,7 +144,7 @@ weapons: [
   barrels: [
       0, +5, 0,
       ]
-  firstShotDelay: 15
+  firstShotDelay: 10
   shots: 1
   shotDelay: 0
     }
