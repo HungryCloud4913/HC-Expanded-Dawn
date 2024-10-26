@@ -81,10 +81,14 @@ top: true
 mirror: false
 alternate: false
 reload: 175
+recoil: 0
 shoot: {
   type: ShootBarrel
   barrels: [
-      5, 5, +45,
+      5, 5, -22.5,
+      0, 7, 0
+      -5, 5, +22.5
+      -7, 0, +45
       ]
   shots: 16
   shotDelay: 2
@@ -98,7 +102,7 @@ bullet: {
       type: MultiEffect
       effects: [shootBigColor,{
             type: WaveEffect
-            sizeTo: 20
+            sizeTo: 10
             colorTo: C44B5E
             lifetime: 10
               }
