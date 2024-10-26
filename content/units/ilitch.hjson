@@ -69,7 +69,7 @@ weapons: [{
   colors: [9E172C,C44B5E,FFB6B6,ffffff]
   damage: 250
   lifetime: 90
-  length: 350
+  length: 450
   width: 13
   largeHit: true
           }
@@ -80,7 +80,7 @@ shootY: 0
 top: true
 mirror: false
 alternate: false
-reload: 330
+reload: 550
 recoil: 0
 shoot: {
   type: ShootBarrel
@@ -124,7 +124,7 @@ shootY: 0
 top: true
 mirror: false
 alternate: false
-reload: 330
+reload: 550
 recoil: 0
 shoot: {
   type: ShootBarrel
@@ -140,7 +140,7 @@ shoot: {
       ]
   shots: 16
   shotDelay: 5
-  firstShotDelay: 5
+  firstShotDelay: 40
     }
 rotate: false
 shootSound: missileSmall
@@ -168,7 +168,7 @@ shootY: 0
 top: true
 mirror: false
 alternate: false
-reload: 330
+reload: 550
 recoil: 0
 shoot: {
   type: ShootBarrel
@@ -184,7 +184,7 @@ shoot: {
       ]
   shots: 16
   shotDelay: 5
-  firstShotDelay: 10
+  firstShotDelay: 80
     }
 rotate: false
 shootSound: missileSmall
