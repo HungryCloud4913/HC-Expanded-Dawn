@@ -89,16 +89,16 @@ shoot: {
       0, 7, 0,
       -5, 5, +22.5,
       -7, 0, +45,
-      5, -5, -67.5,
-      0, 7, +90,
       -5, -5, +67.5,
+      0, 7, +90,
+      5, -5, -67.5,
       +7, 0, -45,
       ]
   shots: 16
   shotDelay: 4
     }
 rotate: false
-shootSound: missileLarge
+shootSound: missileSmall
 shootCone: 120
 bullet: {
   spawnUnit: ilitch-missile
