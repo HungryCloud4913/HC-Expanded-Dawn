@@ -70,10 +70,10 @@ weapons: [{
                 sprite: large-bomb
                 lifetime: 100
                 knockback: 0
-                backColor: 9E172C
-                frontColor: 9E172C
-                mixColorFrom: 9E172C
-                mixColorTo: 9E172C
+                backColor: C6001F
+                frontColor: C6001F
+                mixColorFrom: C6001F
+                mixColorTo: C6001F
                 width: 150
                 height: 150
 		fragOnHit: true
@@ -82,7 +82,7 @@ weapons: [{
 		splashDamage: 750
 		hitEffect: blastExplosion
         trailLength: 15
-        trailColor: 9E172C
+        trailColor: C6001F
           }
      }
 ]
