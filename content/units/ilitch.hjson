@@ -140,7 +140,7 @@ shoot: {
       ]
   shots: 16
   shotDelay: 5
-  firstShotDelay: 40
+  firstShotDelay: 20
     }
 rotate: false
 shootSound: missileSmall
@@ -184,7 +184,7 @@ shoot: {
       ]
   shots: 16
   shotDelay: 5
-  firstShotDelay: 80
+  firstShotDelay: 40
     }
 rotate: false
 shootSound: missileSmall
