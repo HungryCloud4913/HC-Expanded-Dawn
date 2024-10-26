@@ -80,7 +80,7 @@ shootY: 0
 top: true
 mirror: false
 alternate: false
-reload: 175
+reload: 330
 recoil: 0
 shoot: {
   type: ShootBarrel
@@ -124,7 +124,7 @@ shootY: 0
 top: true
 mirror: false
 alternate: false
-reload: 175
+reload: 330
 recoil: 0
 shoot: {
   type: ShootBarrel
@@ -168,7 +168,7 @@ shootY: 0
 top: true
 mirror: false
 alternate: false
-reload: 175
+reload: 330
 recoil: 0
 shoot: {
   type: ShootBarrel
