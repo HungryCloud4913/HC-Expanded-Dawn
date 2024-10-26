@@ -62,7 +62,7 @@ weapons: [{
           }
 type: ExplosionBulletType
 keepVelocity: false
-splashDamage: 80
+splashDamage: 300
 splashDamageRadius: 40
 status: shocked
   }
