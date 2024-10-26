@@ -18,10 +18,10 @@ createScorch: false
 hidden: true
 engineOffset: 1
 engineSize: 2
-engineColor: D7BDFF
+engineColor: C44B5E
 trailLength: 12
 trailScl: 0.9
-trailColor: D7BDFF
+trailColor: C44B5E
 loopSound: missileTrail
 missileAccelTime: 72
 parts: [
