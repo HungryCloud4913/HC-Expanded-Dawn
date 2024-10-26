@@ -1,6 +1,6 @@
 type: flying
 health: 1700500
-hitSize: 110
+hitSize: 120
 flying: true
 speed: 0.4
 accel: 0.05
@@ -51,6 +51,7 @@ weapons: [{
                 rotate: true
 		rotateSpeed: 0.6
                 rotationLimit: 100
+                continuous: true
                 x: +50
                 y: 0
                 reload: 250
@@ -63,24 +64,13 @@ weapons: [{
             shootSound: shortRay
             shootEffect: none
             bullet: {
-                type: BasicBulletType
-                damage: 1500
-                homing: false
-                speed: 7
-                sprite: large-bomb
-                lifetime: 100
-                knockback: 0
-                backColor: FF0028
-                frontColor: FF0028
-                mixColorFrom: FF0028
-                mixColorTo: FF0028
-                width: 150
-                height: 150
-		fragOnHit: true
-		fragBullets: 250
-		splashDamageRadius: 120
-		splashDamage: 750
-		hitEffect: blastExplosion
+  type: ContinuousLaserBulletType
+  colors: [9E172C,C44B5E,FFB6B6,ffffff]
+  damage: 200
+  lifetime: 90
+  length: 200
+  width: 11
+  largeHit: true
         trailLength: 15
         trailColor: FF0028
           }
