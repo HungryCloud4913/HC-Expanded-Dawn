@@ -77,6 +77,8 @@ weapons: [{
 name: ilitch-bombard
 shootY: 0
 top: true
+mirror: false
+alternate: false
 reload: 175
 shoot: {
   type: ShootBarrel
@@ -90,7 +92,7 @@ rotate: false
 shootSound: missileLarge
 shootCone: 120
 bullet: {
-  spawnUnit: twilight-missile
+  spawnUnit: ilitch-missile
   shootEffect: {
       type: MultiEffect
       effects: [shootBigColor,{
@@ -103,7 +105,7 @@ bullet: {
               }
     smokeEffect: shootBigSmoke2
         }
-x: -50
-y: -6
+x: 0
+y: 0
 }
 ]
