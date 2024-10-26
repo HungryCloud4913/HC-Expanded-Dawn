@@ -61,7 +61,7 @@ weapons: [{
             }
             inaccuracy: 0
             recoil: 8
-            shootSound: laserBig
+            shootSound: laserbig
             shootEffect: none
             bullet: {
   type: ContinuousLaserBulletType
