@@ -1,0 +1,89 @@
+type: flying
+health: 1700500
+hitSize: 110
+flying: true
+speed: 0.4
+accel: 0.05
+drag: 0.01
+armor: 205
+rotateSpeed: 0.55
+outlineColor: 2D2F39
+targetair: true
+faceTarget: true
+        engineOffset: +45
+        engineColor: D7BDFF
+        engineColorInner: FFFFFF
+		engines: [
+		  {
+			x: -26
+			y: -69
+			radius: 5
+			rotation: 90
+		        trailLength: 10
+		  }
+		  {
+			x: +26
+			y: -69
+			radius: 5
+			rotation: 90
+		        trailLength: 10
+		  }
+		  {
+			x: -9
+			y: -74
+			radius: 5
+			rotation: 90
+		        trailLength: 10
+		  }
+		  {
+			x: +9
+			y: -74
+			radius: 5
+			rotation: 90
+		        trailLength: 10
+		  }
+		]
+weapons: [{
+                name: illitch-cannon
+                mirror: true
+                top: true
+                alternate: true
+                rotate: true
+		rotateSpeed: 0.6
+                rotationLimit: 100
+                x: +30
+                y: -5
+                reload: 250
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 0
+            shootSound: shortRay
+            shootEffect: none
+            bullet: {
+                type: BasicBulletType
+                damage: 1500
+                recoil: 8
+                homing: false
+                speed: 7
+                sprite: large-bomb
+                lifetime: 100
+                knockback: 0
+                backColor: 9E172C
+                frontColor: 9E172C
+                mixColorFrom: 9E172C
+                mixColorTo: 9E172C
+                width: 150
+                height: 150
+		fragOnHit: true
+		fragBullets: 250
+		splashDamageRadius: 120
+		splashDamage: 750
+		hitEffect: blastExplosion
+        trailLength: 15
+        trailColor: 9E172C
+          }
+     }
+]
