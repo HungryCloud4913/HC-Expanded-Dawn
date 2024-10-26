@@ -103,7 +103,7 @@ shoot: {
   shotDelay: 5
     }
 rotate: false
-shootSound: missileLarge
+shootSound: missileSmall
 shootCone: 120
 bullet: {
   spawnUnit: twilight-missile
