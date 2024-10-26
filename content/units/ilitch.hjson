@@ -51,8 +51,8 @@ weapons: [{
                 rotate: true
 		rotateSpeed: 0.6
                 rotationLimit: 100
-                x: +30
-                y: -5
+                x: +50
+                y: 0
                 reload: 250
                 shoot: {
                     shots: 1
@@ -70,10 +70,10 @@ weapons: [{
                 sprite: large-bomb
                 lifetime: 100
                 knockback: 0
-                backColor: C6001F
-                frontColor: C6001F
-                mixColorFrom: C6001F
-                mixColorTo: C6001F
+                backColor: FF0028
+                frontColor: FF0028
+                mixColorFrom: FF0028
+                mixColorTo: FF0028
                 width: 150
                 height: 150
 		fragOnHit: true
@@ -82,7 +82,7 @@ weapons: [{
 		splashDamage: 750
 		hitEffect: blastExplosion
         trailLength: 15
-        trailColor: C6001F
+        trailColor: FF0028
           }
      }
 ]
