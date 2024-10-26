@@ -94,97 +94,9 @@ shoot: {
       5, -5, -67.5,
       +7, 0, -45,
       ]
-  shots: 16
-  shotDelay: 5
+  shots: 48
+  shotDelay: 4
   firstShotDelay: 0
-    }
-rotate: false
-shootSound: missileSmall
-shootCone: 120
-bullet: {
-  spawnUnit: ilitch-missile
-  shootEffect: {
-      type: MultiEffect
-      effects: [shootBigColor,{
-            type: WaveEffect
-            sizeTo: 10
-            colorTo: C44B5E
-            lifetime: 10
-              }
-        ]
-              }
-    smokeEffect: shootBigSmoke2
-        }
-x: 0
-y: 0
-}
-{
-name: ilitch-bombard
-shootY: 0
-top: true
-mirror: false
-alternate: false
-reload: 550
-recoil: 0
-shoot: {
-  type: ShootBarrel
-  barrels: [
-      5, 5, -22.5,
-      0, 7, 0,
-      -5, 5, +22.5,
-      -7, 0, +45,
-      -5, -5, +67.5,
-      0, 7, +90,
-      5, -5, -67.5,
-      +7, 0, -45,
-      ]
-  shots: 16
-  shotDelay: 5
-  firstShotDelay: 20
-    }
-rotate: false
-shootSound: missileSmall
-shootCone: 120
-bullet: {
-  spawnUnit: ilitch-missile
-  shootEffect: {
-      type: MultiEffect
-      effects: [shootBigColor,{
-            type: WaveEffect
-            sizeTo: 10
-            colorTo: C44B5E
-            lifetime: 10
-              }
-        ]
-              }
-    smokeEffect: shootBigSmoke2
-        }
-x: 0
-y: 0
-}
-{
-name: ilitch-bombard
-shootY: 0
-top: true
-mirror: false
-alternate: false
-reload: 550
-recoil: 0
-shoot: {
-  type: ShootBarrel
-  barrels: [
-      5, 5, -22.5,
-      0, 7, 0,
-      -5, 5, +22.5,
-      -7, 0, +45,
-      -5, -5, +67.5,
-      0, 7, +90,
-      5, -5, -67.5,
-      +7, 0, -45,
-      ]
-  shots: 16
-  shotDelay: 5
-  firstShotDelay: 40
     }
 rotate: false
 shootSound: missileSmall
