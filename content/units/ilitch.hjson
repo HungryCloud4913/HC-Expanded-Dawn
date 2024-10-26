@@ -44,7 +44,7 @@ faceTarget: true
 		  }
 		]
 weapons: [{
-                name: illitch-cannon
+                name: ilitch-cannon
                 mirror: true
                 top: true
                 alternate: true
@@ -59,13 +59,12 @@ weapons: [{
                     shotDelay: 0
             }
             inaccuracy: 0
-            recoil: 0
+            recoil: 8
             shootSound: shortRay
             shootEffect: none
             bullet: {
                 type: BasicBulletType
                 damage: 1500
-                recoil: 8
                 homing: false
                 speed: 7
                 sprite: large-bomb
