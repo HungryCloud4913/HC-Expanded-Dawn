@@ -95,7 +95,7 @@ shoot: {
       +7, 0, -45,
       ]
   shots: 48
-  shotDelay: 4
+  shotDelay: 1.5
   firstShotDelay: 0
     }
 rotate: false
