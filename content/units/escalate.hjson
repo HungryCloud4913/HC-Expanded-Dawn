@@ -82,20 +82,20 @@ weapons: [{
 			splashDamageRadius: 12
 			weaveMag: 5
 			weaveScl: 10
-			lifetime: 25
+			lifetime: 18
 			trailWidth: 2.1
-			width: 12
-			height: 12
+			width: 9
+			height: 9
 			shrinkX: 0.05
 			shrinkY: 0.05
 			sprite: large-bomb
 			despawnEffect: none
 			despawnHit: true
-			trailInterval: 3
+			trailInterval: 2.5
 			trailEffect: {
 				type: ParticleEffect
 				particles: 10
-				sizeFrom: 4
+				sizeFrom: 2
 				sizeTo: 0
 				colorFrom: D7BDFF
 				colorTo: D7BDFFaa
