@@ -23,7 +23,7 @@ trailLength: 12
 trailScl: 0.9
 trailColor: C44B5E
 loopSound: missileTrail
-missileAccelTime: 15
+missileAccelTime: 30
 parts: [
 {
   type: FlarePart
