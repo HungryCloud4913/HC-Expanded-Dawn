@@ -153,9 +153,9 @@ weapons: [{
       }
       {
        type: WaveEffect
-       lifetime: 30
+       lifetime: 40
        sizeFrom: 0
-       sizeTo: 70
+       sizeTo: 100
        strokeFrom: 8
        strokeTo: 0
        colorFrom: ffffff
@@ -164,9 +164,9 @@ weapons: [{
       }
       {
        type: WaveEffect
-       lifetime: 30
+       lifetime: 40
        sizeFrom: 0
-       sizeTo: 100
+       sizeTo: 120
        strokeFrom: 8
        strokeTo: 0
        colorFrom: ffffff
