@@ -2,7 +2,7 @@ type: missile
 template: MissileUnitType
 speed: 7
 flying: true
-health: 120
+health: 400
 hitSize: 10
 rotateSpeed: 5
 controller: MissileAI
@@ -62,7 +62,7 @@ weapons: [{
           }
 type: ExplosionBulletType
 keepVelocity: false
-splashDamage: 300
+splashDamage: 500
 splashDamageRadius: 40
 status: shocked
   }
