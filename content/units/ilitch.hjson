@@ -20,8 +20,8 @@ lowAltitude: true
 weapons: [
 {
 name: ilitch-bombard
-y: -9
-x: +11
+y: -12
+x: +30
 shootY: 0
 top: true
 mirror: true
@@ -31,7 +31,7 @@ recoil: 0
 shoot: {
   type: ShootBarrel
   barrels: [
-      +5, +7, +45,
+      +5, +7, -45,
       ]
   shots: 45
   shotDelay: 1.5
