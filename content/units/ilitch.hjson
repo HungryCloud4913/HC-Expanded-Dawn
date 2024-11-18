@@ -1,8 +1,8 @@
 type: flying
 health: 1700500
-hitSize: 190
+hitSize: 210
 flying: true
-speed: 0.2
+speed: 0.1
 accel: 1
 drag: 1
 armor: 205
@@ -16,38 +16,11 @@ faceTarget: true
 lowAltitude: true
 		engines: [
 		]
-weapons: [{
-                name: ilitch-cannon
-                mirror: true
-                top: true
-                alternate: true
-                rotate: true
-		rotateSpeed: 0.6
-                rotationLimit: 100
-                continuous: true
-                x: +50
-                y: 0
-                reload: 200
-                shoot: {
-                    shots: 1
-                    shotDelay: 0
-            }
-            inaccuracy: 0
-            recoil: 8
-            shootSound: laserbig
-            shootEffect: none
-            bullet: {
-  type: ContinuousLaserBulletType
-  colors: [9E172C,C44B5E,FFB6B6,ffffff]
-  damage: 2000
-  lifetime: 90
-  length: 450
-  width: 13
-  largeHit: true
-          }
-     }
+weapons: [
 {
 name: ilitch-bombard
+y: -9
+x: +11
 shootY: 0
 top: true
 mirror: true
@@ -57,7 +30,7 @@ recoil: 0
 shoot: {
   type: ShootBarrel
   barrels: [
-      +5, +7, +90,
+      +5, +7, +45,
       ]
   shots: 45
   shotDelay: 1.5
