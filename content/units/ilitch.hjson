@@ -15,34 +15,6 @@ faceTarget: true
         engineColorInner: FFFFFF
 lowAltitude: true
 		engines: [
-		  {
-			x: -26
-			y: -69
-			radius: 5
-			rotation: 90
-		        trailLength: 10
-		  }
-		  {
-			x: +26
-			y: -69
-			radius: 5
-			rotation: 90
-		        trailLength: 10
-		  }
-		  {
-			x: -9
-			y: -74
-			radius: 5
-			rotation: 90
-		        trailLength: 10
-		  }
-		  {
-			x: +9
-			y: -74
-			radius: 5
-			rotation: 90
-		        trailLength: 10
-		  }
 		]
 weapons: [{
                 name: ilitch-cannon
