@@ -1,6 +1,6 @@
 type: flying
 health: 1700500
-hitSize: 120
+hitSize: 190
 flying: true
 speed: 0.2
 accel: 1
@@ -50,28 +50,21 @@ weapons: [{
 name: ilitch-bombard
 shootY: 0
 top: true
-mirror: false
-alternate: false
-reload: 550
+mirror: true
+alternate: true
+reload: 300
 recoil: 0
 shoot: {
   type: ShootBarrel
   barrels: [
-      5, 5, -22.5,
-      0, 7, 0,
-      -5, 5, +22.5,
-      -7, 0, +45,
-      -5, -5, +67.5,
-      0, 7, +90,
-      5, -5, -67.5,
-      +7, 0, -45,
+      +5, +7, +90,
       ]
-  shots: 48
+  shots: 45
   shotDelay: 1.5
   firstShotDelay: 0
     }
 rotate: false
-shootSound: missileSmall
+shootSound: missileLaucnh
 shootCone: 120
 bullet: {
   spawnUnit: ilitch-missile
