@@ -101,7 +101,7 @@ bullet: {
 			type: BasicBulletType
 			speed: 10
 			damage: 800
-                        lifetime: 35
+                        lifetime: 38
 		        splashDamageRadius: 0
 		        splashDamage: 0
 		        hitEffect: blastExplosion
