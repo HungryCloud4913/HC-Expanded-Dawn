@@ -94,9 +94,11 @@ bullet: {
                colors: [9E172C, 9E172C, 9E172C]
                 damage: 0
                 homing: false
-                fragOnHit: true
-		fragBullets: 1
-		fragBullet: {
+                bulletInterval: 1
+                intervalRandomSpread: 0
+                intervalSpread: 0
+                intervalAngle: 0
+                intervalBullet: {
 			type: BasicBulletType
 			speed: 20
 			damage: 1
@@ -104,9 +106,6 @@ bullet: {
 		        splashDamageRadius: 1
 		        splashDamage: 1
 		        hitEffect: blastExplosion
-			fragSpread: 0
-			fragAngle: 90
-			fragRandomSpread: 0
                         pierceCap: 1000
 }
         trailLength: 0
