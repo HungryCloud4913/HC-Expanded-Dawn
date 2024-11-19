@@ -101,7 +101,7 @@ bullet: {
 			type: BasicBulletType
 			speed: 10
 			damage: 800
-                        lifetime: 14
+                        lifetime: 30
 		        splashDamageRadius: 1
 		        splashDamage: 1
 		        hitEffect: blastExplosion
@@ -109,7 +109,7 @@ bullet: {
                         backColor: D7BDFF
                         frontColor: D7BDFF
        		        trailColor: D7BDFF
-                bulletInterval: 1
+                bulletInterval: 10
                 intervalRandomSpread: 0
                 intervalAngle: 180
                 intervalBullet: {
