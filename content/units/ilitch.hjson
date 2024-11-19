@@ -21,7 +21,7 @@ weapons: [
 {
 name: ilitch-bombard
 y: -12
-x: +30
+x: +100
 shootY: 0
 top: true
 mirror: true
