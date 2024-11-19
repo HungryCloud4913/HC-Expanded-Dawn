@@ -91,7 +91,7 @@ bullet: {
                 pierceCap: 1000
                 length: 350
                 width: 7
-               colors: [9E172C, 9E172C, 9E172C]
+               colors: [C44B5E, C44B5E, C44B5E]
                 damage: 1000
                 homing: false
                 bulletInterval: 1
@@ -106,9 +106,9 @@ bullet: {
 		        splashDamage: 1
 		        hitEffect: blastExplosion
                         pierceCap: 1000
-                        backColor: D7BDFF
-                        frontColor: D7BDFF
-       		        trailColor: D7BDFF
+                        backColor: C44B5E
+                        frontColor: C44B5E
+       		        trailColor: C44B5E
                 bulletInterval: 10
                 intervalRandomSpread: 0
                 intervalAngle: 180
@@ -117,13 +117,13 @@ bullet: {
                 pierceCap: 1000
                 length: 350
                 width: 10
-               colors: [9E172C, 9E172C, 9E172C]
+               colors: [C44B5E, C44B5E, C44B5E]
                 damage: 1000
                 homing: false
 }
 }
         trailLength: 0
-        trailColor: 9E172C
+        trailColor: C44B5E
 }
 }
 ]
