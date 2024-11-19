@@ -100,10 +100,14 @@ bullet: {
 			type: BasicBulletType
 			speed: 20
 			damage: 1
-                        lifetime: 3
+                        lifetime: 6
 		        splashDamageRadius: 1
 		        splashDamage: 1
 		        hitEffect: blastExplosion
+			fragSpread: 0
+			fragAngle: 0
+			fragRandomSpread: 0
+                        pierceCap: 1000
 }
         trailLength: 0
         trailColor: 9E172C
