@@ -22,7 +22,7 @@ engineColor: C44B5E
 trailLength: 12
 trailScl: 0.9
 trailColor: C44B5E
-missileAccelTime: 20
+missileAccelTime: 15
 parts: [
 {
   type: FlarePart
