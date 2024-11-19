@@ -38,7 +38,7 @@ shoot: {
   firstShotDelay: 0
     }
 rotate: false
-shootSound: missileLaunch
+shootSound: LaunchLycor
 shootCone: 120
 bullet: {
   spawnUnit: ilitch-missile
