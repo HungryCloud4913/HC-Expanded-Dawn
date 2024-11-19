@@ -21,11 +21,11 @@ weapons: [
 {
 name: ilitch-bombard
 y: -25
-x: -3
+x: -30
 shootY: 0
 top: true
 mirror: true
-alternate: true
+alternate: false
 reload: 300
 recoil: 0
 shoot: {
@@ -45,7 +45,7 @@ shoot: {
       -7, -14, +67,
       -7, -17, +69,
       ]
-  shots: 45
+  shots: 23
   shotDelay: 2
   firstShotDelay: 0
     }
