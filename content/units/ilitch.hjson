@@ -98,7 +98,7 @@ bullet: {
 		fragBullets: 1
 		fragBullet: {
 			type: BasicBulletType
-			speed: 
+			speed: 10
 			damage: 1
                         lifetime: 2
 		        splashDamageRadius: 1
