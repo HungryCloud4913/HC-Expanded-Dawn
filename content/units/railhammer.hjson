@@ -61,7 +61,7 @@ weapons: [{
             }
             inaccuracy: 0
             recoil: 10
-            shootSound: railGunBlast
+            shootSound: railGunBlastLycor
             shootEffect: none
             bullet: {
                 type: BasicBulletType
@@ -251,7 +251,7 @@ effects:[shootBigColor,
             }
             inaccuracy: 7
             recoil: 2
-            shootSound: shootAltLong
+            shootSound: shootAlt
             shootEffect: none
             bullet: {
                 type: MissileBulletType
