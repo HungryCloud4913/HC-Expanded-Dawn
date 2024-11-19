@@ -90,7 +90,7 @@ bullet: {
                 type: LaserBulletType
                 pierceCap: 1000
                 length: 350
-                width: 5
+                width: 7
                colors: [9E172C, 9E172C, 9E172C]
                 damage: 1000
                 homing: false
@@ -116,7 +116,7 @@ bullet: {
                 type: LaserBulletType
                 pierceCap: 1000
                 length: 350
-                width: 5
+                width: 10
                colors: [9E172C, 9E172C, 9E172C]
                 damage: 1000
                 homing: false
