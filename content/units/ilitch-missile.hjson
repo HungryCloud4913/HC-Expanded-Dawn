@@ -7,7 +7,7 @@ hitSize: 10
 rotateSpeed: 5
 controller: MissileAI
 lowAltitude: true
-lifetime: 160
+lifetime: 120
 isEnemy: false
 allowedInPayloads: false
 playerControllable: false
