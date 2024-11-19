@@ -102,17 +102,18 @@ bullet: {
 			speed: 10
 			damage: 800
                         lifetime: 35
-		        splashDamageRadius: 1
-		        splashDamage: 1
+		        splashDamageRadius: 0
+		        splashDamage: 0
 		        hitEffect: blastExplosion
                         pierceCap: 1000
                         backColor: C44B5E
                         frontColor: C44B5E
        		        trailColor: C44B5E
-                bulletInterval: 60
-                intervalRandomSpread: 0
-                intervalAngle: 180
-                intervalBullet: {
+                        fragOnHit: false
+                        fragBullets: 1
+                        fragRandomSpread: 0
+                        fragAngle: 180
+                        fragBullet: {
                 type: LaserBulletType
                 pierceCap: 1000
                 length: 350
