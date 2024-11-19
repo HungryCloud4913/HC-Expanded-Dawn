@@ -84,7 +84,7 @@ bullet: {
             }
             inaccuracy: 0
             recoil: 0
-            shootSound: laser5Lycor
+            shootSound: laser4Lycor
             shootEffect: none
             bullet: {
                 type: LaserBulletType
@@ -94,14 +94,14 @@ bullet: {
                colors: [C44B5E, C44B5E, C44B5E]
                 damage: 1000
                 homing: false
-                bulletInterval: 1
+                bulletInterval: 60
                 intervalRandomSpread: 0
                 intervalAngle: 0
                 intervalBullet: {
 			type: BasicBulletType
 			speed: 10
 			damage: 800
-                        lifetime: 30
+                        lifetime: 35
 		        splashDamageRadius: 1
 		        splashDamage: 1
 		        hitEffect: blastExplosion
@@ -109,7 +109,7 @@ bullet: {
                         backColor: C44B5E
                         frontColor: C44B5E
        		        trailColor: C44B5E
-                bulletInterval: 10
+                bulletInterval: 60
                 intervalRandomSpread: 0
                 intervalAngle: 180
                 intervalBullet: {
