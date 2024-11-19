@@ -74,8 +74,8 @@ bullet: {
                 top: true
                 rotate: true
 		rotateSpeed: 3
-                x: +55
-                y: -30
+                x: +56
+                y: -31
                 reload: 50
                 shoot: {
                     shots: 1
