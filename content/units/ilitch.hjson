@@ -87,19 +87,15 @@ bullet: {
             shootSound: laser5Lycor
             shootEffect: none
             bullet: {
-                type: SolidBulletType
-                damage: 1
+                type: LaserBulletType
+                pierceCap: 1000
+                length: 160
+                width: 5
+               colors: [9E172C, 9E172C, 9E172C]
+                damage: 0
                 homing: false
-                speed: 7
-                sprite: large-bomb
-                lifetime: 100
-                knockback: -1
-                backColor: 9E172C
-                frontColor: 9E172C
-                width: 4
-                height: 4
 		fragOnHit: true
-		fragBullets: 50
+		fragBullets: 5
 		splashDamageRadius: 1
 		splashDamage: 1
 		hitEffect: blastExplosion
