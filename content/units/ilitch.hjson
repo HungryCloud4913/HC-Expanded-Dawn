@@ -109,6 +109,9 @@ bullet: {
                         backColor: D7BDFF
                         frontColor: D7BDFF
        		        trailColor: D7BDFF
+                bulletInterval: 1
+                intervalRandomSpread: 0
+                intervalAngle: 180
                 intervalBullet: {
                 type: LaserBulletType
                 pierceCap: 1000
@@ -117,9 +120,6 @@ bullet: {
                colors: [9E172C, 9E172C, 9E172C]
                 damage: 1000
                 homing: false
-                bulletInterval: 1
-                intervalRandomSpread: 0
-                intervalAngle: 180
 }
 }
         trailLength: 0
