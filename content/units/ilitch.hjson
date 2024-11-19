@@ -80,7 +80,7 @@ bullet: {
                 shoot: {
                     shots: 1
                     shotDelay: 0
-                    FirsShottDelay: 2
+                    FirstShotDelay: 2
             }
             inaccuracy: 0
             recoil: 0
@@ -94,11 +94,17 @@ bullet: {
                colors: [9E172C, 9E172C, 9E172C]
                 damage: 0
                 homing: false
-		fragOnHit: true
-		fragBullets: 5
-		splashDamageRadius: 1
-		splashDamage: 1
-		hitEffect: blastExplosion
+                fragOnHit: true
+		fragBullets: 1
+		fragBullet: {
+			type: BasicBulletType
+			speed: 0
+			damage: 1
+                        lifetime: 2
+		        splashDamageRadius: 1
+		        splashDamage: 1
+		        hitEffect: blastExplosion
+}
         trailLength: 15
         trailColor: 9E172C
 }
