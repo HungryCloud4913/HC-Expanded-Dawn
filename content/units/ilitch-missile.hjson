@@ -1,6 +1,6 @@
 type: missile
 template: MissileUnitType
-speed: 7
+speed: 8
 flying: true
 health: 400
 hitSize: 10
@@ -22,8 +22,7 @@ engineColor: C44B5E
 trailLength: 12
 trailScl: 0.9
 trailColor: C44B5E
-loopSound: missileTrail
-missileAccelTime: 60
+missileAccelTime: 20
 parts: [
 {
   type: FlarePart
