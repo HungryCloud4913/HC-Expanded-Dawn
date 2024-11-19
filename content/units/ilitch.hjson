@@ -83,30 +83,28 @@ bullet: {
                     FirsShottDelay: 2
             }
             inaccuracy: 0
-            recoil: 2
+            recoil: 0
             shootSound: cannon
             shootEffect: none
             bullet: {
                 type: SolidBulletType
-                damage: 700
+                damage: 1
                 homing: false
                 speed: 7
                 sprite: large-bomb
                 lifetime: 100
                 knockback: -1
-                backColor: BDD5FF
-                frontColor: BDD5FF
-                mixColorFrom: BDD5FF
-                mixColorTo: 7781DE
-                width: 80
-                height: 40
+                backColor: 9E172C
+                frontColor: 9E172C
+                width: 4
+                height: 4
 		fragOnHit: true
 		fragBullets: 50
-		splashDamageRadius: 100
-		splashDamage: 700
+		splashDamageRadius: 1
+		splashDamage: 1
 		hitEffect: blastExplosion
         trailLength: 15
-        trailColor: 7781DE
+        trailColor: 9E172C
 }
 }
 ]
