@@ -76,11 +76,11 @@ bullet: {
 		rotateSpeed: 3
                 x: +53
                 y: -29
-                reload: 150
+                reload: 50
                 shoot: {
                     shots: 1
                     shotDelay: 0
-                    FirstShotDelay: 2
+                    FirstShotDelay: 0
             }
             inaccuracy: 0
             recoil: 0
@@ -92,21 +92,35 @@ bullet: {
                 length: 350
                 width: 5
                colors: [9E172C, 9E172C, 9E172C]
-                damage: 0
+                damage: 1000
                 homing: false
                 bulletInterval: 1
                 intervalRandomSpread: 0
-                intervalSpread: 0
                 intervalAngle: 0
                 intervalBullet: {
 			type: BasicBulletType
-			speed: 20
-			damage: 1
+			speed: 10
+			damage: 800
                         lifetime: 14
 		        splashDamageRadius: 1
 		        splashDamage: 1
 		        hitEffect: blastExplosion
                         pierceCap: 1000
+                        backColor: D7BDFF
+                        frontColor: D7BDFF
+       		        trailColor: D7BDFF
+                intervalBullet: {
+                type: LaserBulletType
+                pierceCap: 1000
+                length: 350
+                width: 5
+               colors: [9E172C, 9E172C, 9E172C]
+                damage: 1000
+                homing: false
+                bulletInterval: 1
+                intervalRandomSpread: 0
+                intervalAngle: 180
+}
 }
         trailLength: 0
         trailColor: 9E172C
