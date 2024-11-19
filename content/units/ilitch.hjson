@@ -70,12 +70,12 @@ bullet: {
 {
                 name: ilitch-prism
                 mirror: true
-                alterante: false
+                alternate: false
                 top: true
                 rotate: true
 		rotateSpeed: 3
-                x: +50
-                y: 0
+                x: +52
+                y: -28
                 reload: 150
                 shoot: {
                     shots: 1
@@ -84,7 +84,7 @@ bullet: {
             }
             inaccuracy: 0
             recoil: 0
-            shootSound: cannon
+            shootSound: laser5Lycor
             shootEffect: none
             bullet: {
                 type: SolidBulletType
