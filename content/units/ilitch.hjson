@@ -89,7 +89,7 @@ bullet: {
             bullet: {
                 type: LaserBulletType
                 pierceCap: 1000
-                length: 160
+                length: 350
                 width: 5
                colors: [9E172C, 9E172C, 9E172C]
                 damage: 0
@@ -98,14 +98,14 @@ bullet: {
 		fragBullets: 1
 		fragBullet: {
 			type: BasicBulletType
-			speed: 0
+			speed: 
 			damage: 1
                         lifetime: 2
 		        splashDamageRadius: 1
 		        splashDamage: 1
 		        hitEffect: blastExplosion
 }
-        trailLength: 15
+        trailLength: 0
         trailColor: 9E172C
 }
 }
