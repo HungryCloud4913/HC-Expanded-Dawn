@@ -74,8 +74,8 @@ bullet: {
                 top: true
                 rotate: true
 		rotateSpeed: 3
-                x: +52
-                y: -28
+                x: +53
+                y: -29
                 reload: 150
                 shoot: {
                     shots: 1
@@ -98,9 +98,9 @@ bullet: {
 		fragBullets: 1
 		fragBullet: {
 			type: BasicBulletType
-			speed: 10
+			speed: 20
 			damage: 1
-                        lifetime: 2
+                        lifetime: 3
 		        splashDamageRadius: 1
 		        splashDamage: 1
 		        hitEffect: blastExplosion
