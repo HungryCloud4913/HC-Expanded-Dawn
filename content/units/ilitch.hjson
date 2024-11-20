@@ -89,7 +89,7 @@ bullet: {
             bullet: {
                 type: LaserBulletType
                 pierceCap: 1000
-                length: 350
+                length: 1500
                 width: 7
                colors: [C44B5E, C44B5E, C44B5E]
                 damage: 1000
@@ -101,7 +101,7 @@ bullet: {
 			type: BasicBulletType
 			speed: 10
 			damage: 800
-                        lifetime: 36
+                        lifetime: 155
 		        splashDamageRadius: 0
 		        splashDamage: 0
 		        hitEffect: blastExplosion
@@ -116,7 +116,7 @@ bullet: {
                         fragBullet: {
                 type: LaserBulletType
                 pierceCap: 1000
-                length: 350
+                length: 1500
                 width: 10
                colors: [C44B5E, C44B5E, C44B5E]
                 damage: 1000
