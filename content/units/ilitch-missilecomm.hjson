@@ -54,7 +54,7 @@ parts: [{
   moveX: 0
   moveY: 0
   moveRot: 0
-  suffix: -missilecomm
+  suffix: -comm
   progress: recoil
   weaponIndex: 0
   layerOffset: +0.003
