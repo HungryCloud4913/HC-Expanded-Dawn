@@ -28,6 +28,7 @@ mirror: true
 alternate: false
 reload: 300
 recoil: 0
+layerOffset: +0.0002
 shoot: {
   type: ShootBarrel
   barrels: [
