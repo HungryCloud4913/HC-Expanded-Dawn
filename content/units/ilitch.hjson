@@ -126,5 +126,30 @@ bullet: {
         trailLength: 0
         trailColor: C44B5E
 }
+parts: [{
+  type: RegionPart
+  mirror: false
+  under: false
+  moveX: 0
+  moveY: -7
+  moveRot: 0
+  suffix: -prisbarrel
+  progress: recoil
+  weaponIndex: 0
+  layerOffset: +0.001
+    }
+{
+  type: RegionPart
+  mirror: false
+  under: false
+  moveX: 0
+  moveY: -4
+  moveRot: 0
+  suffix: -prisback
+  progress: recoil
+  weaponIndex: 0
+  layerOffset: +0.002
+    }
+]
 }
 ]
