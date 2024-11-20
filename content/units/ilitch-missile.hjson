@@ -23,24 +23,6 @@ trailLength: 12
 trailScl: 0.9
 trailColor: C44B5E
 missileAccelTime: 15
-parts: [
-{
-  type: FlarePart
-  color1: C44B5E
-  color2: ffffff
-  y: -2
-  followRotation: true
-  stroke: 3
-  radius: 0
-  radiusTo: 30
-  progress: {
-      type: life
-      op: curve
-      interp: slope
-        }
-  spinSpeed: 4
-}
-]
 weapons: [{
     name: missile-explode
       shootCone: 360
