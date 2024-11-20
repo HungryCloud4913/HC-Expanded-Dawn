@@ -47,4 +47,16 @@ splashDamage: 400
 splashDamageRadius: 40
 status: shocked
   }
+parts: [{
+  type: RegionPart
+  mirror: false
+  under: false
+  moveX: 0
+  moveY: 0
+  moveRot: 0
+  suffix: -missilitch
+  progress: recoil
+  weaponIndex: 0
+  layerOffset: +0.003
+    }
 }]
