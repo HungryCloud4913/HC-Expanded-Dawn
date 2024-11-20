@@ -54,7 +54,7 @@ rotate: false
 shootSound: launchLycor
 shootCone: 120
 bullet: {
-  spawnUnit: ilitch-missile
+  spawnUnit: ilitch-missililitch
   shootEffect: {
       type: MultiEffect
       effects: [shootBigColor,{
