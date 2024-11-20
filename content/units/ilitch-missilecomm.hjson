@@ -55,7 +55,7 @@ parts: [{
   moveY: 0
   moveRot: 0
   suffix: -comm
-  progress: recoil
+  progress: warmup
   weaponIndex: 0
   layerOffset: +0.003
     }]
