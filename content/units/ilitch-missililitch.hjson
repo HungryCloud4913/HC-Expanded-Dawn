@@ -58,5 +58,5 @@ parts: [{
   progress: recoil
   weaponIndex: 0
   layerOffset: +0.003
-    }
+    }]
 }]
