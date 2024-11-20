@@ -23,7 +23,6 @@ trailLength: 12
 trailScl: 0.9
 trailColor: C44B5E
 missileAccelTime: 15
-  layerOffset: +0.003
 weapons: [{
     name: missile-explode
       shootCone: 360
