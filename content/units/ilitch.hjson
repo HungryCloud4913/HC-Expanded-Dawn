@@ -99,7 +99,7 @@ bullet: {
                 intervalAngle: 0
                 intervalBullet: {
 			type: BasicBulletType
-			speed: 40
+			speed: 35
 			damage: 800
                         lifetime: 25
 		        splashDamageRadius: 0
