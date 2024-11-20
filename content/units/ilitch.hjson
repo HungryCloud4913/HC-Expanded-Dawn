@@ -131,7 +131,7 @@ parts: [{
   mirror: false
   under: false
   moveX: 0
-  moveY: -7
+  moveY: -5
   moveRot: 0
   suffix: -prisbarrel
   progress: recoil
@@ -143,7 +143,7 @@ parts: [{
   mirror: false
   under: false
   moveX: 0
-  moveY: -4
+  moveY: -2
   moveRot: 0
   suffix: -prisback
   progress: recoil
