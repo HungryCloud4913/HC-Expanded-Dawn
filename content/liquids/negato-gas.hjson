@@ -1,5 +1,3 @@
 type: liquid
-name: Negato Gas
-description: a
 gas: true
 color: BDE3FF
