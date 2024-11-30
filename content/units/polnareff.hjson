@@ -103,7 +103,7 @@ shoot: {
   firstShotDelay: 0
     }
 rotate: false
-shootSound: slice1
+shootSound: slicePol2
 shootCone: 120
 bullet: {
                 type: SolidBulletType
