@@ -109,7 +109,7 @@ bullet: {
                 type: SolidBulletType
                 speed: 0
                 lifetime: 1
-                knockback: 0-1
+                knockback: 0
 		fragOnHit: true
 		fragBullets: 1
 		fragBullet: {
