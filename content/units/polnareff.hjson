@@ -6,7 +6,7 @@ speed: 4
 accel: 0.5
 drag: 0.3
 armor: 35
-rotateSpeed: 0.75
+rotateSpeed: 2
 outlineColor: 2D2F39
 targetair: true
 faceTarget: true
@@ -45,304 +45,69 @@ lowAltitude: true
 		  }
 		]
 weapons: [{
-                name: railhammer-weapon
+                name: p
                 mirror: false
-                layerOffset: -1
-                top: false
+                layerOffset: 0
+                top: true
                 alternate: false
                 rotate: false
 		rotateSpeed: 0
                 x: 0
                 y: 0
-                reload: 250
+                reload: 200
                 shoot: {
-                    shots: 2
-                    shotDelay: 6
+                    shots: 11
+                    shotDelay: 20
             }
             inaccuracy: 0
-            recoil: 10
-            shootSound: railGunBlastLycor
+            recoil: 0
+            shootSound: none
+            shootEffect: none
+            bullet: {
+                type: LaserBulletType
+                pierceCap: 1
+                length: 140
+                width: 3
+               colors: [E8F1F5, 7392A5, 426479]
+                damage: 1
+                homing: false
+	}
+}
+{
+                name: p
+                mirror: false
+                layerOffset: 0
+                top: true
+                alternate: false
+                rotate: false
+		rotateSpeed: 0
+                x: 0
+                y: 0
+                reload: 200
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 0
+            shootSound: SilverChariot
             shootEffect: none
             bullet: {
                 type: BasicBulletType
-                damage: 735
+                damage: 1
                 shrinkY: 0
                 shrinkX: 0
-                recoil: 0.7
-      shootEffect:{
-type: MultiEffect
-effects:[shootBigColor,
-     {
-      type: ParticleEffect
-      particles: 8
-      length: 60
-      lifetime: 50
-      interp: pow5Out
-      sizeInterp: pow3In
-      cone: 30
-      offset: 20
-      lightColor: D7BDFF
-      colorFrom: ffffff
-      colorTo: D7BDFF00
-      sizeFrom: 9
-      sizeTo: 0
-      }
-      {
-       type: WaveEffect
-       lifetime: 30
-       sizeFrom: 0
-       sizeTo: 70
-       strokeFrom: 8
-       strokeTo: 0
-       colorFrom: ffffff
-       colorTo: D7BDFF00
-       followParent: true
-      }
-      {
-       type: WaveEffect
-       lifetime: 30
-       sizeFrom: 0
-       sizeTo: 100
-       strokeFrom: 8
-       strokeTo: 0
-       colorFrom: ffffff
-       colorTo: D7BDFF00
-       followParent: true
-      }
-      ]
-	}
-                speed: 10
-                drag: -0.1
-                sprite: large-bomb
-                lifetime: 25
+                recoil: 0
+                speed: 0
+                drag: 0
+                lifetime: 0
                 knockback: 0
-                backColor: D7BDFF
+                backColor: 7392A5
                 frontColor: ffffff
                 width: 30
                 height: 70
-                trailLength: 18
-                trailWidth: 4
-		fragOnHit: true
-		fragBullets: 12
-		intervalBullets: 3
-		bulletInterval: 3
-		fragLifeMin: 0.95
-		fragLifeMax: 1
-		intervalBullet: {
-			type: BasicBulletType
-			speed: 4
-			damage: 12
-			lifetime: 40
-			weaveMag: 16
-			weaveScl: 16
-			splashDamage: 13
-			trailLength: 12
-			trailWidth: 1.9
-			height: 12
-			width: 10
-			backColor: D7BDFF
-			frontColor: ffffff
-			trailColor: D7BDFF	
-			hitEffect: hitBulletColor
-			pierce: true
-			pierceBuilding: true
-			pierceCap: 6
-			trailInterp: pow2In
-                        despawnEffect: hitBulletColor
-                        hitColor: D7BDFF
-			}
-		fragBullet: {
-			type: BasicBulletType
-			speed: 4
-			damage: 12
-			lifetime: 40
-			weaveMag: 16
-			weaveScl: 16
-			splashDamage: 13
-			trailLength: 12
-			trailWidth: 1.9
-			height: 12
-			width: 10
-			backColor: D7BDFF
-			frontColor: ffffff
-			trailColor: D7BDFF	
-			hitEffect: hitBulletColor
-			pierce: true
-			pierceBuilding: true
-			pierceCap: 6
-			trailInterp: pow2In
-                        despawnEffect: hitBulletColor
-                        hitColor: D7BDFF
-			}
-		splashDamageRadius: 90
-		splashDamage: 510
-      hitEffect:{
-	type: MultiEffect
-	effects: [
-     {
-      type: ParticleEffect
-      particles: 8
-      length: 60
-      lifetime: 50
-      interp: pow5Out
-      sizeInterp: pow3In
-      offset: 20
-      lightColor: D7BDFF
-      colorFrom: ffffff
-      colorTo: D7BDFF00
-      sizeFrom: 4
-      sizeTo: 0
-      }
-      {
-       type: WaveEffect
-       lifetime: 30
-       sizeFrom: 0
-       sizeTo: 70
-       strokeFrom: 8
-       strokeTo: 0
-       colorFrom: ffffff
-       colorTo: D7BDFF00
-       followParent: true
-      }
-      {
-       type: WaveEffect
-       lifetime: 30
-       sizeFrom: 0
-       sizeTo: 100
-       strokeFrom: 8
-       strokeTo: 0
-       colorFrom: ffffff
-       colorTo: D7BDFF00
-       followParent: true
-      }
-      ]
+                trailLength: 0
+                trailWidth: 0
 	}
-	trailInterval: 3
-	trailEffect: {
-		type: ParticleEffect
-		length: 40
-		colorTo: D7BDFF33
-		line: true
-		lenFrom: 12
-		lenTo: 0
-		strokeFrom: 12
-		strokeTo: 12
-		lifetime: 30
-		spin: 4
-		sizeInterp: pow5In
-		}
-        trailLength: 10
-        trailColor: D7BDFF
-               }
-}
-{
-                name: railhammer-missiles
-                mirror: true
-                top: true
-                alternate: false
-                rotate: true
-		rotateSpeed: 3
-                x: +21
-                y: -15
-                reload: 51.25
-                shoot: {
-                    shots: 7
-                    shotDelay: 1.5
-            }
-            inaccuracy: 7
-            recoil: 2
-            shootSound: shootAlt
-            shootEffect: none
-            bullet: {
-                type: MissileBulletType
-                damage: 50
-                homing: true
-                speed: 7
-                lifetime: 60
-                knockback: 0
-                backColor: D7BDFF
-                frontColor: D7BDFF
-		trailColor: D7BDFF
-                width: 4
-                height: 5
-		fragOnHit: true
-		fragBullets: 0
-		splashDamageRadius: 0
-		splashDamage: 0
-		hitEffect: blastExplosion
-		homingPower: 0.01
-		homingRange: 1000
-        trailLength: 7
-        trailColor: D7BDFF
-               }
-}
-{
-        name: lycor-point
-        type: PointDefenseWeapon
-        mirror: true
-        top: true
-        alternate: true
-        rotate: true
-	rotateSpeed: 5
-        x: +21
-        y: -35
-        reload: 30
-      controllable: false
-      autoTarget: true
-      targetInterval: 5
-      targetSwitchInterval: 5
-      shootSound: sap
-      bullet: {
-        hitEffect: pointHit
-        smokeEffect: pointHit
-        maxRange: 175
-        damage: 15
-      }
-}
-{
-        name: lycor-point
-        type: PointDefenseWeapon
-        mirror: true
-        top: true
-        alternate: true
-        rotate: true
-	rotateSpeed: 5
-        x: +10
-        y: -13
-        reload: 30
-      controllable: false
-      autoTarget: true
-      targetInterval: 5
-      targetSwitchInterval: 5
-      shootSound: sap
-      bullet: {
-        hitEffect: pointHit
-        smokeEffect: pointHit
-        maxRange: 175
-        damage: 15
-      }
-}
-{
-        name: lycor-point
-        type: PointDefenseWeapon
-        mirror: true
-        top: true
-        alternate: true
-        rotate: true
-	rotateSpeed: 5
-        x: +18
-        y: +5
-        reload: 30
-      controllable: false
-      autoTarget: true
-      targetInterval: 5
-      targetSwitchInterval: 5
-      shootSound: sap
-      bullet: {
-        hitEffect: pointHit
-        smokeEffect: pointHit
-        maxRange: 175
-        damage: 15
-      }
 }
 ]
