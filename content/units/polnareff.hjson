@@ -3,8 +3,8 @@ health: 210500
 hitSize: 62
 flying: true
 speed: 4
-accel: 0.5
-drag: 0.3
+accel: 0.05
+drag: 0.05
 armor: 35
 rotateSpeed: 10
 outlineColor: 2D2F39
