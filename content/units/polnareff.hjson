@@ -110,7 +110,7 @@ bullet: {
                 speed: 0
                 lifetime: 1
                 knockback: 0
-                recoil: 7
+                recoil: 10
 		fragOnHit: true
 		fragBullets: 1
 		fragBullet: {
