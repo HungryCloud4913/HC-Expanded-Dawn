@@ -59,7 +59,7 @@ weapons: [{
                 shoot: {
                     shots: 2
                     shotDelay: 0
-                    firstShotDelay: 188
+                    firstShotDelay: 187
             }
             inaccuracy: 0
             recoil: 0
