@@ -38,7 +38,7 @@ weapons: [{
             bullet: {
                 type: LaserBulletType
                 pierceCap: 1
-                length: 140
+                length: 210
                 width: 3
                colors: [E8F1F5, 7392A5, 426479]
                 damage: 1
@@ -90,7 +90,7 @@ shootY: 0
 top: true
 mirror: true
 alternate: true
-reload: 50
+reload: 60
 recoil: 0
 layerOffset: 0
 shoot: {
