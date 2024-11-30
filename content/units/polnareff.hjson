@@ -22,13 +22,13 @@ weapons: [{
                 layerOffset: 0
                 top: true
                 alternate: false
-                rotate: false
-		rotateSpeed: 0
+                rotate: true
+		rotateSpeed: 5
                 x: 0
                 y: 0
                 reload: 300
                 shoot: {
-                    shots: 11
+                    shots: 10
                     shotDelay: 17
             }
             inaccuracy: 0
@@ -40,6 +40,36 @@ weapons: [{
                 pierceCap: 1
                 length: 140
                 width: 3
+               colors: [E8F1F5, 7392A5, 426479]
+                damage: 1
+                homing: false
+	}
+}
+{
+                name: p
+                mirror: true
+                layerOffset: 0
+                top: true
+                alternate: false
+                rotate: true
+		rotateSpeed: 5
+                x: 4
+                y: 0
+                reload: 300
+                shoot: {
+                    shots: 2
+                    shotDelay: 0
+                    firstShotDelay: 188
+            }
+            inaccuracy: 0
+            recoil: 0
+            shootSound: none
+            shootEffect: none
+            bullet: {
+                type: LaserBulletType
+                pierceCap: 1
+                length: 160
+                width: 7
                colors: [E8F1F5, 7392A5, 426479]
                 damage: 1
                 homing: false
