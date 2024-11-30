@@ -96,7 +96,7 @@ layerOffset: 0
 shoot: {
   type: ShootBarrel
   barrels: [
-      +2, 0, +45,
+      +2, 0, +95,
       ]
   shots: 1
   shotDelay: 0
@@ -110,7 +110,7 @@ bullet: {
                 speed: 0
                 lifetime: 1
                 knockback: 0
-                recoil: 6
+                recoil: 7
 		fragOnHit: true
 		fragBullets: 1
 		fragBullet: {
