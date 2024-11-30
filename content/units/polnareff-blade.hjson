@@ -1,10 +1,10 @@
 type: missile
 template: MissileUnitType
-speed: 8
+speed: 6
 flying: true
 health: 400
 hitSize: 10
-rotateSpeed: 7
+rotateSpeed: 5
 controller: MissileAI
 lowAltitude: true
 lifetime: 50
@@ -18,10 +18,10 @@ createScorch: false
 hidden: true
 engineOffset: 1
 engineSize: 2
-engineColor: C44B5E
+engineColor: 7392A5
 trailLength: 12
 trailScl: 0.9
-trailColor: C44B5E
+trailColor: 7392A5
 missileAccelTime: 15
 weapons: [{
     name: missile-explode
@@ -47,16 +47,4 @@ splashDamage: 400
 splashDamageRadius: 5
 status: shocked
   }
-parts: [{
-  type: RegionPart
-  mirror: false
-  under: false
-  moveX: 0
-  moveY: 0
-  moveRot: 0
-  suffix: -missilecomm
-  progress: recoil
-  weaponIndex: 0
-  layerOffset: +0.003
-    }]
 }]
