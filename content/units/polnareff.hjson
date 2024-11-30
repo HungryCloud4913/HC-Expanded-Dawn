@@ -47,36 +47,6 @@ weapons: [{
 }
 {
                 name: p
-                mirror: true
-                layerOffset: 0
-                top: true
-                alternate: false
-                rotate: true
-		rotateSpeed: 5
-                x: 4
-                y: 0
-                reload: 120
-                shoot: {
-                    shots: 2
-                    shotDelay: 0
-                    firstShotDelay: 180
-            }
-            inaccuracy: 0
-            recoil: 0
-            shootSound: none
-            shootEffect: none
-            bullet: {
-                type: LaserBulletType
-                pierceCap: 1
-                length: 160
-                width: 7
-               colors: [E8F1F5, 7392A5, 426479]
-                damage: 1
-                homing: false
-	}
-}
-{
-                name: p
                 mirror: false
                 layerOffset: 0
                 top: true
