@@ -26,21 +26,21 @@ weapons: [{
 		rotateSpeed: 5
                 rotationLimit: 45
                 x: 0
-                y: +6
+                y: +8
                 reload: 300
                 shoot: {
                     shots: 11
                     shotDelay: 17
             }
             inaccuracy: 0
-            recoil: 0
+            recoil: -5
             shootSound: none
             shootEffect: none
             bullet: {
                 type: LaserBulletType
                 pierceCap: 1
-                length: 210
-                width: 3
+                length: 250
+                width: 7
                colors: [E8F1F5, 7392A5, 426479]
                 damage: 1
                 homing: false
@@ -85,7 +85,7 @@ weapons: [{
 }
 {
 name: polnareff-secret
-y: -9
+y: -8.5
 x: -43
 shootY: 0
 top: false
@@ -97,7 +97,7 @@ layerOffset: -1
  parts: [
     {
       type: regionPart
-      suffix: polnareff-secretbarrel
+      suffix: -secretbarrel
       moveY: 0
       moveX: +20
       progress: recoil
