@@ -17,7 +17,7 @@ lowAltitude: true
 		engines: [
 		]
 weapons: [{
-                name: p
+                name: polnareff-rapier
                 mirror: false
                 layerOffset: 0
                 top: true
@@ -93,6 +93,17 @@ alternate: true
 reload: 60
 recoil: 0
 layerOffset: 0
+ parts: [
+    {
+      type: RegionPart
+      suffix: -secretbarrel
+      moveY: 0
+      moveX: -20
+      progress: recoil
+      mirror: false
+      under: true
+}
+]
 shoot: {
   type: ShootBarrel
   barrels: [
@@ -114,7 +125,7 @@ bullet: {
 		fragOnHit: true
 		fragBullets: 1
 		fragBullet: {
-  spawnUnit: polnareff-blade
+  spawnUnit: polnareff-secretblade
   shootEffect: {
       type: MultiEffect
       effects: [shootBigColor,{
