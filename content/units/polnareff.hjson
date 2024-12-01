@@ -20,15 +20,15 @@ weapons: [{
                 name: polnareff-rapier
                 mirror: false
                 layerOffset: 0
-                top: true
+                top: false
                 alternate: false
                 rotate: true
 		rotateSpeed: 5
                 x: 0
-                y: 0
+                y: +6
                 reload: 300
                 shoot: {
-                    shots: 10
+                    shots: 11
                     shotDelay: 17
             }
             inaccuracy: 0
@@ -85,9 +85,9 @@ weapons: [{
 {
 name: polnareff-secret
 y: 0
-x: -30
+x: -37
 shootY: 0
-top: true
+top: false
 mirror: true
 alternate: true
 reload: 60
@@ -98,7 +98,7 @@ layerOffset: 0
       type: RegionPart
       suffix: -secretbarrel
       moveY: 0
-      moveX: -20
+      moveX: +20
       progress: recoil
       mirror: false
       under: true
