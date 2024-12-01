@@ -19,7 +19,7 @@ lowAltitude: true
 weapons: [{
                 name: polnareff-rapier
                 mirror: false
-                layerOffset: 0
+                layerOffset: -1
                 top: false
                 alternate: false
                 rotate: true
@@ -48,7 +48,7 @@ weapons: [{
 {
                 name: p
                 mirror: false
-                layerOffset: 0
+                layerOffset: -1
                 top: true
                 alternate: false
                 rotate: false
@@ -84,15 +84,15 @@ weapons: [{
 }
 {
 name: polnareff-secret
-y: 0
-x: -37
+y: -7
+x: -40
 shootY: 0
 top: false
 mirror: true
 alternate: true
 reload: 60
 recoil: 0
-layerOffset: 0
+layerOffset: -1
  parts: [
     {
       type: RegionPart
