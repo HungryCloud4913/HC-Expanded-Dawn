@@ -24,6 +24,7 @@ weapons: [{
                 alternate: false
                 rotate: true
 		rotateSpeed: 5
+                rotationLimit: 45
                 x: 0
                 y: +6
                 reload: 300
@@ -84,8 +85,8 @@ weapons: [{
 }
 {
 name: polnareff-secret
-y: -7
-x: -40
+y: -9
+x: -43
 shootY: 0
 top: false
 mirror: true
@@ -95,8 +96,8 @@ recoil: 0
 layerOffset: -1
  parts: [
     {
-      type: RegionPart
-      suffix: -secretbarrel
+      type: regionPart
+      suffix: polnareff-secretbarrel
       moveY: 0
       moveX: +20
       progress: recoil
