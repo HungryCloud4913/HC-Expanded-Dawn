@@ -1,0 +1,14 @@
+type: LiquidBridge
+name: Aquaduct Bridge
+description: Used for crossing multiple distribution lines or terrain to connect Aqueducts.
+fadeIn: false
+moveArrows: false
+arrowSpacing: 6
+range: 4
+hasPower: false
+category: liquid
+requirements: [
+  silicon/12
+]
+researchCostMultiplier: 0.5
+liquidCapacity: 15
