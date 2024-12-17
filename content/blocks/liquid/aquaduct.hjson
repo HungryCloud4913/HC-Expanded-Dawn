@@ -4,7 +4,7 @@ description: Transports liquids forward.
 category: liquid
 research: []
 requirements: [
-  item-silicon/1
+  silicon/1
 ]
 health: 35
 leaks: true
