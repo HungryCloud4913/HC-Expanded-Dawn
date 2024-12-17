@@ -4,6 +4,7 @@ description: Used for crossing multiple distribution lines or terrain to connect
 fadeIn: false
 moveArrows: false
 arrowSpacing: 11
+squareSprite: false
 range: 5
 hasPower: false
 category: liquid
