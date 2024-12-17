@@ -1,0 +1,14 @@
+type: Conduit
+name: Aqueduct
+description: Transports liquids forward.
+category: liquid
+research:
+requirements: [
+  item-silicon
+]
+health: 35
+leaks: true
+junctionReplacement: aqueduct-junction
+bridgeReplacement: aqueduct-bridge
+underBullets: true
+researchCostMultiplier: 0.5
