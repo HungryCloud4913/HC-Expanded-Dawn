@@ -9,3 +9,4 @@ health: 35
 leaks: true
 underBullets: true
 researchCostMultiplier: 0.5
+liquidCapacity: 15
