@@ -1,0 +1,11 @@
+type: LiquidJunction
+name: Aquaduct Junction
+description: Used for crossing two aqueducts.
+solid: false
+category: liquid
+squareSprite: false
+requirements: [
+  silicon/6
+  tungsten/2
+]
+researchCostMultiplier: 0.5
