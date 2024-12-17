@@ -9,6 +9,7 @@ hasPower: false
 category: liquid
 requirements: [
   silicon/12
+  tungsten/2
 ]
 researchCostMultiplier: 0.5
 liquidCapacity: 15
