@@ -8,7 +8,7 @@ requirements: [
 ]
 health: 35
 leaks: true
-junctionReplacement: aqueduct-junction
-bridgeReplacement: aqueduct-bridge
+junctionReplacement: []
+bridgeReplacement: []
 underBullets: true
 researchCostMultiplier: 0.5
