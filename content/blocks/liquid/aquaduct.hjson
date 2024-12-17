@@ -2,7 +2,7 @@ type: Conduit
 name: Aqueduct
 description: Transports liquids forward.
 category: liquid
-research:
+research: []
 requirements: [
   item-silicon/1
 ]
