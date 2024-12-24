@@ -73,7 +73,7 @@ weapons: [{
                 speed: 0
                 lifetime: 50
                 knockback: -1
-		colors: [665C9F BF92F9 FFFFFF]
+		colors: [665C9F, BF92F9, FFFFFF]
                 width: 20
                 length: 200
             }
