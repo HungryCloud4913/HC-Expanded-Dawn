@@ -7,6 +7,28 @@ speed: 1
 accel: 0.5
 drag: 0.5
 armor: 2
+abilities: [
+{
+type: MoveEffectAbility
+y: 7
+x: 5
+minVelocity: 0.1
+interval: 1
+effect: disperseTrail
+color: bdd5ff
+rotateEffect: true
+}
+{
+type: MoveEffectAbility
+y: 8
+x: -18
+minVelocity: 1.5
+interval: 1
+effect: disperseTrail
+color: bdd5ff
+rotateEffect: true
+}
+]
 weapons: [{
                 name: purple-beam-center
                 mirror: false
