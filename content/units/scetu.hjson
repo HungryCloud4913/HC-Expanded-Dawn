@@ -51,7 +51,6 @@ bullet: {
 	endEffect: none
 	hitEffect: hitBulletColor
 	despawnEffect: none
-        width: 10
 	length: 28
 	hitColor: bdd5ff
 }
