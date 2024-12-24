@@ -13,23 +13,47 @@ type: MoveEffectAbility
 y: 7
 x: 5
 minVelocity: 0.1
-interval: 1
+interval: 2
 effect: disperseTrail
 color: bdd5ff
 rotateEffect: true
 }
 {
 type: MoveEffectAbility
-y: 8
-x: -18
-minVelocity: 1.5
-interval: 1
+y: 7
+x: -5
+minVelocity: 0.1
+interval: 2
 effect: disperseTrail
 color: bdd5ff
 rotateEffect: true
 }
 ]
 weapons: [{
+top: false
+shootSound: none
+reload: 1
+baseRotation: 90
+y: 7
+shootY: -1
+shootX: 0
+minShootVelocity: 0.1
+alternate: false
+alwaysShooting: true
+bullet: {
+	type: RailBulletType
+	shootEffect: none
+	smokeEffect: none
+	damage: 100
+	pointEffect: none
+	endEffect: none
+	hitEffect: hitBulletColor
+	despawnEffect: none
+	length: 10
+	hitColor: bdd5ff
+}
+}
+{
                 name: purple-beam-center
                 mirror: false
                 top: true
