@@ -8,6 +8,28 @@ accel: 0.5
 drag: 0.5
 rotateSpeed: 0.75
 armor: 17
+abilities: [
+{
+type: MoveEffectAbility
+y: 4
+x: 24
+minVelocity: 0.1
+interval: 5
+effect: disperseTrail
+color: BF92F9
+rotateEffect: true
+}
+{
+type: MoveEffectAbility
+y: 4
+x: -24
+minVelocity: 0.1
+interval: 5
+effect: disperseTrail
+color: BF92F9
+rotateEffect: true
+}
+]
 weapons: [{
                 name: raporanus-cannon
                 mirror: true
