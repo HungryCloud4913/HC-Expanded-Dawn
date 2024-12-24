@@ -70,7 +70,7 @@ weapons: [{
                 lifetime: 50
                 knockback: 0
                 pierce: true
-               colors: [665C9F, 665C9F, 665C9F]
+		colors: [665C9F, BF92F9, FFFFFF]
                 width: 20
                 length: 125
             }
