@@ -12,7 +12,7 @@ abilities: [
 {
 type: MoveEffectAbility
 y: 4
-x: 18
+x: 19
 minVelocity: 0.1
 interval: 5
 effect: disperseTrail
@@ -22,7 +22,7 @@ rotateEffect: true
 {
 type: MoveEffectAbility
 y: 4
-x: -18
+x: -19
 minVelocity: 0.1
 interval: 5
 effect: disperseTrail
