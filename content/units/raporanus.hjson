@@ -11,8 +11,8 @@ armor: 17
 abilities: [
 {
 type: MoveEffectAbility
-y: 8
-x: 30
+y: 14
+x: 29
 minVelocity: 0.1
 interval: 5
 effect: disperseTrail
@@ -21,8 +21,8 @@ rotateEffect: true
 }
 {
 type: MoveEffectAbility
-y: 8
-x: -30
+y: 14
+x: -29
 minVelocity: 0.1
 interval: 5
 effect: disperseTrail
