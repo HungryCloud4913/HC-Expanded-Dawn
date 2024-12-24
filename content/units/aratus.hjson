@@ -31,14 +31,13 @@ weapons: [{
                 speed: 2
                 lifetime: 60
                 knockback: -1
-                hitColor: bf92f9
-                color: bf92f9
-                frontcolor: ffffff
-                backcolor: bf92f9
+                frontColor: BF92F9
+                mixColorFrom: BF92F9
+                mixColorTo: BF92F9
                 width: 5.5
                 length: 2
         trailLength: 5
-        trailColor: bf92f9
+        trailColor: BF92F9
 		fragOnHit": true
 		fragBullets: 3
 		splashDamageRadius: 5
@@ -70,8 +69,9 @@ weapons: [{
                 lifetime: 30
                 sapStrength: 0.9
                 knockback: -1
-                hitColor: bf92f9
-                color: bf92f9
+                frontColor: BF92F9
+                mixColorFrom: BF92F9
+                mixColorTo: BF92F9
                 width: 0.4
                 length: 45
             }
