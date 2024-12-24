@@ -31,9 +31,9 @@ weapons: [{
                 speed: 2
                 lifetime: 60
                 knockback: -1
-                frontColor: BF92F9
-                mixColorFrom: BF92F9
-                mixColorTo: BF92F9
+                frontColor: 665C9F
+                mixColorFrom: 665C9F
+                mixColorTo: 665C9F
                 width: 5.5
                 length: 2
         trailLength: 5
@@ -69,9 +69,7 @@ weapons: [{
                 lifetime: 30
                 sapStrength: 0.9
                 knockback: -1
-                frontColor: BF92F9
-                mixColorFrom: BF92F9
-                mixColorTo: BF92F9
+               colors: [FFF, BF92F9, 665C9F]
                 width: 0.4
                 length: 45
             }
