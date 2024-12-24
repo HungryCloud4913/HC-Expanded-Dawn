@@ -34,10 +34,8 @@ weapons: [{
                 lifetime: 115
                 knockback: -3
                 pierce: true
-                backColor: 665C9F
-                frontColor: 665C9F
-                mixColorFrom: 665C9F
-                mixColorTo: 665C9F
+		backColor: 665C9F
+		frontColor: FFFFFF
                 width: 15
                 length: 25
         trailLength: 10
