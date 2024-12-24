@@ -1,6 +1,6 @@
 type: naval
 name: Rolus
-description: Uses a leech beeam to attack enemy targets and regain health.
+description: A ramming boat that uses a leech beeam to attack enemy targets and regain health.
 health: 250
 hitSize: 10
 speed: 1
@@ -30,6 +30,7 @@ rotateEffect: true
 }
 ]
 weapons: [{
+name: rolus-ram
 top: false
 shootSound: none
 reload: 1
