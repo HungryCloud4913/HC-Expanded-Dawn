@@ -32,10 +32,9 @@ weapons: [{
 		sprite: missile-large
                 lifetime: 115
                 knockback: -2
-                hitColor: bf92f9
-                color: bf92f9
-                frontcolor: bf92f9
-                backcolor: bf92f9
+                frontColor: BF92F9
+                mixColorFrom: BF92F9
+                mixColorTo: BF92F9
                 width: 15
                 length: 17.5
         trailLength: 7
@@ -72,10 +71,9 @@ weapons: [{
                 lifetime: 50
                 knockback: -1
                 pierce: true
-                hitColor: bf92f9
-                color: bf92f9
-                frontcolor: bf92f9
-                backcolor: bf92f9
+                frontColor: BF92F9
+                mixColorFrom: BF92F9
+                mixColorTo: BF92F9
                 width: 20
                 length: 125
             }
@@ -103,10 +101,9 @@ weapons: [{
                 speed: 2
                 lifetime: 50
                 knockback: -2
-                hitColor: bf92f9
-                color: bf92f9
-                frontcolor: bf92f9
-                backcolor: bf92f9
+                frontColor: BF92F9
+                mixColorFrom: BF92F9
+                mixColorTo: BF92F9
                 width: 5.5
                 length: 2
             }
