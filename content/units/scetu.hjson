@@ -1,0 +1,113 @@
+type: naval
+name: Scetu
+description: Attacks enemy targets with a large exposive missile launcher, alternating lancer cannons and a repeating small autocannon.
+health: 10000
+hitSize: 37
+speed: 0.76
+accel: 0.5
+drag: 0.5
+rotateSpeed: 1.25
+armor: 11
+weapons: [{
+                name: scetu-cannon
+                mirror: false
+                top: true
+                rotate: true
+		rotateSpeed: 1.30
+                x: 0
+                y: -15
+                reload: 250
+                shoot: {
+                    shots: 3
+                    shotDelay: 15
+            }
+            inaccuracy: 3
+            recoil: 4
+            shootSound: artillery
+            shootEffect: none
+            bullet: {
+                type: MissileBulletType
+                damage: 65
+                speed: 3
+		sprite: missile-large
+                lifetime: 115
+                knockback: -2
+                hitColor: bf92f9
+                color: bf92f9
+                frontcolor: bf92f9
+                backcolor: bf92f9
+                width: 15
+                length: 17.5
+        trailLength: 7
+        trailColor: bf92f9
+		fragOnHit": true
+		fragBullets: 3
+		splashDamageRadius: 25
+		splashDamage: 30
+		hitEffect: blastExplosion
+            }
+ }
+{
+                name: purple-lance-weapon
+                mirror: true
+                alternate: true
+                top: true
+                rotate: true
+		rotateSpeed: 3.5
+                x: +15
+                y: +3
+                reload: 40
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0.5
+            recoil: 2
+            shootSound: laser
+            shootEffect: none
+            bullet: {
+                type: LaserBulletType
+                damage: 25
+                speed: 0
+                lifetime: 50
+                knockback: -1
+                pierce: true
+                hitColor: bf92f9
+                color: bf92f9
+                frontcolor: bf92f9
+                backcolor: bf92f9
+                width: 20
+                length: 125
+            }
+ }
+{
+                name: purple-pod-middle
+                mirror: false
+                top: true
+                rotate: true
+		rotateSpeed: 4
+                x: 0
+                y: +15
+                reload: 10
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 4
+            recoil: 1
+            shootSound: shoot
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 3
+                speed: 2
+                lifetime: 50
+                knockback: -2
+                hitColor: bf92f9
+                color: bf92f9
+                frontcolor: bf92f9
+                backcolor: bf92f9
+                width: 5.5
+                length: 2
+            }
+ }]

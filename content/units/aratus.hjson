@@ -1,0 +1,78 @@
+type: naval
+name: Aratus
+description: Shoots alternating leach beams and small homing missiles at enemy targets.
+health: 250
+hitSize: 16
+speed: 0.93
+accel: 0.5
+drag: 0.5
+rotateSpeed: 3
+armor: 5
+weapons: [{
+                name: purple-pod-middle
+                mirror: false
+                top: true
+                rotate: true
+		rotateSpeed: 4
+                x: 0
+                y: -5
+                reload: 100
+                shoot: {
+                    shots: 3
+                    shotDelay: 10
+            }
+            inaccuracy: 2
+            recoil: 2
+            shootSound: bolt
+            shootEffect: none
+            bullet: {
+                type: MissileBulletType
+                damage: 20
+                speed: 2
+                lifetime: 60
+                knockback: -1
+                hitColor: bf92f9
+                color: bf92f9
+                frontcolor: ffffff
+                backcolor: bf92f9
+                width: 5.5
+                length: 2
+        trailLength: 5
+        trailColor: bf92f9
+		fragOnHit": true
+		fragBullets: 3
+		splashDamageRadius: 5
+		splashDamage: 10
+		hitEffect: blastExplosion
+            }
+ }
+{
+                name: small-purple-weapon
+                mirror: true
+                alternate: true
+		rotateSpeed: 8
+                top: true
+                rotate: true
+                x: +5
+                y: +3
+                reload: 25
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 2
+            shootSound: sap
+            shootEffect: none
+            bullet: {
+                type: SapBulletType
+                damage: 14
+                lifetime: 30
+                sapStrength: 0.9
+                knockback: -1
+                hitColor: bf92f9
+                color: bf92f9
+                width: 0.4
+                length: 45
+            }
+ }]

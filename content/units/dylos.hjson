@@ -1,0 +1,78 @@
+type: naval
+name: Dylos
+description: Shoots alternating dual fire weapons and an explosive 6 round missile launcher at enemy targets.
+health: 720
+hitSize: 23
+speed: 0.8
+accel: 0.5
+drag: 0.5
+rotateSpeed: 2
+armor: 8
+weapons: [{
+                name: purple-missile-launcher
+                mirror: false
+                top: true
+                rotate: true
+		rotateSpeed: 3
+                x: 0
+                y: -7
+                reload: 120
+                shoot: {
+                    shots: 6
+                    shotDelay: 8
+            }
+            inaccuracy: 3
+            recoil: 2
+            shootSound: bolt
+            shootEffect: none
+            bullet: {
+                type: MissileBulletType
+                damage: 30
+                speed: 2
+                lifetime: 90
+                knockback: -1
+                hitColor: bf92f9
+                color: bf92f9
+                frontcolor: ffffff
+                backcolor: bf92f9
+                width: 5
+                length: 1.75
+        trailLength: 5
+        trailColor: bf92f9
+		fragOnHit": true
+		fragBullets: 3
+		splashDamageRadius: 10
+		splashDamage: 15
+		hitEffect: blastExplosion
+            }
+ }
+{
+                name: purple-pod-side
+                mirror: true
+                alternate: true
+                top: true
+                rotate: true
+		rotateSpeed: 8
+                x: +5
+                y: +3.5
+                reload: 30
+                shoot: {
+                    shots: 2
+                    shotDelay: 3
+            }
+            inaccuracy: 0.5
+            recoil: 2
+            shootSound: shoot
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 11
+                speed: 2
+                lifetime: 50
+                knockback: -1
+                hitColor: bf92f9
+                color: bf92f9
+                width: 5
+                length: 6
+            }
+ }]

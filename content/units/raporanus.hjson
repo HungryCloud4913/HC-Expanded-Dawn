@@ -1,0 +1,114 @@
+type: naval
+name: Raporanus
+description: Destroys enemy targets with powerful alternating explsoive missile launchers, alternating heavy lancer cannons and a quick burst fire autocannon.
+health: 22500
+hitSize: 55
+speed: 0.66
+accel: 0.5
+drag: 0.5
+rotateSpeed: 0.75
+armor: 17
+weapons: [{
+                name: raporanus-cannon
+                mirror: true
+                alternate: true
+                top: true
+                rotate: true
+		rotateSpeed: 1
+                x: +17
+                y: -25
+                reload: 250
+                shoot: {
+                    shots: 2
+                    shotDelay: 10
+            }
+            inaccuracy: 2
+            recoil: 6
+            shootSound: artillery
+            shootEffect: none
+            bullet: {
+                type: MissileBulletType
+                damage: 115
+                speed: 3.5
+		sprite: missile-large
+                lifetime: 115
+                knockback: -3
+                pierce: true
+                hitColor: bf92f9
+                color: bf92f9
+                frontcolor: bf92f9
+                backcolor: bf92f9
+                width: 15
+                length: 25
+        trailLength: 10
+        trailColor: bf92f9
+		fragOnHit: true
+		fragBullets: 3
+		splashDamageRadius: 50
+		splashDamage: 50
+		hitEffect: blastExplosion
+            }
+ }
+{
+                name: raporanus-lance-weapon
+                mirror: true
+                alternate: true
+                top: true
+                rotate: true
+		rotateSpeed: 3
+                x: +15
+                y: +6
+                reload: 40
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0.5
+            recoil: 2
+            shootSound: laser
+            shootEffect: none
+            bullet: {
+                type: LaserBulletType
+                damage: 50
+                speed: 0
+                lifetime: 50
+                knockback: -1
+                hitColor: bf92f9
+                color: bf92f9
+                frontcolor: bf92f9
+                backcolor: bf92f9
+                width: 20
+                length: 200
+            }
+ }
+{
+                name: purple-burst-cannon
+                mirror: false
+                top: true
+                rotate: true
+		rotateSpeed: 3
+                x: 0
+                y: +20
+                reload: 30
+                shoot: {
+                    shots: 5
+                    shotDelay: 2
+            }
+            inaccuracy: 4
+            recoil: 2
+            shootSound: shoot
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 4
+                speed: 2.25
+                lifetime: 75
+                knockback: -2
+                hitColor: bf92f9
+                color: bf92f9
+                frontcolor: bf92f9
+                backcolor: bf92f9
+                width: 7
+                length: 3
+            }
+ }]

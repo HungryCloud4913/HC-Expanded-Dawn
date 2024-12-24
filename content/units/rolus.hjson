@@ -1,0 +1,38 @@
+type: naval
+name: Rolus
+description: Uses a leech beeam to attack enemy targets and regain health.
+health: 250
+hitSize: 10
+speed: 1
+accel: 0.5
+drag: 0.5
+armor: 2
+weapons: [{
+                name: purple-beam-center
+                mirror: false
+                top: true
+                rotate: true
+		rotateSpeed: 8
+                x: 0
+                y: -3
+                reload: 20
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 2
+            shootSound: sap
+            shootEffect: none
+            bullet: {
+                type: SapBulletType
+                damage: 15
+                lifetime: 30
+                sapStrength: 0.6
+                knockback: -1
+                hitColor: bf92f9
+                color: bf92f9
+                width: 0.4
+                length: 50
+            }
+ }]
