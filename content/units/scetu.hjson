@@ -1,6 +1,6 @@
 type: naval
 name: Scetu
-description: Attacks enemy targets with a large exposive missile launcher, alternating lancer cannons and a repeating small autocannon.
+description: A ramming boat that attacks enemy targets with a large exposive missile launcher, alternating lancer cannons and a repeating small autocannon.
 health: 10000
 hitSize: 37
 speed: 0.76
