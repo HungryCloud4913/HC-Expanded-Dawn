@@ -30,7 +30,7 @@ weapons: [{
                 damage: 30
                 speed: 2
                 lifetime: 90
-                knockback: -1
+                knockback: 0
 		backColor: 665C9F
 		frontColor: FFFFFF
                 width: 5
@@ -67,7 +67,7 @@ weapons: [{
                 damage: 11
                 speed: 2
                 lifetime: 50
-                knockback: -1
+                knockback: 0
 		backColor: 665C9F
 		frontColor: FFFFFF
                 width: 5
