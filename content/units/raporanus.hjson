@@ -34,10 +34,9 @@ weapons: [{
                 lifetime: 115
                 knockback: -3
                 pierce: true
-                hitColor: bf92f9
-                color: bf92f9
-                frontcolor: bf92f9
-                backcolor: bf92f9
+                frontColor: BF92F9
+                mixColorFrom: BF92F9
+                mixColorTo: BF92F9
                 width: 15
                 length: 25
         trailLength: 10
@@ -73,10 +72,9 @@ weapons: [{
                 speed: 0
                 lifetime: 50
                 knockback: -1
-                hitColor: bf92f9
-                color: bf92f9
-                frontcolor: bf92f9
-                backcolor: bf92f9
+                frontColor: BF92F9
+                mixColorFrom: BF92F9
+                mixColorTo: BF92F9
                 width: 20
                 length: 200
             }
@@ -104,10 +102,9 @@ weapons: [{
                 speed: 2.25
                 lifetime: 75
                 knockback: -2
-                hitColor: bf92f9
-                color: bf92f9
-                frontcolor: bf92f9
-                backcolor: bf92f9
+                frontColor: BF92F9
+                mixColorFrom: BF92F9
+                mixColorTo: BF92F9
                 width: 7
                 length: 3
             }
