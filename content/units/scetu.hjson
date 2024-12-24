@@ -32,6 +32,7 @@ weapons: [{
 		sprite: missile-large
                 lifetime: 115
                 knockback: -2
+                backColor: 665C9F
                 frontColor: 665C9F
                 mixColorFrom: 665C9F
                 mixColorTo: 665C9F
@@ -99,6 +100,7 @@ weapons: [{
                 speed: 2
                 lifetime: 50
                 knockback: -2
+                backColor: 665C9F
                 frontColor: 665C9F
                 mixColorFrom: 665C9F
                 mixColorTo: 665C9F
