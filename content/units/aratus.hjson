@@ -68,7 +68,8 @@ weapons: [{
                 lifetime: 30
                 sapStrength: 0.9
                 knockback: -1
-               colors: [FFF, BF92F9, 665C9F]
+		backColor: ff5242
+		frontColor: FFFFFF
                 width: 0.4
                 length: 45
             }
