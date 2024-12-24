@@ -1,0 +1,27 @@
+plans: [
+{
+unit: risso
+requirements: [
+silicon/20
+metaglass/35
+]
+time: 2700
+}
+{
+unit: retusa
+requirements: [
+silicon/15
+metaglass/25
+titanium/20
+]
+time: 3000
+}
+{
+unit: rolus
+requirements: [
+silicon/15
+metaglass/30
+graphite/15
+]
+time: 2700
+}]
