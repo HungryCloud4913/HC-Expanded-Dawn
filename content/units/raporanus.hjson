@@ -34,6 +34,7 @@ weapons: [{
                 lifetime: 115
                 knockback: -3
                 pierce: true
+                backColor: 665C9F
                 frontColor: 665C9F
                 mixColorFrom: 665C9F
                 mixColorTo: 665C9F
@@ -100,6 +101,7 @@ weapons: [{
                 speed: 2.25
                 lifetime: 75
                 knockback: -2
+                backColor: 665C9F
                 frontColor: 665C9F
                 mixColorFrom: 665C9F
                 mixColorTo: 665C9F
