@@ -30,9 +30,7 @@ weapons: [{
                 lifetime: 30
                 sapStrength: 0.6
                 knockback: -1
-                frontColor: BF92F9
-                mixColorFrom: BF92F9
-                mixColorTo: BF92F9
+               colors: [FFF, BF92F9, 665C9F]
                 width: 0.4
                 length: 50
             }
