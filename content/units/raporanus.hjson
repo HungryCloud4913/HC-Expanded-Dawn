@@ -31,6 +31,32 @@ rotateEffect: true
 }
 ]
 weapons: [{
+name: raporanus-ram
+top: false
+shootSound: none
+reload: 1
+baseRotation: 90
+y: 20
+shootY: -1
+shootX: 0
+minShootVelocity: 0.1
+alternate: false
+alwaysShooting: true
+bullet: {
+	type: RailBulletType
+	shootEffect: none
+	smokeEffect: none
+	damage: 95
+	pointEffect: none
+	endEffect: none
+	hitEffect: hitBulletColor
+	despawnEffect: none
+        width: 15
+	length: 44
+	hitColor: bdd5ff
+}
+}
+{
                 name: raporanus-cannon
                 mirror: true
                 alternate: true
