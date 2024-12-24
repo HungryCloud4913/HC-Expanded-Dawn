@@ -31,10 +31,8 @@ weapons: [{
                 speed: 2
                 lifetime: 60
                 knockback: -1
-                backColor: 665C9F
-                frontColor: 665C9F
-                mixColorFrom: FFFFFF
-                mixColorTo: FFFFFF
+		backColor: ff5242
+		frontColor: FFFFFF
                 width: 5.5
                 length: 2
         trailLength: 5
