@@ -8,7 +8,54 @@ accel: 0.5
 drag: 0.5
 rotateSpeed: 2
 armor: 8
+abilities: [
+{
+type: MoveEffectAbility
+y: 4
+x: 10
+minVelocity: 0.1
+interval: 5
+effect: disperseTrail
+color: BF92F9
+rotateEffect: true
+}
+{
+type: MoveEffectAbility
+y: 4
+x: -10
+minVelocity: 0.1
+interval: 5
+effect: disperseTrail
+color: BF92F9
+rotateEffect: true
+}
+]
 weapons: [{
+name: aratus-ram
+top: false
+shootSound: none
+reload: 1
+baseRotation: 90
+y: 13
+shootY: -1
+shootX: 0
+minShootVelocity: 0.1
+alternate: false
+alwaysShooting: true
+bullet: {
+	type: RailBulletType
+	shootEffect: none
+	smokeEffect: none
+	damage: 15
+	pointEffect: none
+	endEffect: none
+	hitEffect: hitBulletColor
+	despawnEffect: none
+	length: 20
+	hitColor: bdd5ff
+}
+}
+{
                 name: purple-missile-launcher
                 mirror: false
                 top: true
