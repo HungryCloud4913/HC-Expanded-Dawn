@@ -1,6 +1,6 @@
 type: naval
 name: Raporanus
-description: Destroys enemy targets with powerful alternating explsoive missile launchers, alternating heavy lancer cannons and a quick burst fire autocannon.
+description: A ramming boat that destroys enemy targets with powerful alternating explsoive missile launchers, alternating heavy lancer cannons and a quick burst fire autocannon.
 health: 22500
 hitSize: 55
 speed: 0.66
@@ -62,7 +62,7 @@ top: false
 shootSound: none
 reload: 1
 baseRotation: 90
-y: 28
+y: 30
 shootY: -1
 shootX: 0
 minShootVelocity: 0.1
