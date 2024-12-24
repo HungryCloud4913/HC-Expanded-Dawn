@@ -99,10 +99,8 @@ weapons: [{
                 speed: 2.25
                 lifetime: 75
                 knockback: -2
-                backColor: 665C9F
-                frontColor: 665C9F
-                mixColorFrom: 665C9F
-                mixColorTo: 665C9F
+		backColor: 665C9F
+		frontColor: FFFFFF
                 width: 7
                 length: 3
             }
