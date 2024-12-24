@@ -33,8 +33,8 @@ weapons: [{
                 knockback: -1
                 backColor: 665C9F
                 frontColor: 665C9F
-                mixColorFrom: 665C9F
-                mixColorTo: 665C9F
+                mixColorFrom: FFFFFF
+                mixColorTo: FFFFFF
                 width: 5.5
                 length: 2
         trailLength: 5
