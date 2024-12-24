@@ -10,20 +10,20 @@ armor: 2
 abilities: [
 {
 type: MoveEffectAbility
-y: 7
-x: 5
+y: 6
+x: 6
 minVelocity: 0.1
-interval: 2
+interval: 5
 effect: disperseTrail
 color: bdd5ff
 rotateEffect: true
 }
 {
 type: MoveEffectAbility
-y: 7
-x: -5
+y: 6
+x: -6
 minVelocity: 0.1
-interval: 2
+interval: 5
 effect: disperseTrail
 color: bdd5ff
 rotateEffect: true
@@ -44,7 +44,7 @@ bullet: {
 	type: RailBulletType
 	shootEffect: none
 	smokeEffect: none
-	damage: 100
+	damage: 2
 	pointEffect: none
 	endEffect: none
 	hitEffect: hitBulletColor
