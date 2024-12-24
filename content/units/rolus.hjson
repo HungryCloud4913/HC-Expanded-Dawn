@@ -10,7 +10,7 @@ armor: 2
 abilities: [
 {
 type: MoveEffectAbility
-y: 6
+y: 5
 x: 6
 minVelocity: 0.1
 interval: 5
@@ -20,7 +20,7 @@ rotateEffect: true
 }
 {
 type: MoveEffectAbility
-y: 6
+y: 5
 x: -6
 minVelocity: 0.1
 interval: 5
@@ -34,7 +34,7 @@ top: false
 shootSound: none
 reload: 1
 baseRotation: 90
-y: 7
+y: 9
 shootY: -1
 shootX: 0
 minShootVelocity: 0.1
@@ -49,7 +49,7 @@ bullet: {
 	endEffect: none
 	hitEffect: hitBulletColor
 	despawnEffect: none
-	length: 10
+	length: 7
 	hitColor: bdd5ff
 }
 }
