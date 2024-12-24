@@ -1,6 +1,6 @@
 type: naval
 name: Dylos
-description: Shoots alternating dual fire weapons and an explosive 6 round missile launcher at enemy targets.
+description: A ramming boat that shoots alternating dual fire weapons and an explosive 6 round missile launcher at enemy targets.
 health: 720
 hitSize: 23
 speed: 0.8
@@ -51,7 +51,7 @@ bullet: {
 	endEffect: none
 	hitEffect: hitBulletColor
 	despawnEffect: none
-	length: 20
+	length: 18
 	hitColor: bdd5ff
 }
 }
