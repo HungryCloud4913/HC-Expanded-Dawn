@@ -31,7 +31,7 @@ rotateEffect: true
 }
 ]
 weapons: [{
-name: aratus-ram
+name: dylos-ram
 top: false
 shootSound: none
 reload: 1
