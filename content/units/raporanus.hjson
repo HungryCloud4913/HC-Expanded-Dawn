@@ -55,6 +55,7 @@ bullet: {
 	length: 38
 	hitColor: bdd5ff
 }
+}
 {
 name: raporanus-ram2
 top: false
