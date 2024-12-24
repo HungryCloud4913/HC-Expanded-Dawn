@@ -12,7 +12,7 @@ abilities: [
 {
 type: MoveEffectAbility
 y: 4
-x: 15
+x: 18
 minVelocity: 0.1
 interval: 5
 effect: disperseTrail
@@ -22,7 +22,7 @@ rotateEffect: true
 {
 type: MoveEffectAbility
 y: 4
-x: -15
+x: -18
 minVelocity: 0.1
 interval: 5
 effect: disperseTrail
@@ -36,7 +36,7 @@ top: false
 shootSound: none
 reload: 1
 baseRotation: 90
-y: 13
+y: 18
 shootY: -1
 shootX: 0
 minShootVelocity: 0.1
@@ -51,6 +51,7 @@ bullet: {
 	endEffect: none
 	hitEffect: hitBulletColor
 	despawnEffect: none
+        wodth: 10
 	length: 28
 	hitColor: bdd5ff
 }
