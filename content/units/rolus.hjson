@@ -10,22 +10,22 @@ armor: 2
 abilities: [
 {
 type: MoveEffectAbility
-y: 5
+y: 4
 x: 6
 minVelocity: 0.1
 interval: 5
 effect: disperseTrail
-color: bdd5ff
+color: BF92F9
 rotateEffect: true
 }
 {
 type: MoveEffectAbility
-y: 5
+y: 4
 x: -6
 minVelocity: 0.1
 interval: 5
 effect: disperseTrail
-color: bdd5ff
+color: BF92F9
 rotateEffect: true
 }
 ]
