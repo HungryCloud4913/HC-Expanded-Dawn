@@ -46,12 +46,37 @@ bullet: {
 	type: RailBulletType
 	shootEffect: none
 	smokeEffect: none
-	damage: 50
+	damage: 25
 	pointEffect: none
 	endEffect: none
 	hitEffect: hitBulletColor
 	despawnEffect: none
 	length: 28
+	hitColor: bdd5ff
+}
+}
+{
+name: scetu-ram2
+top: false
+shootSound: none
+reload: 1
+baseRotation: 90
+y: 24
+shootY: -1
+shootX: 0
+minShootVelocity: 0.1
+alternate: false
+alwaysShooting: true
+bullet: {
+	type: RailBulletType
+	shootEffect: none
+	smokeEffect: none
+	damage: 30
+	pointEffect: none
+	endEffect: none
+	hitEffect: hitBulletColor
+	despawnEffect: none
+	length: 22
 	hitColor: bdd5ff
 }
 }
