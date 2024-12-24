@@ -46,13 +46,38 @@ bullet: {
 	type: RailBulletType
 	shootEffect: none
 	smokeEffect: none
-	damage: 95
+	damage: 45
 	pointEffect: none
 	endEffect: none
 	hitEffect: hitBulletColor
 	despawnEffect: none
         width: 15
 	length: 38
+	hitColor: bdd5ff
+}
+{
+name: raporanus-ram2
+top: false
+shootSound: none
+reload: 1
+baseRotation: 90
+y: 28
+shootY: -1
+shootX: 0
+minShootVelocity: 0.1
+alternate: false
+alwaysShooting: true
+bullet: {
+	type: RailBulletType
+	shootEffect: none
+	smokeEffect: none
+	damage: 50
+	pointEffect: none
+	endEffect: none
+	hitEffect: hitBulletColor
+	despawnEffect: none
+        width: 20
+	length: 34
 	hitColor: bdd5ff
 }
 }
