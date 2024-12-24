@@ -1,6 +1,6 @@
 type: naval
 name: Aratus
-description: Shoots alternating leach beams and small homing missiles at enemy targets.
+description: A ramming boat that shoots alternating leach beams and small homing missiles at enemy targets.
 health: 250
 hitSize: 16
 speed: 0.93
@@ -8,7 +8,54 @@ accel: 0.5
 drag: 0.5
 rotateSpeed: 3
 armor: 5
+abilities: [
+{
+type: MoveEffectAbility
+y: 4
+x: 8
+minVelocity: 0.1
+interval: 5
+effect: disperseTrail
+color: BF92F9
+rotateEffect: true
+}
+{
+type: MoveEffectAbility
+y: 4
+x: -8
+minVelocity: 0.1
+interval: 5
+effect: disperseTrail
+color: BF92F9
+rotateEffect: true
+}
+]
 weapons: [{
+name: aratus-ram
+top: false
+shootSound: none
+reload: 1
+baseRotation: 90
+y: 11
+shootY: -1
+shootX: 0
+minShootVelocity: 0.1
+alternate: false
+alwaysShooting: true
+bullet: {
+	type: RailBulletType
+	shootEffect: none
+	smokeEffect: none
+	damage: 6
+	pointEffect: none
+	endEffect: none
+	hitEffect: hitBulletColor
+	despawnEffect: none
+	length: 16
+	hitColor: bdd5ff
+}
+}
+{
                 name: purple-pod-middle
                 mirror: false
                 top: true
