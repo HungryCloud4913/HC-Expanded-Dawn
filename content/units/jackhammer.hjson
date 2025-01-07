@@ -39,11 +39,11 @@ weapons: [{
                 rotate: false
 		rotateSpeed: 0
                 x: 0
-                y: 0
+                y: -1
                 reload: 120
                 shoot: {
-                    shots: 3
-                    shotDelay: 2
+                    shots: 4
+                    shotDelay: 1.5
             }
             inaccuracy: 0.7
             recoil: 5
@@ -63,8 +63,8 @@ weapons: [{
                 frontColor: D7BDFF
                 mixColorFrom: D7BDFF
                 mixColorTo: D7BDFF
-                width: 10
-                height: 10
+                width: 15
+                height: 15
 		fragOnHit: true
 		fragBullets: 0
 		splashDamageRadius: 0
