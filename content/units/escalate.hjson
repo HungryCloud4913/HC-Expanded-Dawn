@@ -61,18 +61,18 @@ weapons: [{
                 homing: false
                 speed: 7
                 sprite: large-bomb
-                lifetime: 55
+                lifetime: 47
                 knockback: -1
                 backColor: D7BDFF
                 frontColor: D7BDFF
                 width: 20
                 height: 30
 		fragOnHit: true
-		fragBullets: 15
+		fragBullets: 7
 		fragBullet: {
 			type: BasicBulletType
 			speed: 5
-			damage: 13
+			damage: 16
 			hitEffect: {
 				type: WrapEffect
 				effect: dynamicSpikes
