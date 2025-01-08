@@ -61,7 +61,7 @@ weapons: [{
                 homing: false
                 speed: 7
                 sprite: large-bomb
-                lifetime: 47
+                lifetime: 35
                 knockback: -1
                 backColor: D7BDFF
                 frontColor: D7BDFF
@@ -95,7 +95,7 @@ weapons: [{
 			trailEffect: {
 				type: ParticleEffect
 				particles: 10
-				sizeFrom: 1
+				sizeFrom: 3
 				sizeTo: 0
 				colorFrom: D7BDFF
 				colorTo: D7BDFFaa
