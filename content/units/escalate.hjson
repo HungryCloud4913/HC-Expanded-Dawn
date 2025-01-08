@@ -95,12 +95,12 @@ weapons: [{
 			trailEffect: {
 				type: ParticleEffect
 				particles: 10
-				sizeFrom: 1.5
+				sizeFrom: 1
 				sizeTo: 0
 				colorFrom: D7BDFF
 				colorTo: D7BDFFaa
 				interp: linear
-				sizeInterp: pow1In
+				sizeInterp: pow4In
 				length: 6
 				}
 			backColor: D7BDFF
