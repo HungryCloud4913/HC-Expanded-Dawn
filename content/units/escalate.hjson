@@ -65,8 +65,8 @@ weapons: [{
                 knockback: -1
                 backColor: D7BDFF
                 frontColor: D7BDFF
-                width: 30
-                height: 40
+                width: 20
+                height: 30
 		fragOnHit: true
 		fragBullets: 15
 		fragBullet: {
