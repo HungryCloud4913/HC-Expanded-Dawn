@@ -84,8 +84,8 @@ weapons: [{
 			weaveScl: 10
 			lifetime: 18
 			trailWidth: 2.1
-			width: 9
-			height: 9
+			width: 7
+			height: 7
 			shrinkX: 0.05
 			shrinkY: 0.05
 			sprite: large-bomb
@@ -95,13 +95,13 @@ weapons: [{
 			trailEffect: {
 				type: ParticleEffect
 				particles: 10
-				sizeFrom: 2
+				sizeFrom: 1
 				sizeTo: 0
 				colorFrom: D7BDFF
 				colorTo: D7BDFFaa
 				interp: linear
-				sizeInterp: pow5In
-				length: 8
+				sizeInterp: pow2In
+				length: 6
 				}
 			backColor: D7BDFF
 			frontColor: D7BDFF
