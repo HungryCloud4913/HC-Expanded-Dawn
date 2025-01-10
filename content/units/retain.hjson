@@ -54,6 +54,7 @@ weapons: [
   moveX: -2.5
   moveY: -2.5
   progress: warmup
+  heatProgress: warmup
   heatColor: FF6700
   mirror: true
   under: true
