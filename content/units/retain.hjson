@@ -51,8 +51,8 @@ weapons: [
 {
   type: RegionPart
   suffix: -retainpod
-  moveX: -5
-  moveY: -5
+  moveX: -2
+  moveY: -2
   progress: warmup
   mirror: true
   under: true
