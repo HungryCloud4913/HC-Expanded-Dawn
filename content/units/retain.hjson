@@ -53,7 +53,7 @@ weapons: [
   suffix: -retainpod
   moveX: -2.5
   moveY: -2.5
-  progress: life
+  progress: warmup
   heatColor: FF6700
   mirror: true
   under: true
@@ -103,6 +103,16 @@ weapons: [
       mirror: false
       under: true
 }
+{
+  type: RegionPart
+  suffix: -retainpod
+  moveX: -2.5
+  moveY: -2.5
+  progress: warmup
+  heatColor: FF6700
+  mirror: true
+  under: true
+}
 ]
                shoot: {
   type: ShootBarrel
@@ -147,6 +157,16 @@ weapons: [
       progress: recoil
       mirror: false
       under: true
+}
+{
+  type: RegionPart
+  suffix: -retainpod
+  moveX: -2.5
+  moveY: -2.5
+  progress: warmup
+  heatColor: FF6700
+  mirror: true
+  under: true
 }
 ]
                shoot: {
