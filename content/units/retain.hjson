@@ -50,15 +50,12 @@ weapons: [
 }
 {
   type: RegionPart
+  suffix: -retainpod
+  moveX: -5
+  moveY: -5
+  progress: warmup
   mirror: true
   under: true
-  moveX: -5
-  moveY: +5
-  moveRot: 0
-  suffix: -retainpod
-  progress: warmup
-  weaponIndex: 0
-  layerOffset: 0
 }
 ]
                shoot: {
