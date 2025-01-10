@@ -53,7 +53,7 @@ weapons: [
   suffix: -retainpod
   moveX: -2.5
   moveY: -2.5
-  progress: charge
+  progress: smoothReload
   heatColor: FF6700
   mirror: true
   under: true
