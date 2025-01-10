@@ -48,6 +48,18 @@ weapons: [
       mirror: false
       under: true
 }
+{
+  type: RegionPart
+  mirror: true
+  under: true
+  moveX: -5
+  moveY: +5
+  moveRot: 0
+  suffix: -retainpod
+  progress: warmup
+  weaponIndex: 0
+  layerOffset: 0
+}
 ]
                shoot: {
   type: ShootBarrel
