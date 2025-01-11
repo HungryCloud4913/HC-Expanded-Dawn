@@ -14,7 +14,7 @@ targetaAir: true
 faceTarget: false
 treadRects: [
   {
-    x: +23
+    x: 23
     y: -11.75
     width: 3
     height: 22.5
