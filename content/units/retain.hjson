@@ -55,7 +55,7 @@ weapons: [
   moveY: -2.5
   progress: warmup
   heatProgress: warmup
-  heatColor: FFFFFF
+  heatColor: BDD5FF
   mirror: true
   under: true
 }
