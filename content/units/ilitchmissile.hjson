@@ -47,14 +47,4 @@ splashDamage: 400
 splashDamageRadius: 40
 status: shocked
   }
-parts: [{
-  type: RegionPart
-  suffix: -ilimiss
-  moveX: 0
-  moveY: 0
-  progress: warmup
-  layerOffset: +0.003
-  mirror: false
-  under: false
-    }]
 }]
