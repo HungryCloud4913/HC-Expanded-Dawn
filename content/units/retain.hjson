@@ -20,6 +20,7 @@ treadRects: [
     height: 22.5
   }
 ]
+treadFrames: 18
 weapons: [
 {
                 name: retain-weapon
