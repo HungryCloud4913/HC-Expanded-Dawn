@@ -49,7 +49,7 @@ status: shocked
   }
 parts: [{
   type: RegionPart
-  suffix: -ilitchmissile
+  suffix: -ilimiss
   moveX: 0
   moveY: 0
   progress: warmup
