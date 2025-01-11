@@ -15,10 +15,10 @@ faceTarget: false
 treadFrames: 18
 treadRects: [
   {
-    x: +23
+    x: +8.5
     y: -11.75
-    width: 3
-    height: 22.5
+    width: +3
+    height: +22.5
   }
 ]
 weapons: [
