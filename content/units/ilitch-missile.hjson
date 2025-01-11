@@ -49,14 +49,12 @@ status: shocked
   }
 parts: [{
   type: RegionPart
-  mirror: false
-  under: false
+  suffix: -ilitchmissile
   moveX: 0
   moveY: 0
-  moveRot: 0
-  suffix: -comm
   progress: warmup
-  weaponIndex: 0
   layerOffset: +0.003
+  mirror: false
+  under: false
     }]
 }]
