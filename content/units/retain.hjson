@@ -12,6 +12,7 @@ outline: false
 outlineColor: 2D2F39
 targetaAir: true
 faceTarget: false
+treadFrames: 18
 treadRects: [
   {
     x: +23
@@ -20,7 +21,6 @@ treadRects: [
     height: 22.5
   }
 ]
-treadFrames: 18
 weapons: [
 {
                 name: retain-weapon
