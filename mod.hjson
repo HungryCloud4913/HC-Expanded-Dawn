@@ -1,18 +1,21 @@
 name: "HC-Expanded-Dawn"
 displayName: "HC Expanded Dawn"
-subtitle: "Warning: This is not New Horizons."
+subtitle: "Warning: This is not New Horizon."
 description: "Please leave a star on Github, It lets me know you enjoy the mod.
 
 Credits to everyone who helped even in the slightest bit ever,
 
 Discord Helpers: 
-
-mindustridiot_06647 - Unit suggestions and unit FX work, 
-cy4nide0165 - Railhammer unit FX work and suggestion, 
-Elysia - A couple spare sprites given because they didn't need them, 
-display_namer - Small coding help for animated items and liquids
-Aureus - Helping me understand tank treads by a tiny margin"
-
+           mindustridiot_06647 - Unit suggestions and unit FX work, 
+           ''''''''
+           cy4nide0165 - Railhammer unit FX work and suggestion, 
+           ''''''''
+           Elysia - A couple spare sprites given because they didn't need them, 
+           ''''''''
+           display_namer - Small coding help for animated items and liquids
+           ''''''''
+           Aureus - Helping me understand tank treads by a tiny margin"
+           ''''''''
 author: "HungryCloud4913"
 version: "Lost Track?"
 minGameVersion: "136"
