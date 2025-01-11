@@ -16,14 +16,14 @@ treadRects: [
   {
     x: +24
     y: +10
-    width: 9
-    height: 21
+    width: 11
+    height: 40
   }
   {
     x: +22
     y: -9
-    width: 9
-    height: 21
+    width: 11
+    height: 40
   }
 ]
 weapons: [
