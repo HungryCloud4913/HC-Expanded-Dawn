@@ -5,6 +5,8 @@ hovering: true
 speed: 0.9
 hitSize: 12
 rotateSpeed: 2
+targetair: false
+faceTarget: false
 shadowElevation: 0.15
 legStraightness: 0.42
 legSpeed: 1
