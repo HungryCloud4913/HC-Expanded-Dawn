@@ -1,9 +1,10 @@
 type: legs
-armor: 2
-health: 1100
+outlineColor: 2D2F39
+armor: 30
+health: 11300
 hovering: true
 speed: 0.9
-hitSize: 12
+hitSize: 30
 rotateSpeed: 2
 targetair: false
 faceTarget: false
