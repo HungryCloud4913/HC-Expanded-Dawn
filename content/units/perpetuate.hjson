@@ -46,7 +46,7 @@ layerOffset: +0.004
       moveX: 0
       progress: recoil
       mirror: false
-      under: true
+      under: false
 }
 {
       type: RegionPart
@@ -65,18 +65,18 @@ layerOffset: +0.004
   progress: warmup
   heatProgress: warmup
   heatColor: ABC9FF
-  mirror: true
+  mirror: false
   under: true
 }
 {
   type: RegionPart
   suffix: -perpetuatepod2
-  moveX: -2.5
-  moveY: -2.5
+  moveX: -4
+  moveY: -4
   progress: warmup
   heatProgress: warmup
   heatColor: ABC9FF
-  mirror: true
+  mirror: false
   under: true
 }
 ]
