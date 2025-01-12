@@ -13,7 +13,7 @@ legLength: 5.4
 lockLegBase: true
 legContinuousMove: true
 groundLayer: 72
-legExtension: -6
+legExtension: -8
 legBaseOffset: 17
 legMaxLength: 5
 legLengthScl: 6.5
@@ -21,6 +21,6 @@ legMinLength: 3.5
 legForwardScl: 0.6
 legGroupSize: 5
 rippleScale: 0.5
-legMoveSpace: 5
+legMoveSpace: 6.3
 allowLegStep: false
 legPhysicsLayer: false
