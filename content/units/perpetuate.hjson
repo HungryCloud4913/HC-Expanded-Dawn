@@ -6,7 +6,7 @@ speed: 0.9
 hitSize: 12
 rotateSpeed: 2
 shadowElevation: 0.15
-legStraightness: 0.35
+legStraightness: 0.25
 legSpeed: 1.4
 legCount: 6
 legLength: 5
