@@ -20,7 +20,7 @@ legLengthScl: 6.5
 legMinLength: 3.3
 legForwardScl: 0.6
 legGroupSize: 5
-rippleScale: 0.5
+rippleScale: 1.1
 legMoveSpace: 6.3
 allowLegStep: false
 legPhysicsLayer: false
