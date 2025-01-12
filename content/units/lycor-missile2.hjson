@@ -2,7 +2,7 @@ type: missile
 template: MissileUnitType
 speed: 6.5
 flying: true
-health: 250
+health: 720
 hitSize: 3
 rotateSpeed: 4.5
 controller: MissileAI
