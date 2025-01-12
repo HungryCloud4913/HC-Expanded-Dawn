@@ -7,13 +7,13 @@ hitSize: 12
 rotateSpeed: 2
 shadowElevation: 0.15
 legStraightness: 0.42
-legSpeed: 1.4
+legSpeed: 1.1
 legCount: 6
 legLength: 5.4
 lockLegBase: true
 legContinuousMove: true
 groundLayer: 72
-legExtension: -2
+legExtension: -6
 legBaseOffset: 17
 legMaxLength: 5
 legLengthScl: 6.5
@@ -21,6 +21,6 @@ legMinLength: 3.5
 legForwardScl: 0.6
 legGroupSize: 5
 rippleScale: 0.5
-legMoveSpace: 3.5
+legMoveSpace: 5
 allowLegStep: false
 legPhysicsLayer: false
