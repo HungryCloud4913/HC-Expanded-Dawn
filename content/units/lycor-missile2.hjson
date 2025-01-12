@@ -3,7 +3,7 @@ template: MissileUnitType
 speed: 6.5
 flying: true
 health: 500
-hitSize: 13
+hitSize: 5
 rotateSpeed: 4.5
 controller: MissileAI
 lowAltitude: true
@@ -36,10 +36,10 @@ weapons: [{
                 waveColor: D7BDFF
                 smokeColor: D7BDFF
                 sparkColor: D7BDFF
-                waveRad: 10
-                sparkRad: 5
-                smokeSize: 3
-                smokeRad: 5
+                waveRad: 20
+                sparkRad: 30
+                smokeSize: 6
+                smokeRad: 30
           }
 type: ExplosionBulletType
 keepVelocity: false
