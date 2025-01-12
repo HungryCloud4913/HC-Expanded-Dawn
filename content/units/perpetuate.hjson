@@ -29,9 +29,9 @@ legPhysicsLayer: false
 weapons: [
 {
 name: perpetuate-cannon
-y: -8
-x: -10
-shootY: +4
+y: -9
+x: -9
+shootY: +6
 top: true
 mirror: true
 alternate: true
@@ -44,7 +44,7 @@ shoot: {
   firstShotDelay: 0
     }
 rotate: true
-rotateSpeed: 3
+rotateSpeed: 1.6
 shootSound: launchLycor
 shootCone: 120
 bullet: {
@@ -61,5 +61,46 @@ bullet: {
               }
     smokeEffect: shootBigSmoke2
         }
+}
+ parts: [
+    {
+      type: RegionPart
+      suffix: -perpmiss
+      moveY: -6
+      moveX: 0
+      progress: recoil
+      mirror: false
+      under: true
+}
+{
+      type: RegionPart
+      suffix: -top
+      moveY: 0
+      moveX: 0
+      progress: recoil
+      mirror: false
+      under: false
+}
+{
+  type: RegionPart
+  suffix: -perpetuatepod1
+  moveX: -2.5
+  moveY: -2.5
+  progress: warmup
+  heatProgress: warmup
+  heatColor: ABC9FF
+  mirror: true
+  under: true
+}
+{
+  type: RegionPart
+  suffix: -perpetuatepod2
+  moveX: -2.5
+  moveY: -2.5
+  progress: warmup
+  heatProgress: warmup
+  heatColor: ABC9FF
+  mirror: true
+  under: true
 }
 ]
