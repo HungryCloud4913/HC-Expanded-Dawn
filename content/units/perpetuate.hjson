@@ -29,9 +29,9 @@ legPhysicsLayer: false
 weapons: [
 {
 name: perpetuate-cannon
-y: -5
+y: -8
 x: -10
-shootY: 0
+shootY: +4
 top: true
 mirror: true
 alternate: true
