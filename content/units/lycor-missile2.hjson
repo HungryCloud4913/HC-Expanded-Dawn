@@ -1,13 +1,13 @@
 type: missile
 template: MissileUnitType
-speed: 6
+speed: 6.5
 flying: true
 health: 500
 hitSize: 13
 rotateSpeed: 4.5
 controller: MissileAI
 lowAltitude: true
-lifetime: 60
+lifetime: 70
 isEnemy: false
 allowedInPayloads: false
 playerControllable: false
@@ -17,8 +17,8 @@ createWreck: false
 createScorch: false
 hidden: true
 engineOffset: 1
-engineSize: 5
-engineColor: A477DE
+engineSize: 3
+engineColor: D7BDFF
 trailLength: 4
 trailScl: 0.9
 trailColor: A477DE
@@ -33,13 +33,13 @@ weapons: [{
           killShooter: true
             hitEffect: {
                 type: ExplosionEffect
-                waveColor: A477DE
-                smokeColor: A477DE
-                sparkColor: A477DE
+                waveColor: D7BDFF
+                smokeColor: D7BDFF
+                sparkColor: D7BDFF
                 waveRad: 10
-                sparkRad: 11
+                sparkRad: 5
                 smokeSize: 3
-                smokeRad: 11
+                smokeRad: 5
           }
 type: ExplosionBulletType
 keepVelocity: false
