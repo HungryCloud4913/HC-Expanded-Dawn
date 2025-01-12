@@ -42,6 +42,7 @@ shoot: {
   firstShotDelay: 0
     }
 rotate: true
+rotateSpeed: 3
 shootSound: launchLycor
 shootCone: 120
 bullet: {
