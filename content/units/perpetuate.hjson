@@ -38,30 +38,6 @@ alternate: true
 reload: 50
 recoil: 0.5
 layerOffset: +0.004
-shoot: {
-  shots: 1
-  shotDelay: 0
-  firstShotDelay: 0
-    }
-rotate: true
-rotateSpeed: 1.6
-shootSound: launchLycor
-shootCone: 120
-bullet: {
-  spawnUnit: lycor-missile2
-  shootEffect: {
-      type: MultiEffect
-      effects: [shootBigColor,{
-            type: WaveEffect
-            sizeTo: 10
-            colorTo: A477DE
-            lifetime: 10
-              }
-        ]
-              }
-    smokeEffect: shootBigSmoke2
-        }
-}
  parts: [
     {
       type: RegionPart
@@ -102,5 +78,29 @@ bullet: {
   heatColor: ABC9FF
   mirror: true
   under: true
+}
+shoot: {
+  shots: 1
+  shotDelay: 0
+  firstShotDelay: 0
+    }
+rotate: true
+rotateSpeed: 1.6
+shootSound: launchLycor
+shootCone: 120
+bullet: {
+  spawnUnit: lycor-missile2
+  shootEffect: {
+      type: MultiEffect
+      effects: [shootBigColor,{
+            type: WaveEffect
+            sizeTo: 10
+            colorTo: A477DE
+            lifetime: 10
+              }
+        ]
+              }
+    smokeEffect: shootBigSmoke2
+        }
 }
 ]
