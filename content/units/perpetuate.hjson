@@ -28,7 +28,7 @@ allowLegStep: false
 legPhysicsLayer: false
 weapons: [
 {
-name: perpetuate-cannon
+name: perpetuate-weapon
 y: -9
 x: -9
 shootY: +6
