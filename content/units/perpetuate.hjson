@@ -31,7 +31,7 @@ weapons: [
 name: perpetuate-weapon
 y: -9
 x: -9
-shootY: +6
+shootY: +9
 top: true
 mirror: true
 alternate: true
