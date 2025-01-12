@@ -31,7 +31,7 @@ weapons: [
 name: perpetuate-weapon
 y: -9
 x: -9
-shootY: +9
+shootY: +11
 top: true
 mirror: true
 alternate: true
@@ -64,7 +64,7 @@ layerOffset: +0.004
   moveY: -2.8
   progress: warmup
   heatProgress: warmup
-  heatColor: ABC9FF
+  heatColor: FFA665
   mirror: false
   under: true
 }
@@ -75,7 +75,7 @@ layerOffset: +0.004
   moveY: -5
   progress: warmup
   heatProgress: warmup
-  heatColor: ABC9FF
+  heatColor: ED6969
   mirror: false
   under: true
 }
