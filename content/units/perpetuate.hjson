@@ -4,7 +4,7 @@ armor: 30
 health: 11300
 hovering: true
 speed: 0.9
-hitSize: 31/1000
+hitSize: 31
 rotateSpeed: 2
 targetair: false
 faceTarget: true
@@ -15,7 +15,7 @@ legCount: 6
 legLength: 5
 lockLegBase: true
 legContinuousMove: true
-groundLayer: 74
+groundLayer: 74.0031
 legExtension: -8
 legBaseOffset: 17
 legMaxLength: 4.9
