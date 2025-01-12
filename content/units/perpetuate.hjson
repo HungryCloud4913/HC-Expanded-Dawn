@@ -60,8 +60,8 @@ layerOffset: +0.004
 {
   type: RegionPart
   suffix: -perpetuatepod1
-  moveX: -2.5
-  moveY: -2.5
+  moveX: -2.8
+  moveY: -2.8
   progress: warmup
   heatProgress: warmup
   heatColor: ABC9FF
@@ -71,8 +71,8 @@ layerOffset: +0.004
 {
   type: RegionPart
   suffix: -perpetuatepod2
-  moveX: -4
-  moveY: -4
+  moveX: -5
+  moveY: -5
   progress: warmup
   heatProgress: warmup
   heatColor: ABC9FF
