@@ -24,3 +24,38 @@ rippleScale: 1.4
 legMoveSpace: 6.3
 allowLegStep: false
 legPhysicsLayer: false
+weapons: [
+{
+name: perpetuate-cannon
+y: -3
+x: -4
+shootY: 0
+top: true
+mirror: true
+alternate: true
+reload: 50
+recoil: 0.5
+layerOffset: +0.004
+shoot: {
+  shots: 1
+  shotDelay: 0
+  firstShotDelay: 0
+    }
+rotate: true
+shootSound: launchLycor
+shootCone: 120
+bullet: {
+  spawnUnit: lycor-missile2
+  shootEffect: {
+      type: MultiEffect
+      effects: [shootBigColor,{
+            type: WaveEffect
+            sizeTo: 10
+            colorTo: A477DE
+            lifetime: 10
+              }
+        ]
+              }
+    smokeEffect: shootBigSmoke2
+        }
+}
