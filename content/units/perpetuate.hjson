@@ -4,7 +4,7 @@ armor: 30
 health: 11300
 hovering: true
 speed: 0.9
-hitSize: 31
+hitSize: 31/1000
 rotateSpeed: 2
 targetair: false
 faceTarget: true
