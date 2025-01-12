@@ -22,5 +22,5 @@ legForwardScl: 3
 legGroupSize: 3
 rippleScale: 0.5
 legMoveSpace: 3.2
-allowLegStep: true
+allowLegStep: false
 legPhysicsLayer: false
