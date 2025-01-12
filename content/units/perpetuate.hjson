@@ -79,6 +79,7 @@ layerOffset: +0.004
   mirror: true
   under: true
 }
+]
 shoot: {
   shots: 1
   shotDelay: 0
