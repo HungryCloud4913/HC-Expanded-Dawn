@@ -24,7 +24,7 @@ legMinLength: 2.4
 legForwardScl: 0.8
 legGroupSize: 5
 rippleScale: 1.4
-legMoveSpace: 5.9
+legMoveSpace: 6.8
 allowLegStep: false
 legPhysicsLayer: false
 weapons: [
