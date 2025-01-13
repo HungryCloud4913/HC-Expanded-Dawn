@@ -13,14 +13,13 @@ legStraightness: 0.25
 legSpeed: 1.1
 legCount: 6
 legLength: 10
-legBaseLength: 2
 lockLegBase: true
 legContinuousMove: true
 groundLayer: 74.0031
 legExtension: -11
 legBaseOffset: 17
-legMaxLength: 2.6
-legLengthScl: 2.8
+legMaxLength: 2.5
+legLengthScl: 2.6
 legMinLength: 3.2
 legForwardScl: 0.8
 legGroupSize: 5
