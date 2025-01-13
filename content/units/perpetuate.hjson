@@ -20,7 +20,7 @@ legExtension: -11
 legBaseOffset: 17
 legMaxLength: 2.4
 legLengthScl: 2.9
-legMinLength: 2.2
+legMinLength: 2.4
 legForwardScl: 0.8
 legGroupSize: 5
 rippleScale: 1.4
