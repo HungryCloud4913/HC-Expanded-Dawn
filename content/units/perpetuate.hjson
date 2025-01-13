@@ -19,9 +19,9 @@ legContinuousMove: true
 groundLayer: 74.0031
 legExtension: -11
 legBaseOffset: 17
-legMaxLength: 1.5
-legLengthScl: 5
-legMinLength: 0.4
+legMaxLength: 4.7
+legLengthScl: 1
+legMinLength: 3.2
 legForwardScl: 0.8
 legGroupSize: 5
 rippleScale: 1.4
