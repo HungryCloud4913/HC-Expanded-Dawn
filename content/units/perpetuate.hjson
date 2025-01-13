@@ -12,7 +12,7 @@ shadowElevation: 0.15
 legStraightness: 0.25
 legSpeed: 1.1
 legCount: 6
-legLength: 5
+legLength: 7
 lockLegBase: true
 legContinuousMove: true
 groundLayer: 74.0031
