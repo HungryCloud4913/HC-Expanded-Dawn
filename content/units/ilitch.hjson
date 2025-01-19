@@ -135,7 +135,6 @@ bullet: {
       trailColor: C44B5E
       trailLength: 6
       trailWidth: 1.2
-}
 parts: [{
   type: RegionPart
   mirror: false
