@@ -98,10 +98,10 @@ bullet: {
                         pierceCap: 10000
                         backColor: C44B5E
                         frontColor: C44B5E
-       		        trailColor: C44B5E
+                        trailLength: 100
+                        trailColor: C44B5E
 }
-        trailLength: 100
-        trailColor: C44B5E
+
         smokeEffect: {
           type: MultiEffect
           effects: [
