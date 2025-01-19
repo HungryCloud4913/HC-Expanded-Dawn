@@ -90,13 +90,13 @@ bullet: {
             bullet: {
 			type: BasicBulletType
 			speed: 37
-			damage: 800
+			damage: 700
                         lifetime: 25
                         homing: false
 		        splashDamageRadius: 10
-		        splashDamage: 50
+		        splashDamage: 600
 		        hitEffect: blastExplosion
-                        pierceCap: 3
+                        pierceCap: 20
                         backColor: C44B5E
                         frontColor: C44B5E
                         trailLength: 100
