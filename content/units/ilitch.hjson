@@ -96,7 +96,7 @@ bullet: {
 		        splashDamageRadius: 10
 		        splashDamage: 600
 		        hitEffect: blastExplosion
-                        pierceCap: 20
+                        pierceCap: 50
                         backColor: C44B5E
                         frontColor: C44B5E
                         trailLength: 100
