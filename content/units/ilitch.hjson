@@ -100,7 +100,7 @@ bullet: {
                         frontColor: C44B5E
        		        trailColor: C44B5E
 }
-        trailLength: 0
+        trailLength: 100
         trailColor: C44B5E
         smokeEffect: {
           type: MultiEffect
