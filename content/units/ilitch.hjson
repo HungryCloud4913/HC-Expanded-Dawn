@@ -159,6 +159,7 @@ parts: [{
   weaponIndex: 0
   layerOffset: +0.002
     }
+
 ]
 }
 ]
