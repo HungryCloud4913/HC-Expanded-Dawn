@@ -88,17 +88,6 @@ bullet: {
             shootSound: laser4Lycor
             shootEffect: none
             bullet: {
-                type: LaserBulletType
-                pierceCap: 1000
-                length: 900
-                width: 7
-               colors: [C44B5E, C44B5E, C44B5E]
-                damage: 1000
-                homing: false
-                bulletInterval: 60
-                intervalRandomSpread: 0
-                intervalAngle: 0
-                intervalBullet: {
 			type: BasicBulletType
 			speed: 37
 			damage: 800
@@ -110,19 +99,6 @@ bullet: {
                         backColor: C44B5E
                         frontColor: C44B5E
        		        trailColor: C44B5E
-                        fragOnHit: false
-                        fragBullets: 1
-                        fragRandomSpread: 0
-                        fragAngle: 180
-                        fragBullet: {
-                type: LaserBulletType
-                pierceCap: 10000
-                length: 900
-                width: 10
-               colors: [C44B5E, C44B5E, C44B5E]
-                damage: 1000
-                homing: false
-}
 }
         trailLength: 0
         trailColor: C44B5E
