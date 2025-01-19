@@ -92,14 +92,17 @@ bullet: {
 			speed: 37
 			damage: 800
                         lifetime: 25
-		        splashDamageRadius: 0
-		        splashDamage: 0
+                        homing: false
+		        splashDamageRadius: 10
+		        splashDamage: 50
 		        hitEffect: blastExplosion
-                        pierceCap: 10000
+                        pierceCap: 3
                         backColor: C44B5E
                         frontColor: C44B5E
                         trailLength: 100
                         trailColor: C44B5E
+                width: 6
+                height: 9
 }
 
         smokeEffect: {
