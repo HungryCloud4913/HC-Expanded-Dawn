@@ -295,7 +295,7 @@ effects:[shootBigColor,
                 rotate: true
 		rotateSpeed: 3
                 x: +36
-                y: -21
+                y: -65
                 reload: 51.25
                 shoot: {
   type: ShootBarrel
