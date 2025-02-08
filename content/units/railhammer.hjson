@@ -61,7 +61,7 @@ weapons: [{
             }
             inaccuracy: 0
             recoil: 10
-            shootSound: railGunBlastLycor
+            shootSound: vibroblast
             shootEffect: none
             bullet: {
                 type: BasicBulletType
