@@ -247,7 +247,7 @@ effects:[shootBigColor,
                 alternate: false
                 rotate: true
 		rotateSpeed: 3
-                x: +36
+                x: +42
                 y: -8
                 reload: 51.25
                 shoot: {
@@ -295,7 +295,7 @@ effects:[shootBigColor,
         alternate: true
         rotate: true
 	rotateSpeed: 5
-        x: +38
+        x: +47
         y: -35
         reload: 30
       controllable: false
