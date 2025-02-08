@@ -288,6 +288,97 @@ effects:[shootBigColor,
                }
 }
 {
+                name: railhammer-missiles
+                mirror: true
+                top: true
+                alternate: false
+                rotate: true
+		rotateSpeed: 3
+                x: +36
+                y: -21
+                reload: 51.25
+                shoot: {
+  type: ShootBarrel
+  barrels: [
+      -3, 0, 0,
+      0, 0, 0,
+      +3, 0, 0,
+      ]
+                    shots: 3
+                    shotDelay: 1.5
+            }
+            inaccuracy: 7
+            recoil: 2
+            shootSound: laser3
+            shootEffect: none
+            bullet: {
+                type: MissileBulletType
+                damage: 50
+                homing: true
+                speed: 7
+                lifetime: 70
+                knockback: 0
+                backColor: D7BDFF
+                frontColor: D7BDFF
+		trailColor: D7BDFF
+                width: 4
+                height: 5
+		fragOnHit: true
+		fragBullets: 0
+		splashDamageRadius: 0
+		splashDamage: 0
+		hitEffect: blastExplosion
+		homingPower: 0.01
+		homingRange: 1000
+        trailLength: 7
+        trailColor: D7BDFF
+               }
+}
+{
+        name: lycor-point
+        type: PointDefenseWeapon
+        mirror: true
+        top: true
+        alternate: true
+        rotate: true
+	rotateSpeed: 5
+        x: +46
+        y: -10
+        reload: 30
+      controllable: false
+      autoTarget: true
+      targetInterval: 5
+      targetSwitchInterval: 5
+      shootSound: sap
+      bullet: {
+        hitEffect: pointHit
+        smokeEffect: pointHit
+        maxRange: 175
+        damage: 15
+      }
+{
+        name: lycor-point
+        type: PointDefenseWeapon
+        mirror: true
+        top: true
+        alternate: true
+        rotate: true
+	rotateSpeed: 5
+        x: +52
+        y: -35
+        reload: 30
+      controllable: false
+      autoTarget: true
+      targetInterval: 5
+      targetSwitchInterval: 5
+      shootSound: sap
+      bullet: {
+        hitEffect: pointHit
+        smokeEffect: pointHit
+        maxRange: 175
+        damage: 15
+      }
+{
         name: lycor-point
         type: PointDefenseWeapon
         mirror: true
@@ -296,7 +387,7 @@ effects:[shootBigColor,
         rotate: true
 	rotateSpeed: 5
         x: +47
-        y: -35
+        y: -60
         reload: 30
       controllable: false
       autoTarget: true
