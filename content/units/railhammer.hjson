@@ -53,10 +53,10 @@ weapons: [{
                 rotate: false
 		rotateSpeed: 0
                 x: 0
-                y: 0
+                y: +10
                 reload: 250
                 shoot: {
-                    shots: 2
+                    shots: 3
                     shotDelay: 6
             }
             inaccuracy: 0
@@ -68,7 +68,7 @@ weapons: [{
                 damage: 735
                 shrinkY: 0
                 shrinkX: 0
-                recoil: 0.7
+                recoil: 0.5
       shootEffect:{
 type: MultiEffect
 effects:[shootBigColor,
@@ -242,11 +242,17 @@ effects:[shootBigColor,
                 alternate: false
                 rotate: true
 		rotateSpeed: 3
-                x: +21
-                y: -15
+                x: +31
+                y: -8
                 reload: 51.25
                 shoot: {
-                    shots: 7
+  type: ShootBarrel
+  barrels: [
+      -3, 0, 0,
+      0, 0, 0,
+      +3, 0, 0,
+      ]
+                    shots: 3
                     shotDelay: 1.5
             }
             inaccuracy: 7
