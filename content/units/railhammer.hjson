@@ -61,7 +61,7 @@ weapons: [{
             }
             inaccuracy: 0
             recoil: 10
-            shootSound: vibroblast
+            shootSound: plasboom
             shootEffect: none
             bullet: {
                 type: BasicBulletType
