@@ -56,6 +56,11 @@ weapons: [{
                 y: 0
                 reload: 270
                 shoot: {
+  type: ShootBarrel
+  barrels: [
+      0, +20, 0,
+
+      ]
                     shots: 3
                     shotDelay: 6
             }
