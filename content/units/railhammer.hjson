@@ -53,14 +53,14 @@ weapons: [{
                 rotate: false
 		rotateSpeed: 0
                 x: 0
-                y: +10
-                reload: 250
+                y: 0
+                reload: 270
                 shoot: {
                     shots: 3
                     shotDelay: 6
             }
             inaccuracy: 0
-            recoil: 10
+            recoil: 12
             shootSound: plasboom
             shootEffect: none
             bullet: {
@@ -68,7 +68,7 @@ weapons: [{
                 damage: 735
                 shrinkY: 0
                 shrinkX: 0
-                recoil: 0.5
+                recoil: 0.7
       shootEffect:{
 type: MultiEffect
 effects:[shootBigColor,
@@ -257,7 +257,7 @@ effects:[shootBigColor,
             }
             inaccuracy: 7
             recoil: 2
-            shootSound: sapblast
+            shootSound: laser3
             shootEffect: none
             bullet: {
                 type: MissileBulletType
