@@ -1,12 +1,12 @@
 type: flying
 health: 200500
-hitSize: 62
+hitSize: 110
 flying: true
 speed: 0.5
 accel: 0.05
 drag: 0.01
 armor: 35
-rotateSpeed: 0.75
+rotateSpeed: 0.7
 outlineColor: 2D2F39
 targetair: true
 faceTarget: true
@@ -58,7 +58,7 @@ weapons: [{
                 shoot: {
   type: ShootBarrel
   barrels: [
-      0, +35, 0,
+      0, +45, 0,
 
       ]
                     shots: 3
@@ -247,7 +247,7 @@ effects:[shootBigColor,
                 alternate: false
                 rotate: true
 		rotateSpeed: 3
-                x: +31
+                x: +36
                 y: -8
                 reload: 51.25
                 shoot: {
@@ -269,7 +269,7 @@ effects:[shootBigColor,
                 damage: 50
                 homing: true
                 speed: 7
-                lifetime: 60
+                lifetime: 70
                 knockback: 0
                 backColor: D7BDFF
                 frontColor: D7BDFF
@@ -295,7 +295,7 @@ effects:[shootBigColor,
         alternate: true
         rotate: true
 	rotateSpeed: 5
-        x: +21
+        x: +38
         y: -35
         reload: 30
       controllable: false
