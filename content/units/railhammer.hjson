@@ -257,7 +257,7 @@ effects:[shootBigColor,
             }
             inaccuracy: 7
             recoil: 2
-            shootSound: shootAlt
+            shootSound: sapblast
             shootEffect: none
             bullet: {
                 type: MissileBulletType
