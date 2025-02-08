@@ -54,7 +54,7 @@ weapons: [{
 		rotateSpeed: 0
                 x: 0
                 y: 0
-                reload: 270
+                reload: 280
                 shoot: {
   type: ShootBarrel
   barrels: [
