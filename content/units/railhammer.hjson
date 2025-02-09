@@ -54,7 +54,7 @@ weapons: [{
 		rotateSpeed: 0
                 x: 0
                 y: 0
-                reload: 280
+                reload: 290
                 shoot: {
   type: ShootBarrel
   barrels: [
@@ -62,7 +62,7 @@ weapons: [{
 
       ]
                     shots: 3
-                    shotDelay: 6
+                    shotDelay: 8
             }
             inaccuracy: 0
             recoil: 12
@@ -282,7 +282,7 @@ effects:[shootBigColor,
 		splashDamage: 0
 		hitEffect: blastExplosion
 		homingPower: 0.01
-		homingRange: 1000
+		homingRange: 75
         trailLength: 7
         trailColor: D7BDFF
                }
@@ -329,7 +329,7 @@ effects:[shootBigColor,
 		splashDamage: 0
 		hitEffect: blastExplosion
 		homingPower: 0.01
-		homingRange: 1000
+		homingRange: 75
         trailLength: 7
         trailColor: D7BDFF
                }
