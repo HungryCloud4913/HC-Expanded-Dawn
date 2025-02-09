@@ -247,7 +247,7 @@ effects:[shootBigColor,
                 alternate: false
                 rotate: true
 		rotateSpeed: 3
-                x: +31
+                x: -31
                 y: -8
                 reload: 51.25
                 shoot: {
@@ -294,7 +294,7 @@ effects:[shootBigColor,
                 alternate: false
                 rotate: true
 		rotateSpeed: 3
-                x: +36
+                x: -36
                 y: -65
                 reload: 51.25
                 shoot: {
@@ -342,7 +342,7 @@ effects:[shootBigColor,
         alternate: true
         rotate: true
 	rotateSpeed: 5
-        x: +46
+        x: -46
         y: -10
         reload: 30
       controllable: false
@@ -365,7 +365,7 @@ effects:[shootBigColor,
         alternate: true
         rotate: true
 	rotateSpeed: 5
-        x: +52
+        x: -52
         y: -35
         reload: 30
       controllable: false
@@ -388,7 +388,7 @@ effects:[shootBigColor,
         alternate: true
         rotate: true
 	rotateSpeed: 5
-        x: +47
+        x: -47
         y: -60
         reload: 30
       controllable: false
