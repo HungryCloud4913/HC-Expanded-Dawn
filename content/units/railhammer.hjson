@@ -268,6 +268,7 @@ parts: [
   progress: recoil
   color: D7BDFF
   tri: true
+  shapes: 4
   x: 0
  y: +60
     }
@@ -276,7 +277,7 @@ parts: [
   sides: 3
     layer: 110
   hollow: true
-  radius: 9
+  radius: 10
   radiusTo: 0
   color: D7BDFF
   rotateSpeed: -1
@@ -289,13 +290,71 @@ parts: [
   sides: 4
     layer: 110
   hollow: true
-  radius: 10
+  radius: 11
   radiusTo: 0
   color: D7BDFF
   rotateSpeed: 1
   progress: recoil
   x: 0
   y: +60
+}
+{
+  type: RegionPart
+  suffix: -railpod
+  moveX: -4
+  moveY: -4
+  progress: warmup
+  heatProgress: warmup
+  heatColor: ABC9FF
+  mirror: true
+  under: true
+}
+{
+  type: RegionPart
+  suffix: -railjoiner
+  moveX: +7
+  moveY: 0
+  progress: warmup
+  heatProgress: warmup
+  heatColor: ABC9FF
+  mirror: true
+  under: true
+}
+{
+  type: RegionPart
+  suffix: -railwing1
+  moveX: 0
+  moveY: 0
+  moveRot: 76
+  progress: warmup
+  heatProgress: warmup
+  heatColor: ABC9FF
+  mirror: true
+  under: true
+}
+{
+  type: RegionPart
+  suffix: -railwing2
+  moveX: 0
+  moveY: 0
+  moveRot: 76
+  progress: warmup
+  heatProgress: warmup
+  heatColor: ABC9FF
+  mirror: true
+  under: true
+}
+{
+  type: RegionPart
+  suffix: -railwing2
+  moveX: +15
+  moveY: +15
+  moveRot: 0
+  progress: warmup
+  heatProgress: warmup
+  heatColor: ABC9FF
+  mirror: true
+  under: true
 }
 ]
 }
