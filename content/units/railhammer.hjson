@@ -325,7 +325,7 @@ parts: [
   suffix: -railwing1
   moveX: -15
   moveY: +50
-  moveRot: 76
+  moveRot: 50
   progress: warmup
   heatProgress: warmup
   heatColor: ABC9FF
@@ -337,7 +337,7 @@ parts: [
   suffix: -railwing2
   moveX: -20
   moveY: +48
-  moveRot: 76
+  moveRot: 50
   progress: warmup
   heatProgress: warmup
   heatColor: ABC9FF
