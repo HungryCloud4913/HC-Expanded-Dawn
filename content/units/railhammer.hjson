@@ -276,8 +276,6 @@ parts: [
   sides: 3
     layer: 110
   hollow: true
-  stroke: 0
-  strokeTo: 1
   radius: 7
   radiusTo: 0
   color: D7BDFF
@@ -291,8 +289,6 @@ parts: [
   sides: 4
     layer: 110
   hollow: true
-  stroke: 0
-  strokeTo: 1
   radius: 8
   radiusTo: 0
   color: D7BDFF
