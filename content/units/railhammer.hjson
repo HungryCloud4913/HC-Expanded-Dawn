@@ -224,7 +224,7 @@ effects:[shootBigColor,
       }
       ]
 	}
-	trailInterval: 7
+	trailInterval: 2
 	trailEffect: {
 		type: ParticleEffect
 		length: 80
@@ -233,9 +233,8 @@ effects:[shootBigColor,
 		lenFrom: 8
                 lifetime: 76
 		lenTo: 0
-		strokeFrom: 12
-		strokeTo: 12
-		lifetime: 30
+		strokeFrom: 15
+		strokeTo: 15
                 cone: -360
 		sizeInterp: pow5In
                 interp: pow3Out
