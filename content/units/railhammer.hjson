@@ -16,29 +16,22 @@ lowAltitude: true
         engineColorInner: FFFFFF
 		engines: [
 		  {
-			x: -70
-			y: -22
-			radius: 5
-			rotation: -180
-		        trailLength: 10
-		  }
-		  {
 			x: +52
 			y: -10
 			radius: 7
-			rotation: 45
-		        trailLength: 10
-		  }
-		  {
-			x: -70
-			y: -35
-			radius: 5
-			rotation: -180
+			rotation: -45
 		        trailLength: 10
 		  }
 		  {
 			x: +60
 			y: -45
+			radius: 7
+			rotation: 45
+		        trailLength: 10
+		  }
+		  {
+			x: +57
+			y: -52
 			radius: 7
 			rotation: 45
 		        trailLength: 10
