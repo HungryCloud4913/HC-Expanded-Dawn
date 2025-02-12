@@ -68,7 +68,7 @@ weapons: [{
 		rotateSpeed: 0
                 x: 0
                 y: 0
-                reload: 290
+                reload: 320
                 shootWarmupSpeed: 0.04
                 minWarmup: 0.70
                 inaccuracy: 0
@@ -259,7 +259,7 @@ effects:[shootBigColor,
 parts: [
 {
   type: HaloPart
-  haloRadius: 8
+  haloRadius: 9
   triLength: 10
   triLengthTo: 0
   haloRotateSpeed: 1
@@ -276,7 +276,7 @@ parts: [
   sides: 3
     layer: 110
   hollow: true
-  radius: 7
+  radius: 9
   radiusTo: 0
   color: D7BDFF
   rotateSpeed: -1
@@ -289,7 +289,7 @@ parts: [
   sides: 4
     layer: 110
   hollow: true
-  radius: 8
+  radius: 10
   radiusTo: 0
   color: D7BDFF
   rotateSpeed: 1
