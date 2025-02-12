@@ -301,8 +301,8 @@ parts: [
 {
   type: RegionPart
   suffix: -railpod
-  moveX: -12
-  moveY: -12
+  moveX: -9
+  moveY: -9
   progress: warmup
   heatProgress: warmup
   heatColor: ABC9FF
@@ -312,7 +312,7 @@ parts: [
 {
   type: RegionPart
   suffix: -railjoiner
-  moveX: +13
+  moveX: +10
   moveY: 0
   progress: warmup
   heatProgress: warmup
@@ -323,7 +323,7 @@ parts: [
 {
   type: RegionPart
   suffix: -railwing1
-  moveX: +40
+  moveX: -40
   moveY: +40
   moveRot: 76
   progress: warmup
@@ -335,7 +335,7 @@ parts: [
 {
   type: RegionPart
   suffix: -railwing2
-  moveX: +40
+  moveX: -40
   moveY: +40
   moveRot: 76
   progress: warmup
@@ -347,7 +347,7 @@ parts: [
 {
   type: RegionPart
   suffix: -railwing3
-  moveX: +15
+  moveX: -15
   moveY: +15
   moveRot: 0
   progress: warmup
