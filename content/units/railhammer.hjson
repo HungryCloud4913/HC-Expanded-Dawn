@@ -324,7 +324,7 @@ parts: [
   type: RegionPart
   suffix: -railwing1
   moveX: -10
-  moveY: -10
+  moveY: +20
   moveRot: 76
   progress: warmup
   heatProgress: warmup
@@ -335,8 +335,8 @@ parts: [
 {
   type: RegionPart
   suffix: -railwing2
-  moveX: -5
-  moveY: +5
+  moveX: -15
+  moveY: +20
   moveRot: 76
   progress: warmup
   heatProgress: warmup
