@@ -260,7 +260,7 @@ parts: [
 {
   type: HaloPart
   haloRadius: 8
-  triLength: 8
+  triLength: 10
   triLengthTo: 0
   haloRotateSpeed: 1
   layer: 110
@@ -269,35 +269,35 @@ parts: [
   color: D7BDFF
   tri: true
   x: 0
- y: +65
+ y: +60
     }
  {
-  type: ShapePart
+  type: HaloPart
   sides: 3
     layer: 110
   hollow: true
   stroke: 0
   strokeTo: 1
-  radius: 6
+  radius: 7
   color: D7BDFF
   rotateSpeed: -1
   progress: recoil
   x: 0
-  y: +65
+  y: +60
 }
  {
-  type: ShapePart
+  type: HaloPart
   sides: 4
     layer: 110
   hollow: true
   stroke: 0
   strokeTo: 1
-  radius: 5
+  radius: 8
   color: D7BDFF
   rotateSpeed: 1
   progress: recoil
   x: 0
-  y: +65
+  y: +60
 }
 ]
 }
