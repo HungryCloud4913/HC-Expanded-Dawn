@@ -262,11 +262,11 @@ parts: [
   haloRadius: 8
   triLength: 8
   triLengthTo: 0
-  haloRotateSpeed: 8
+  haloRotateSpeed: 1
   layer: 110
   haloRadTo: 0
   progress: recoil
-  color: D7BDFF33
+  color: D7BDFF
   tri: true
   x: 0
   y: +45
@@ -281,8 +281,8 @@ parts: [
   triLengthTo: 8
   layer: 110
   tri: true
-  haloRotateSpeed: -0.9
-  color: D7BDFF33
+  haloRotateSpeed: -1
+  color: D7BDFF
   progress: recoil
   }
  {
@@ -295,8 +295,8 @@ parts: [
   stroke: 0
   strokeTo: 1
   radius: 5
-  color: D7BDFF33
-  rotateSpeed: 2.1
+  color: D7BDFF
+  rotateSpeed: 1
 }
 ]
 }
