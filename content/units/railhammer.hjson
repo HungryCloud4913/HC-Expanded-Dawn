@@ -70,7 +70,7 @@ weapons: [{
                 y: 0
                 reload: 320
                 shootWarmupSpeed: 0.04
-                minWarmup: 0.70
+                minWarmup: 1
                 inaccuracy: 0
                 recoil: 12
                 shootSound: plasboom
@@ -301,8 +301,8 @@ parts: [
 {
   type: RegionPart
   suffix: -railpod
-  moveX: -4
-  moveY: -4
+  moveX: -12
+  moveY: -12
   progress: warmup
   heatProgress: warmup
   heatColor: ABC9FF
@@ -312,7 +312,7 @@ parts: [
 {
   type: RegionPart
   suffix: -railjoiner
-  moveX: +7
+  moveX: +13
   moveY: 0
   progress: warmup
   heatProgress: warmup
@@ -323,8 +323,8 @@ parts: [
 {
   type: RegionPart
   suffix: -railwing1
-  moveX: 0
-  moveY: 0
+  moveX: +40
+  moveY: +40
   moveRot: 76
   progress: warmup
   heatProgress: warmup
@@ -335,8 +335,8 @@ parts: [
 {
   type: RegionPart
   suffix: -railwing2
-  moveX: 0
-  moveY: 0
+  moveX: +40
+  moveY: +40
   moveRot: 76
   progress: warmup
   heatProgress: warmup
@@ -346,7 +346,7 @@ parts: [
 }
 {
   type: RegionPart
-  suffix: -railwing2
+  suffix: -railwing3
   moveX: +15
   moveY: +15
   moveRot: 0
