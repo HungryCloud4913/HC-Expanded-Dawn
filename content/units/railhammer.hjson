@@ -272,13 +272,14 @@ parts: [
  y: +60
     }
  {
-  type: HaloPart
+  type: ShapePart
   sides: 3
     layer: 110
   hollow: true
   stroke: 0
   strokeTo: 1
   radius: 7
+  radiusTo: 0
   color: D7BDFF
   rotateSpeed: -1
   progress: recoil
@@ -286,13 +287,14 @@ parts: [
   y: +60
 }
  {
-  type: HaloPart
+  type: ShapePart
   sides: 4
     layer: 110
   hollow: true
   stroke: 0
   strokeTo: 1
   radius: 8
+  radiusTo: 0
   color: D7BDFF
   rotateSpeed: 1
   progress: recoil
