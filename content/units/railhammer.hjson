@@ -36,6 +36,27 @@ lowAltitude: true
 			rotation: +45
 		        trailLength: 10
 		  }
+		  {
+			x: -52
+			y: -10
+			radius: 7
+			rotation: -45
+		        trailLength: 10
+		  }
+		  {
+			x: -60
+			y: -45
+			radius: 7
+			rotation: +45
+		        trailLength: 10
+		  }
+		  {
+			x: -56
+			y: -60
+			radius: 7
+			rotation: -45
+		        trailLength: 10
+		  }
 		]
 weapons: [{
                 name: railhammer-weapon
@@ -235,6 +256,49 @@ effects:[shootBigColor,
         trailLength: 10
         trailColor: D7BDFF
                }
+parts: [
+{
+  type: HaloPart
+  haloRadius: 8
+  triLength: 8
+  triLengthTo: 0
+  haloRotateSpeed: 8
+  layer: 110
+  haloRadTo: 0
+  progress: recoil
+  color: D7BDFF33
+  tri: true
+  x: 0
+  y: +45
+    }
+ {
+  type: HaloPart
+  x: 0
+  y: +45
+  haloRadius: 8
+  shapes: 4
+  triLength: 0
+  triLengthTo: 8
+  layer: 110
+  tri: true
+  haloRotateSpeed: -0.9
+  color: D7BDFF33
+  progress: recoil
+  }
+ {
+  x: 0
+  y: 0
+  type: ShapePart
+  sides: 4
+    layer: 110
+  hollow: true
+  stroke: 0
+  strokeTo: 1
+  radius: 5
+  color: D7BDFF33
+  rotateSpeed: 2.1
+}
+]
 }
 {
                 name: railhammer-missiles
