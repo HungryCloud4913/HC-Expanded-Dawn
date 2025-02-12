@@ -305,7 +305,7 @@ parts: [
   moveY: -9
   progress: warmup
   heatProgress: warmup
-  heatColor: ABC9FF
+  heatColor: D1EFFF
   mirror: true
   under: true
 }
@@ -322,37 +322,13 @@ parts: [
 }
 {
   type: RegionPart
-  suffix: -railwing1
-  moveX: -3
-  moveY: +50
-  moveRot: 50
-  progress: warmup
-  heatProgress: warmup
-  heatColor: ABC9FF
-  mirror: true
-  under: true
-}
-{
-  type: RegionPart
-  suffix: -railwing2
-  moveX: -10
-  moveY: +43
-  moveRot: 50
-  progress: warmup
-  heatProgress: warmup
-  heatColor: ABC9FF
-  mirror: true
-  under: true
-}
-{
-  type: RegionPart
   suffix: -railwing3
   moveX: -23
   moveY: +23
   moveRot: 0
   progress: warmup
   heatProgress: warmup
-  heatColor: ABC9FF
+  heatColor: D1EFFF
   mirror: true
   under: true
 }
