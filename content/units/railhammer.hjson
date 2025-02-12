@@ -262,7 +262,7 @@ effects:[shootBigColor,
             }
             inaccuracy: 7
             recoil: 2
-            shootSound: laser3
+            shootSound: laser3lycor
             shootEffect: none
             bullet: {
                 type: MissileBulletType
@@ -309,7 +309,7 @@ effects:[shootBigColor,
             }
             inaccuracy: 7
             recoil: 2
-            shootSound: laser3
+            shootSound: laser3lycor
             shootEffect: none
             bullet: {
                 type: MissileBulletType
