@@ -19,42 +19,42 @@ lowAltitude: true
 			x: +52
 			y: -10
 			radius: 7
-			rotation: +135
+			rotation: -135
 		        trailLength: 10
 		  }
 		  {
 			x: +60
 			y: -45
 			radius: 7
-			rotation: -135
+			rotation: +135
 		        trailLength: 10
 		  }
 		  {
 			x: +56
 			y: -60
 			radius: 7
-			rotation: +135
+			rotation: 0
 		        trailLength: 10
 		  }
 		  {
-			x: -52
+			x: +52
 			y: -10
 			radius: 7
 			rotation: -45
 		        trailLength: 10
 		  }
 		  {
-			x: -60
+			x: +60
 			y: -45
 			radius: 7
 			rotation: +45
 		        trailLength: 10
 		  }
 		  {
-			x: -56
+			x: +56
 			y: -60
 			radius: 7
-			rotation: -45
+			rotation: +180
 		        trailLength: 10
 		  }
 		]
