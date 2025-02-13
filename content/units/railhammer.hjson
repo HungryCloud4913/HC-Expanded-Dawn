@@ -260,10 +260,10 @@ parts: [
 {
   layer: 110
   type: ShapePart
-  radius: 4.25
+  radius: 4.5
   hollow: false
   circle: true
-  color: FF5400
+  color: FFA665
   radiusTo: 0
   progress: recoil
   x: 0
@@ -272,10 +272,10 @@ parts: [
 {
   layer: 110
   type: ShapePart
-  radius: 4.5
+  radius: 4.25
   hollow: true
   circle: true
-  color: 7541A6
+  color: FFFEBA
   radiusTo: 0
   progress: recoil
   x: 0
