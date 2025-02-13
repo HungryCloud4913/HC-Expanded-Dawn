@@ -263,7 +263,7 @@ parts: [
   radius: 4.5
   hollow: false
   circle: true
-  color: FFA665
+  color: FFFEBA
   radiusTo: 0
   progress: recoil
   x: 0
@@ -275,7 +275,7 @@ parts: [
   radius: 4.25
   hollow: true
   circle: true
-  color: FFFEBA
+  color: FFA665
   radiusTo: 0
   progress: recoil
   x: 0
