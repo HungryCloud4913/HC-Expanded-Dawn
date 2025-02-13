@@ -263,7 +263,7 @@ parts: [
   radius: 5
   hollow: false
   circle: true
-  color: 28252A
+  color: 4D1C6C
   radiusTo: 0
   progress: recoil
   x: 0
@@ -275,7 +275,7 @@ parts: [
   radius: 6
   hollow: true
   circle: true
-  color: D7BDFF
+  color: C25124
   radiusTo: 0
   progress: recoil
   x: 0
