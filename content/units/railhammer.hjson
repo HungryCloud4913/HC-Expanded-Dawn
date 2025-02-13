@@ -283,7 +283,7 @@ parts: [
     }
 {
   type: HaloPart
-  haloRadius: 9
+  haloRadius: 13
   triLength: 10
   triLengthTo: 0
   haloRotateSpeed: 1
@@ -301,7 +301,7 @@ parts: [
   sides: 3
     layer: 110
   hollow: true
-  radius: 10
+  radius: 13
   radiusTo: 0
   color: D7BDFF
   rotateSpeed: -1
@@ -314,7 +314,7 @@ parts: [
   sides: 4
     layer: 110
   hollow: true
-  radius: 11
+  radius: 14
   radiusTo: 0
   color: D7BDFF
   rotateSpeed: 1
