@@ -258,6 +258,30 @@ effects:[shootBigColor,
                }
 parts: [
 {
+  layer: 110
+  type: ShapePart
+  radius: 8.5
+  hollow: false
+  circle: true
+  color: 000000
+  radiusTo: 0
+  progress: recoil
+  x: 0
+  y: +60
+    }
+{
+  layer: 110
+  type: ShapePart
+  radius: 10
+  hollow: true
+  circle: true
+  color: D7BDFF
+  radiusTo: 0
+  progress: recoil
+  x: 0
+  y: +60
+    }
+{
   type: HaloPart
   haloRadius: 9
   triLength: 10
@@ -270,7 +294,7 @@ parts: [
   tri: true
   shapes: 4
   x: 0
- y: +60
+  y: +60
     }
  {
   type: ShapePart
