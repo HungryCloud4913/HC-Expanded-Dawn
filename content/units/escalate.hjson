@@ -53,7 +53,7 @@ weapons: [{
             }
             inaccuracy: 0.5
             recoil: 2
-            shootSound: malignShoot
+            shootSound: vibroblast3
             shootEffect: none
             bullet: {
                 type: BasicBulletType
