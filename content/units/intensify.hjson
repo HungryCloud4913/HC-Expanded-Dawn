@@ -1,0 +1,12 @@
+type: mech
+hitSize: 40
+stepShake: 5
+speed: 0.213
+health: 22000
+armor: 50
+rotateSpeed: 1.4
+baseRotateSpeed: 1.3
+rotateMoveFirst: true
+outlineColor: 181920
+flying: false
+envDisabled: 0
