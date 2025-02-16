@@ -56,11 +56,6 @@ weapons: [{
                 mixColorTo: D7BDFF
                 width: 15
                 height: 15
-        lightning: 1
-        lightningDamage: 4
-        lightningColor: D7BDFF
-        lightningLength: 5
-        lightningLengthRand: 2
         backColor: d1efff
         frontColor: ffffff
    despawnEffect: none
@@ -72,7 +67,7 @@ weapons: [{
           type: ParticleEffect
           length: 20
           sizeFrom: 3
-          cone: 5
+          cone: 10
           interp: pow5Out
           sizeInterp: pow5In
           colorTo: D7BDFF
@@ -90,7 +85,7 @@ weapons: [{
           interp: pow5Out
           sizeInterp: pow5In
           particles: 3
-          cone: 5
+          cone: 10
           }
           ]
           }
