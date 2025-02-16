@@ -40,7 +40,7 @@ weapons: [{
             }
             inaccuracy: 0
             recoil: 5
-            shootSound: plasmaboom
+            shootSound: vibroblast2
             bullet: {
                 type: LaserBulletType
                 damage: 160
