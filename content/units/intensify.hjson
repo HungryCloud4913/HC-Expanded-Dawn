@@ -15,3 +15,49 @@ envDisabled: 0
 outlineColor: 2D2F39
 targetair: true
 faceTarget: true
+weapons: [{
+                name: intensify-weapon
+                mirror: true
+                top: false
+                alternate: true
+                rotate: true
+		            rotateSpeed: 0.4
+                rotationLimit: 6
+		rotateSpeed: 0
+                x: 0
+                y: -1
+                reload: 100
+                 shoot: {
+  type: ShootBarrel
+  barrels: [
+      0, +5, ,
+      0, +5, -15,
+      0, +5, -30,
+      ]
+                    shots: 3
+                    shotDelay: 0.7
+            }
+            inaccuracy: 0
+            recoil: 5
+            shootSound: plasmaboom
+            bullet: {
+                type: LaserBulletType
+                damage: 160
+                speed: 0
+                lifetime: 50
+                knockback: 0
+                pierce: true
+		colors: [8047BE, D7BDFF, F6F0FF]
+                width: 20
+                length: 125
+            }
+		shootEffect: shootSmallColor
+		smokeEffect: shootSmokeTitan
+                frontColor: D7BDFF
+                mixColorFrom: D7BDFF
+                mixColorTo: D7BDFF
+                width: 15
+                height: 15
+               }
+}
+]
