@@ -2,7 +2,7 @@ type: legs
 outlineColor: 2D2F39
 armor: 30
 health: 11300
-hovering: true
+hovering: false
 speed: 0.9
 hitSize: 31
 rotateSpeed: 2
