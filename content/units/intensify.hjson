@@ -7,8 +7,8 @@ accel: 0.8
 drag: 0.5
 armor: 33
 stepShake: 5
-rotateSpeed: 3.25
-baseRotateSpeed: 3.20
+rotateSpeed: 2.8
+baseRotateSpeed: 2.75
 rotateMoveFirst: true
 flying: false
 envDisabled: 0
@@ -23,11 +23,9 @@ weapons: [{
                 rotate: true
 		rotateSpeed: 0.4
                 x: +13
-                y: 0
+                y: 
                 rotationLimit: 60
 		rotateSpeed: 0.7
-                x: 0
-                y: -1
                 reload: 120
                  shoot: {
   type: ShootBarrel
