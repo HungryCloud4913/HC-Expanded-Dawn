@@ -45,7 +45,7 @@ weapons: [{
                 type: LaserBulletType
                 damage: 160
                 speed: 0
-                lifetime: 50
+                lifetime: 40
                 knockback: 0
                 pierce: true
 		colors: [8047BE, D7BDFF, F6F0FF]
@@ -67,17 +67,17 @@ weapons: [{
           type: ParticleEffect
           length: 20
           sizeFrom: 3
-          cone: 10
+          cone: 20
           interp: pow10Out
           sizeInterp: pow10In
           colorTo: D7BDFF
-          lifetime: 50
+          lifetime: 65
           particles: 4
           }
           {
           type: ParticleEffect
           line: true
-          strokeFrom: 3
+          strokeFrom: 7
           strokeTo: 0
           lenFrom: 6
           lenTo: 0
@@ -85,7 +85,7 @@ weapons: [{
           interp: pow10Out
           sizeInterp: pow10In
           particles: 4
-          cone: 10
+          cone: 20
           }
           ]
           }
