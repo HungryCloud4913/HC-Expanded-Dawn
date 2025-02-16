@@ -2,10 +2,10 @@ type: mech
 health: 9500
 hitSize: 27
 flying: true
-speed: 1.9
-accel: 0.5
-drag: 0.3
-armor: 36
+speed: 0.65
+accel: 0.8
+drag: 0.5
+armor: 33
 stepShake: 5
 rotateSpeed: 3.25
 baseRotateSpeed: 3.20
@@ -21,21 +21,23 @@ weapons: [{
                 top: false
                 alternate: true
                 rotate: true
-		            rotateSpeed: 0.4
-                rotationLimit: 6
-		rotateSpeed: 0
+		rotateSpeed: 0.4
+                x: +13
+                y: 0
+                rotationLimit: 60
+		rotateSpeed: 0.7
                 x: 0
                 y: -1
-                reload: 100
+                reload: 120
                  shoot: {
   type: ShootBarrel
   barrels: [
       0, +5, 0,
-      0, +5, -15,
-      0, +5, -30,
+      0, +5, -5,
+      0, +5, -10,
       ]
                     shots: 3
-                    shotDelay: 0.7
+                    shotDelay: 1.2
             }
             inaccuracy: 0
             recoil: 5
