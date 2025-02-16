@@ -23,7 +23,7 @@ weapons: [{
                 layerOffset: -0.0001
                 rotate: true
 		rotateSpeed: 0.4
-                x: +27
+                x: +22
                 y: 0
                 rotationLimit: 60
 		rotateSpeed: 0.7
