@@ -30,7 +30,7 @@ weapons: [{
                  shoot: {
   type: ShootBarrel
   barrels: [
-      0, +5, ,
+      0, +5, 0,
       0, +5, -15,
       0, +5, -30,
       ]
