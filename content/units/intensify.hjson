@@ -56,16 +56,43 @@ weapons: [{
                 mixColorTo: D7BDFF
                 width: 15
                 height: 15
-        hitEffect: {
+        lightning: 1
+        lightningDamage: 4
+        lightningColor: D7BDFF
+        lightningLength: 5
+        lightningLengthRand: 2
+        backColor: d1efff
+        frontColor: ffffff
+   despawnEffect: none
+        despawnHit: true
+        smokeEffect: {
           type: MultiEffect
-          effects: [hitSquaresColor
-            {
-            type: WaveEffect
-            sizeTo: 20
-            strokeFrom: 3
-            colorTo: D7BDFF
-            }
-            ]
+          effects: [
+          {
+          type: ParticleEffect
+          length: 20
+          sizeFrom: 3
+          cone: 5
+          interp: pow5Out
+          sizeInterp: pow5In
+          colorTo: D7BDFF
+          lifetime: 30
+          particles: 3
+          }
+          {
+          type: ParticleEffect
+          line: true
+          strokeFrom: 3
+          strokeTo: 0
+          lenFrom: 3
+          lenTo: 0
+          colorTo: D7BDFF
+          interp: pow5Out
+          sizeInterp: pow5In
+          particles: 3
+          cone: 5
+          }
+          ]
           }
 }
 }
