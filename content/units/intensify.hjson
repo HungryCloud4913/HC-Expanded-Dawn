@@ -51,13 +51,13 @@ weapons: [{
 		colors: [8047BE, D7BDFF, F6F0FF]
                 width: 20
                 length: 125
-            }
-		shootEffect: shootSmallColor
+                shootEffect: shootSmallColor
 		smokeEffect: shootSmokeTitan
                 frontColor: D7BDFF
                 mixColorFrom: D7BDFF
                 mixColorTo: D7BDFF
                 width: 15
                 height: 15
-               }
+            }
+}
 ]
