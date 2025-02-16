@@ -67,7 +67,7 @@ weapons: [{
           type: ParticleEffect
           length: 20
           sizeFrom: 3
-          cone: 20
+          cone: 40
           interp: pow10Out
           sizeInterp: pow10In
           colorTo: D7BDFF
@@ -77,15 +77,15 @@ weapons: [{
           {
           type: ParticleEffect
           line: true
-          strokeFrom: 7
+          strokeFrom: 4
           strokeTo: 0
-          lenFrom: 6
-          lenTo: 0
+          lenFrom: 10
+          lenTo: 20
           colorTo: D7BDFF
           interp: pow10Out
           sizeInterp: pow10In
           particles: 4
-          cone: 20
+          cone: 40
           }
           ]
           }
