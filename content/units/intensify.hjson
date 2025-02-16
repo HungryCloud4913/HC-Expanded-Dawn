@@ -65,17 +65,6 @@ weapons: [{
           effects: [
           {
           type: ParticleEffect
-          length: 20
-          sizeFrom: 3
-          cone: 10
-          interp: pow5Out
-          sizeInterp: pow5In
-          colorTo: D7BDFF
-          lifetime: 30
-          particles: 3
-          }
-          {
-          type: ParticleEffect
           line: true
           strokeFrom: 3
           strokeTo: 0
