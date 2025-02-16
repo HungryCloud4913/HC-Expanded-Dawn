@@ -51,8 +51,6 @@ weapons: [{
 		colors: [8047BE, D7BDFF, F6F0FF]
                 width: 20
                 length: 125
-                shootEffect: shootSmallColor
-		smokeEffect: shootSmokeTitan
                 frontColor: D7BDFF
                 mixColorFrom: D7BDFF
                 mixColorTo: D7BDFF
@@ -65,7 +63,7 @@ weapons: [{
             type: WaveEffect
             sizeTo: 20
             strokeFrom: 3
-            colorTo: d1efff
+            colorTo: D7BDFF
             }
             ]
           }
