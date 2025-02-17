@@ -1,5 +1,5 @@
 type: legs
-health: 10500
+health: 23500
 armor: 42
 speed: 0.67
 outlineColor: 251818
@@ -73,7 +73,7 @@ weapons: [{
 		rotateSpeed: 3.4
                 x: +9
                 y: -3
-                reload: 40
+                reload: 50
                 shoot: {
                     shots: 6
                     shotDelay: 1.2
@@ -84,7 +84,7 @@ weapons: [{
             shootEffect: none
             bullet: {
                 type: BasicBulletType
-                damage: 125
+                damage: 235
                 homing: false
                 speed: 7
                 lifetime: 35
@@ -165,7 +165,7 @@ parts: [{
             shootSound: vibroblast2
             bullet: {
                 type: LaserBulletType
-                damage: 340
+                damage: 290
                 speed: 0
                 lifetime: 40
                 knockback: 0
