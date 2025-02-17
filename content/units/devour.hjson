@@ -39,9 +39,9 @@ weapons: [{
                 reload: 40
                 shoot: {
                     shots: 6
-                    shotDelay: 0.7
+                    shotDelay: 1.2
             }
-            inaccuracy: 0.5
+            inaccuracy: 0.3
             recoil: 2
             shootSound: mineDeploy
             shootEffect: none
