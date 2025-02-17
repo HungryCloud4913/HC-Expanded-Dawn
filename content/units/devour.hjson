@@ -85,8 +85,8 @@ weapons: [{
 			frontColor: A03736
 		shootEffect: shootBigColor
 		smokeEffect: shootSmokeDisperse
-		hitColor: D7BDFF
+		hitColor: A03736
         trailLength: 7
-        trailColor: D7BDFF
+        trailColor: A03736
                }
 ]
