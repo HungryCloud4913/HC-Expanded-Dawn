@@ -5,7 +5,7 @@ speed: 0.67
 outlineColor: 251818
 singleTarget: false
 shadowElevation: 0.3
-hitSize: 32
+hitSize: 34
 groundLayer: 74
 rotateSpeed: 2.3
 hovering: true
