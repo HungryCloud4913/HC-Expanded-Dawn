@@ -260,7 +260,7 @@ parts: [
 {
 type: ShapePart
 y: -50
-radius: 12
+radius: 5
 radiusTo: 0
 color: D7BDFF
 colorTo: D7BDFF
@@ -272,7 +272,7 @@ progress: recoil
 {
 type: ShapePart
 y: -50
-radius: 10
+radius: 4
 radiusTo: 0
 color: 000000ff
 colorTo: 000000ff
