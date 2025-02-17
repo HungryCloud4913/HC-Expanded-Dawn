@@ -29,7 +29,7 @@ legGroupSize: 4
 rippleScale: 0.8
 parts: [{
   type: RegionPart
-  mirror: false
+  mirror: true
   under: true
   layerOffset: -0.001
   moveX: +9
@@ -41,7 +41,7 @@ parts: [{
     }
 {
   type: RegionPart
-  mirror: false
+  mirror: true
   under: true
   layerOffset: -0.001
   moveX: +3
@@ -53,7 +53,7 @@ parts: [{
     }
 {
   type: RegionPart
-  mirror: false
+  mirror: true
   under: true
   layerOffset: -0.001
   moveX: +2
