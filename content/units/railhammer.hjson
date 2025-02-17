@@ -262,11 +262,12 @@ type: ShapePart
 y: -50
 radius: 0
 radiusTo: 12
-color: ffffffff
-colorTo: ffffffff
+color: D7BDFF
+colorTo: D7BDFF
 layer: 110
 circle: true
 hollow: false
+progress: recoil
 }
 {
 type: ShapePart
@@ -278,6 +279,7 @@ colorTo: 000000ff
 layer: 111
 circle: true
 hollow: false
+progress: recoil
 }
 {
 type: HaloPart
@@ -289,12 +291,13 @@ tri: true
 hollow: false
 triLength: 0
 triLengthTo: 4
-color: ffffffff
-colorTo: ffffffff
+color: D7BDFF
+colorTo: D7BDFF
 haloRotation: 90
 haloRotateSpeed: 0
 shapes: 2
 layer: 110
+progress: recoil
 }
 {
 type: HaloPart
@@ -306,12 +309,13 @@ tri: true
 hollow: false
 triLength: 0
 triLengthTo: 8
-color: ffffffff
-colorTo: ffffffff
+color: D7BDFF
+colorTo: D7BDFF
 haloRotation: 90
 haloRotateSpeed: 0
 shapes: 2
 layer: 110
+progress: recoil
 }
 {
 type: HaloPart
@@ -323,12 +327,13 @@ tri: true
 hollow: false
 triLength: 0
 triLengthTo: 16
-color: ffffffff
-colorTo: ffffffff
+color: D7BDFF
+colorTo: D7BDFF
 haloRotation: 90
 haloRotateSpeed: 0
 shapes: 2
 layer: 110
+progress: recoil
 }
 {
 type: HaloPart
@@ -341,11 +346,12 @@ tri: true
 hollow: false
 triLength: 0
 triLengthTo: 20
-color: ffffffff
-colorTo: ffffffff
+color: D7BDFF
+colorTo: D7BDFF
 haloRotation: 90
 haloRotateSpeed: 0
 shapes: 2
+progress: recoil
 }
 ///Non Black Hole
 {
