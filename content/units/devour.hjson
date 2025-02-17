@@ -101,19 +101,19 @@ parts: [{
   top: true
   moveX: 0
   moveY: 0
-  moveRot: +5
+  moveRot: -15
   suffix: -tendril2a
   progress: warmup
   weaponIndex: 0
     }
 {
   type: RegionPart
-  mirror: true
+  mirror: false
   under: false
   top: true
   moveX: 0
   moveY: 0
-  moveRot: -5
+  moveRot: +15
   suffix: -tendril2b
   progress: warmup
   weaponIndex: 0
