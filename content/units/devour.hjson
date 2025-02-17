@@ -41,7 +41,7 @@ weapons: [{
                     shots: 6
                     shotDelay: 1.2
             }
-            inaccuracy: 0.3
+            inaccuracy: 0.05
             recoil: 2
             shootSound: mineDeploy
             shootEffect: none
@@ -139,8 +139,6 @@ parts: [{
                 frontColor: F98F4A
                 mixColorFrom: F98F4A
                 mixColorTo: F98F4A
-                width: 12
-                height: 13
         backColor: F98F4A
         frontColor: ffffff
    despawnEffect: none
