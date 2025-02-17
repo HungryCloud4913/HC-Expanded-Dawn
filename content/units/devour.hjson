@@ -12,11 +12,11 @@ hovering: true
 legStraightness: 0.2
 legSpeed: 0.2
 legCount: 6
-legLength: 20
+legLength: 25
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
-legBaseOffset: 8
+legBaseOffset: 15
 legMaxLength: 1.2
 legLengthScl: 0.96
 legMinLength: 0.8
