@@ -54,10 +54,10 @@ weapons: [{
                 knockback: -1
                 backColor: F98F4A
                 frontColor: F98F4A
-                width: 20
-                height: 30
-		weaveMag: 5
-		weaveScl: 10
+                width: 7
+                height: 13
+		weaveMag: 10
+		weaveScl: 13
 		trailWidth: 2.1
 		shrinkX: 0.05
 		shrinkY: 0.05
