@@ -257,9 +257,12 @@ effects:[shootBigColor,
         trailColor: D7BDFF
                }
 parts: [
+
+///Black Hole
 {
 type: ShapePart
-y: -50
+  x: 0
+  y: +60
 radius: 5
 radiusTo: 0
 color: D7BDFF
@@ -271,7 +274,8 @@ progress: recoil
 }
 {
 type: ShapePart
-y: -50
+  x: 0
+  y: +60
 radius: 4
 radiusTo: 0
 color: 000000ff
@@ -283,13 +287,14 @@ progress: recoil
 }
 {
 type: HaloPart
-y: -50
+  x: 0
+  y: +60
 haloRadius: 4
 haloRadTo: 0
 layer: 110
 tri: true
 hollow: false
-triLength: 20
+triLength: 9
 triLengthTo: 0
 color: D7BDFF
 colorTo: D7BDFF
