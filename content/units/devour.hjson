@@ -199,3 +199,10 @@ parts: [{
 }
 }
 ]
+abilities: [
+{
+type: RepairFieldAbility
+amount: 100
+range: 2
+}
+]
