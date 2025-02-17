@@ -2,6 +2,7 @@ type: legs
 health: 10500
 armor: 42
 speed: 0.67
+outlineColor: 251818
 singleTarget: false
 shadowElevation: 0.3
 hitSize: 32
@@ -9,9 +10,9 @@ groundLayer: 74
 rotateSpeed: 2.3
 hovering: true
 legStraightness: 0.2
-legSpeed: 0.3
-legCount: 4
-legLength: 16
+legSpeed: 0.2
+legCount: 6
+legLength: 20
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
