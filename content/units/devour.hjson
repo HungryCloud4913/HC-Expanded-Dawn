@@ -27,6 +27,42 @@ legSplashRange: 24
 drownTimeMultiplier: 3
 legGroupSize: 4
 rippleScale: 0.8
+parts: [{
+  type: RegionPart
+  mirror: false
+  under: false
+  top: true
+  moveX: +20
+  moveY: -7
+  moveRot: -5
+  suffix: -tendrild1
+  progress: warmup
+  weaponIndex: 0
+    }
+{
+  type: RegionPart
+  mirror: false
+  under: false
+  top: true
+  moveX: +3
+  moveY: -16
+  moveRot: -2
+  suffix: -tendrild2
+  progress: warmup
+  weaponIndex: 0
+    }
+{
+  type: RegionPart
+  mirror: false
+  under: false
+  top: true
+  moveX: +2
+  moveY: -15
+  moveRot: -5
+  suffix: -tendrild3
+  progress: warmup
+  weaponIndex: 0
+    }
 weapons: [{
                 name: devour-small
                 mirror: true
@@ -47,7 +83,7 @@ weapons: [{
             shootEffect: none
             bullet: {
                 type: BasicBulletType
-                damage: 275
+                damage: 125
                 homing: false
                 speed: 7
                 lifetime: 35
@@ -135,7 +171,7 @@ parts: [{
                 pierce: true
 		colors: [9E172C, E05438, F98F4A]
                 width: 20
-                length: 125
+                length: 195
                 frontColor: F98F4A
                 mixColorFrom: F98F4A
                 mixColorTo: F98F4A
