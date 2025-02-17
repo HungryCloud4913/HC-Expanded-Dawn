@@ -284,58 +284,7 @@ progress: recoil
 {
 type: HaloPart
 y: -50
-haloRadius: 11
-haloRadTo: 0
-tri: true
-hollow: false
-triLength: 4
-triLengthTo: 0
-color: D7BDFF
-colorTo: D7BDFF
-haloRotation: 90
-haloRotateSpeed: 0
-shapes: 2
-layer: 110
-progress: recoil
-}
-{
-type: HaloPart
-y: -50
-haloRadius: 11
-haloRadTo: 0
-tri: true
-hollow: false
-triLength: 8
-triLengthTo: 0
-color: D7BDFF
-colorTo: D7BDFF
-haloRotation: 90
-haloRotateSpeed: 0
-shapes: 2
-layer: 110
-progress: recoil
-}
-{
-type: HaloPart
-y: -50
-haloRadius: 11
-haloRadTo: 0
-tri: true
-hollow: false
-triLength: 16
-triLengthTo: 0
-color: D7BDFF
-colorTo: D7BDFF
-haloRotation: 90
-haloRotateSpeed: 0
-shapes: 2
-layer: 110
-progress: recoil
-}
-{
-type: HaloPart
-y: -50
-haloRadius: 11
+haloRadius: 4
 haloRadTo: 0
 layer: 110
 tri: true
