@@ -260,50 +260,50 @@ parts: [
 {
   layer: 110
   type: ShapePart
+  radius: 4.25
+  hollow: true
+  circle: true
+  color: 000000ff
+  colorTo: 000000ff
+  radiusTo: 0
+  progress: recoil
+  x: 0
+  y: +60
+    }
+{
+  layer: 110
+  type: ShapePart
+  radius: 4.25
+  hollow: true
+  circle: true
+  color: 000000ff
+  colorTo: 000000ff
+  radiusTo: 0
+  progress: recoil
+  x: 0
+  y: +60
+    }
+{
+  layer: 110
+  type: ShapePart
+  radius: 4.25
+  hollow: true
+  circle: true
+  color: 000000ff
+  colorTo: 000000ff
+  radiusTo: 0
+  progress: recoil
+  x: 0
+  y: +60
+    }
+{
+  layer: 110
+  type: ShapePart
   radius: 5
   hollow: false
   circle: true
   color: D7BDFF
   radiusTo: 2
-  progress: recoil
-  x: 0
-  y: +60
-    }
-{
-  layer: 110
-  type: ShapePart
-  radius: 4.25
-  hollow: true
-  circle: true
-  color: ffffffff
-  colorTo: ffffffff
-  radiusTo: 0
-  progress: recoil
-  x: 0
-  y: +60
-    }
-{
-  layer: 110
-  type: ShapePart
-  radius: 4.25
-  hollow: true
-  circle: true
-  color: ffffffff
-  colorTo: ffffffff
-  radiusTo: 0
-  progress: recoil
-  x: 0
-  y: +60
-    }
-{
-  layer: 110
-  type: ShapePart
-  radius: 4.25
-  hollow: true
-  circle: true
-  color: ffffffff
-  colorTo: ffffffff
-  radiusTo: 0
   progress: recoil
   x: 0
   y: +60
