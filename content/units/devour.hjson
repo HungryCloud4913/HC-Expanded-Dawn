@@ -36,10 +36,10 @@ weapons: [{
 		rotateSpeed: 3.4
                 x: +9
                 y: -3
-                reload: 25
+                reload: 40
                 shoot: {
-                    shots: 1
-                    shotDelay: 0
+                    shots: 6
+                    shotDelay: 0.7
             }
             inaccuracy: 0.5
             recoil: 2
