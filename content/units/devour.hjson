@@ -63,7 +63,20 @@ weapons: [{
 		shrinkY: 0.05
 		despawnEffect: none
 		despawnHit: true
+			trailEffect: {
+				type: ParticleEffect
+				particles: 10
+				sizeFrom: 1
+				sizeTo: 0
+				colorFrom:  F98F4A
+				colorTo:  F98F4A
+				interp: linear
+				sizeInterp: pow4In
+				length: 6
+				}
                 }
+                backColor: F98F4A
+                frontColor: F98F4A
 		shootEffect: shootBigColor
 		smokeEffect: shootSmokeDisperse
 		hitColor: F98F4A
@@ -113,14 +126,14 @@ weapons: [{
           effects: [
           {
           type: ParticleEffect
-          length: 20
+          length: 10
           sizeFrom: 3
           cone: 40
           interp: pow10Out
           sizeInterp: pow10In
           colorTo: F98F4A
-          lifetime: 65
-          particles: 4
+          lifetime: 20
+          particles: 7
           }
           ]
           }
