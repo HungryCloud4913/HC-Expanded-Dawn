@@ -94,6 +94,28 @@ weapons: [{
                 y: +6
 		rotateSpeed: 3.4
                 reload: 60
+parts: [{
+  type: RegionPart
+  mirror: false
+  under: false
+  moveX: 0
+  moveY: 0
+  moveRot: +5
+  suffix: -tendril2a
+  progress: warmup
+  weaponIndex: 0
+    }
+{
+  type: RegionPart
+  mirror: true
+  under: false
+  moveX: 0
+  moveY: 0
+  moveRot: -5
+  suffix: -tendril2b
+  progress: warmup
+  weaponIndex: 0
+    }
                  shoot: {
                     shots: 1
                     shotDelay: 0
