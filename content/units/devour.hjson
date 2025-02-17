@@ -200,10 +200,3 @@ parts: [{
 }
 }
 ]
-abilities: [
-{
-type: RepairFieldAbility
-amount: 500
-range: 2
-}
-]
