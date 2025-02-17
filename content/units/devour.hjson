@@ -58,7 +58,6 @@ weapons: [{
                 height: 13
 		weaveMag: 10
 		weaveScl: 13
-		trailWidth: 2.1
 		shrinkX: 0.05
 		shrinkY: 0.05
 		despawnEffect: none
@@ -74,7 +73,6 @@ weapons: [{
 				sizeInterp: pow4In
 				length: 6
 				}
-                }
                 backColor: F98F4A
                 frontColor: F98F4A
 		shootEffect: shootBigColor
@@ -82,7 +80,8 @@ weapons: [{
 		hitColor: F98F4A
         trailLength: 7
         trailColor: F98F4A
-               }
+                }
+         }
 {
                 name: devour-small2
                 mirror: true
@@ -94,7 +93,7 @@ weapons: [{
                 x: +20
                 y: +6
 		rotateSpeed: 3.4
-                reload: 120
+                reload: 60
                  shoot: {
                     shots: 1
                     shotDelay: 0
