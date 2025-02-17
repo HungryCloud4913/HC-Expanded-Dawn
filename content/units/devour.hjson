@@ -63,6 +63,7 @@ parts: [{
   progress: warmup
   weaponIndex: 0
     }
+]
 weapons: [{
                 name: devour-small
                 mirror: true
