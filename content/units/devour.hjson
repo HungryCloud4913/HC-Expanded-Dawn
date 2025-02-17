@@ -93,7 +93,7 @@ weapons: [{
                 x: +20
                 y: +6
 		rotateSpeed: 3.4
-                reload: 60
+                reload: 40
 parts: [{
   type: RegionPart
   mirror: false
@@ -137,8 +137,8 @@ parts: [{
                 frontColor: F98F4A
                 mixColorFrom: F98F4A
                 mixColorTo: F98F4A
-                width: 10
-                height: 7
+                width: 12
+                height: 13
         backColor: F98F4A
         frontColor: ffffff
    despawnEffect: none
