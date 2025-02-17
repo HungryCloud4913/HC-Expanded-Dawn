@@ -38,55 +38,36 @@ weapons: [{
                 y: -3
                 reload: 25
                 shoot: {
-                    shots: 2
-                    shotDelay: 4
+                    shots: 1
+                    shotDelay: 0
             }
             inaccuracy: 0.5
             recoil: 2
-            shootSound: vibroblast3
+            shootSound: mineDeploy
             shootEffect: none
             bullet: {
                 type: BasicBulletType
                 damage: 200
                 homing: false
                 speed: 7
-                sprite: large-bomb
                 lifetime: 35
                 knockback: -1
-                backColor: A03736
-                frontColor: A03736
+                backColor: F98F4A
+                frontColor: F98F4A
                 width: 20
                 height: 30
+		weaveMag: 5
+		weaveScl: 10
+		trailWidth: 2.1
+		shrinkX: 0.05
+		shrinkY: 0.05
+		despawnEffect: none
+		despawnHit: true
                 }
-			weaveMag: 5
-			weaveScl: 10
-			lifetime: 18
-			trailWidth: 2.1
-			width: 7
-			height: 7
-			shrinkX: 0.05
-			shrinkY: 0.05
-			sprite: large-bomb
-			despawnEffect: none
-			despawnHit: true
-			trailInterval: 2.5
-			trailEffect: {
-				type: ParticleEffect
-				particles: 10
-				sizeFrom: 1
-				sizeTo: 0
-				colorFrom: A03736
-				colorTo: A03736
-				interp: linear
-				sizeInterp: pow4In
-				length: 6
-				}
-			backColor: A03736
-			frontColor: A03736
 		shootEffect: shootBigColor
 		smokeEffect: shootSmokeDisperse
-		hitColor: A03736
+		hitColor: F98F4A
         trailLength: 7
-        trailColor: A03736
+        trailColor: F98F4A
                }
 ]
