@@ -85,6 +85,7 @@ weapons: [{
 {
                 name: devour-small2
                 mirror: true
+                under: false
                 top: true
                 alternate: true
                 rotate: true
@@ -97,6 +98,7 @@ parts: [{
   type: RegionPart
   mirror: false
   under: false
+  top: true
   moveX: 0
   moveY: 0
   moveRot: +5
@@ -108,6 +110,7 @@ parts: [{
   type: RegionPart
   mirror: true
   under: false
+  top: true
   moveX: 0
   moveY: 0
   moveRot: -5
