@@ -34,7 +34,7 @@ weapons: [{
                 alternate: true
                 rotate: true
 		rotateSpeed: 3.4
-                x: +11
+                x: +9
                 y: -3
                 reload: 25
                 shoot: {
@@ -70,4 +70,60 @@ weapons: [{
         trailLength: 7
         trailColor: F98F4A
                }
+{
+                name: intensify-weapon
+                mirror: true
+                top: false
+                alternate: true
+                layerOffset: -0.0001
+                rotate: true
+		rotateSpeed: 3.4
+                x: +14
+                y: +6
+		rotateSpeed: 0.7
+                reload: 120
+                 shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 5
+            shootSound: vibroblast2
+            bullet: {
+                type: LaserBulletType
+                damage: 160
+                speed: 0
+                lifetime: 40
+                knockback: 0
+                pierce: true
+		colors: [9E172C, E05438, F98F4A]
+                width: 20
+                length: 125
+                frontColor: F98F4A
+                mixColorFrom: F98F4A
+                mixColorTo: F98F4A
+                width: 10
+                height: 7
+        backColor: F98F4A
+        frontColor: ffffff
+   despawnEffect: none
+        despawnHit: false
+        smokeEffect: {
+          type: MultiEffect
+          effects: [
+          {
+          type: ParticleEffect
+          length: 20
+          sizeFrom: 3
+          cone: 40
+          interp: pow10Out
+          sizeInterp: pow10In
+          colorTo: F98F4A
+          lifetime: 65
+          particles: 4
+          }
+          ]
+          }
+}
+}
 ]
