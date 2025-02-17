@@ -30,9 +30,8 @@ rippleScale: 0.8
 parts: [{
   type: RegionPart
   mirror: false
-  under: false
-  top: true
-  moveX: +20
+  under: true
+  moveX: +11
   moveY: -7
   moveRot: -5
   suffix: -tendrild1
@@ -42,10 +41,9 @@ parts: [{
 {
   type: RegionPart
   mirror: false
-  under: false
-  top: true
+  under: true
   moveX: +3
-  moveY: -16
+  moveY: -7
   moveRot: -2
   suffix: -tendrild2
   progress: warmup
@@ -54,10 +52,9 @@ parts: [{
 {
   type: RegionPart
   mirror: false
-  under: false
-  top: true
+  under: true
   moveX: +2
-  moveY: -15
+  moveY: -5
   moveRot: -5
   suffix: -tendrild3
   progress: warmup
