@@ -258,56 +258,96 @@ effects:[shootBigColor,
                }
 parts: [
 {
-  layer: 110
-  type: ShapePart
-  radius: 4.25
-  hollow: true
-  circle: true
-  color: 000000ff
-  colorTo: 000000ff
-  radiusTo: 0
-  progress: recoil
-  x: 0
-  y: +60
-    }
+type: ShapePart
+y: -50
+radius: 0
+radiusTo: 12
+color: ffffffff
+colorTo: ffffffff
+layer: 110
+circle: true
+hollow: false
+}
 {
-  layer: 110
-  type: ShapePart
-  radius: 4.25
-  hollow: true
-  circle: true
-  color: 000000ff
-  colorTo: 000000ff
-  radiusTo: 0
-  progress: recoil
-  x: 0
-  y: +60
-    }
+type: ShapePart
+y: -50
+radius: 0
+radiusTo: 10
+color: 000000ff
+colorTo: 000000ff
+layer: 111
+circle: true
+hollow: false
+}
 {
-  layer: 110
-  type: ShapePart
-  radius: 4.25
-  hollow: true
-  circle: true
-  color: 000000ff
-  colorTo: 000000ff
-  radiusTo: 0
-  progress: recoil
-  x: 0
-  y: +60
-    }
+type: HaloPart
+y: -50
+haloRadius: 11
+radius: 0
+radiusTo: 8
+tri: true
+hollow: false
+triLength: 0
+triLengthTo: 4
+color: ffffffff
+colorTo: ffffffff
+haloRotation: 90
+haloRotateSpeed: 0
+shapes: 2
+layer: 110
+}
 {
-  layer: 110
-  type: ShapePart
-  radius: 5
-  hollow: false
-  circle: true
-  color: D7BDFF
-  radiusTo: 2
-  progress: recoil
-  x: 0
-  y: +60
-    }
+type: HaloPart
+y: -50
+haloRadius: 11
+radius: 0
+radiusTo: 6
+tri: true
+hollow: false
+triLength: 0
+triLengthTo: 8
+color: ffffffff
+colorTo: ffffffff
+haloRotation: 90
+haloRotateSpeed: 0
+shapes: 2
+layer: 110
+}
+{
+type: HaloPart
+y: -50
+haloRadius: 11
+radius: 0
+radiusTo: 4
+tri: true
+hollow: false
+triLength: 0
+triLengthTo: 16
+color: ffffffff
+colorTo: ffffffff
+haloRotation: 90
+haloRotateSpeed: 0
+shapes: 2
+layer: 110
+}
+{
+type: HaloPart
+y: -50
+haloRadius: 11
+layer: 110
+radius: 0
+radiusTo: 2
+tri: true
+hollow: false
+triLength: 0
+triLengthTo: 20
+color: ffffffff
+colorTo: ffffffff
+haloRotation: 90
+haloRotateSpeed: 0
+shapes: 2
+}
+///Non Black Hole
 {
   type: HaloPart
   haloRadius: 13
