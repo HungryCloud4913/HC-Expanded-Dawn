@@ -31,7 +31,8 @@ parts: [{
   type: RegionPart
   mirror: false
   under: true
-  moveX: +11
+  layerOffset: -0.001
+  moveX: +9
   moveY: -7
   moveRot: -5
   suffix: -tendrild1
@@ -42,6 +43,7 @@ parts: [{
   type: RegionPart
   mirror: false
   under: true
+  layerOffset: -0.001
   moveX: +3
   moveY: -7
   moveRot: -2
@@ -53,8 +55,9 @@ parts: [{
   type: RegionPart
   mirror: false
   under: true
+  layerOffset: -0.001
   moveX: +2
-  moveY: -5
+  moveY: -6
   moveRot: -5
   suffix: -tendrild3
   progress: warmup
