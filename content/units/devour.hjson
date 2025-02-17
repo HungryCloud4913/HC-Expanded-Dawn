@@ -130,7 +130,7 @@ weapons: [{
                 x: +20
                 y: +6
 		rotateSpeed: 3.4
-                reload: 40
+                reload: 50
 parts: [{
   type: RegionPart
   mirror: false
