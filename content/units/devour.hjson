@@ -47,7 +47,7 @@ weapons: [{
             shootEffect: none
             bullet: {
                 type: BasicBulletType
-                damage: 200
+                damage: 275
                 homing: false
                 speed: 7
                 lifetime: 35
@@ -71,16 +71,16 @@ weapons: [{
         trailColor: F98F4A
                }
 {
-                name: intensify-weapon
+                name: devour-small2
                 mirror: true
-                top: false
+                top: true
                 alternate: true
                 layerOffset: -0.0001
                 rotate: true
 		rotateSpeed: 3.4
-                x: +14
+                x: +20
                 y: +6
-		rotateSpeed: 0.7
+		rotateSpeed: 3.4
                 reload: 120
                  shoot: {
                     shots: 1
@@ -91,7 +91,7 @@ weapons: [{
             shootSound: vibroblast2
             bullet: {
                 type: LaserBulletType
-                damage: 160
+                damage: 340
                 speed: 0
                 lifetime: 40
                 knockback: 0
