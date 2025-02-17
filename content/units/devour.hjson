@@ -1,4 +1,5 @@
 type: legs
+template: NeoplasmUnitType
 health: 23500
 armor: 42
 speed: 0.67
