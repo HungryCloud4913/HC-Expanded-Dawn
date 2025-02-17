@@ -288,8 +288,8 @@ haloRadius: 11
 haloRadTo: 0
 tri: true
 hollow: false
-triLength: 0
-triLengthTo: 4
+triLength: 4
+triLengthTo: 0
 color: D7BDFF
 colorTo: D7BDFF
 haloRotation: 90
@@ -305,8 +305,8 @@ haloRadius: 11
 haloRadTo: 0
 tri: true
 hollow: false
-triLength: 0
-triLengthTo: 8
+triLength: 8
+triLengthTo: 0
 color: D7BDFF
 colorTo: D7BDFF
 haloRotation: 90
@@ -322,8 +322,8 @@ haloRadius: 11
 haloRadTo: 0
 tri: true
 hollow: false
-triLength: 0
-triLengthTo: 16
+triLength: 16
+triLengthTo: 0
 color: D7BDFF
 colorTo: D7BDFF
 haloRotation: 90
@@ -340,8 +340,8 @@ haloRadTo: 0
 layer: 110
 tri: true
 hollow: false
-triLength: 0
-triLengthTo: 20
+triLength: 20
+triLengthTo: 0
 color: D7BDFF
 colorTo: D7BDFF
 haloRotation: 90
