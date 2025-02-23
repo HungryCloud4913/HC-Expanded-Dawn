@@ -3,7 +3,6 @@ name: Aquaduct Bridge
 description: Used for crossing multiple distribution lines or terrain to connect Aqueducts.
 fadeIn: false
 moveArrows: false
-arrowSpacing: 14
 squareSprite: false
 range: 5
 hasPower: false
